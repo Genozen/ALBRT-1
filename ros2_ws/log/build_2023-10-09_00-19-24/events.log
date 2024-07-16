@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.002344] (-) JobUnselected: {'identifier': 'mobile_robotics'}
+[0.004944] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.005210] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.005701] (-) JobUnselected: {'identifier': 'slam_gmapping'}
+[0.005954] (my_first_robot) JobQueued: {'identifier': 'my_first_robot', 'dependencies': OrderedDict()}
+[0.006114] (my_first_robot) JobStarted: {'identifier': 'my_first_robot'}
+[0.098466] (-) TimerEvent: {}
+[0.200008] (-) TimerEvent: {}
+[0.301797] (-) TimerEvent: {}
+[0.402730] (-) TimerEvent: {}
+[0.503627] (-) TimerEvent: {}
+[0.604465] (-) TimerEvent: {}
+[0.705251] (-) TimerEvent: {}
+[0.806034] (-) TimerEvent: {}
+[0.907114] (-) TimerEvent: {}
+[1.008114] (-) TimerEvent: {}
+[1.108902] (-) TimerEvent: {}
+[1.209706] (-) TimerEvent: {}
+[1.310591] (-) TimerEvent: {}
+[1.411474] (-) TimerEvent: {}
+[1.512268] (-) TimerEvent: {}
+[1.613201] (-) TimerEvent: {}
+[1.714275] (-) TimerEvent: {}
+[1.816148] (-) TimerEvent: {}
+[1.916987] (-) TimerEvent: {}
+[2.018264] (-) TimerEvent: {}
+[2.119093] (-) TimerEvent: {}
+[2.219912] (-) TimerEvent: {}
+[2.320744] (-) TimerEvent: {}
+[2.421648] (-) TimerEvent: {}
+[2.522473] (-) TimerEvent: {}
+[2.623409] (-) TimerEvent: {}
+[2.724157] (-) TimerEvent: {}
+[2.824935] (-) TimerEvent: {}
+[2.925688] (-) TimerEvent: {}
+[3.026481] (-) TimerEvent: {}
+[3.127484] (-) TimerEvent: {}
+[3.228329] (-) TimerEvent: {}
+[3.330247] (-) TimerEvent: {}
+[3.431473] (-) TimerEvent: {}
+[3.532457] (-) TimerEvent: {}
+[3.584556] (my_first_robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_first_robot', 'build', '--build-base', '/home/genozen/Desktop/ros2_ws/build/my_first_robot/build', 'install', '--record', '/home/genozen/Desktop/ros2_ws/build/my_first_robot/install.log', '--single-version-externally-managed'], 'cwd': '/home/genozen/Desktop/ros2_ws/src/my_first_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'genozen', 'SSH_CLIENT': '10.0.0.141 49672 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/genozen', 'OLDPWD': '/home/genozen/Desktop', 'TERM_PROGRAM_VERSION': '1.83.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3e8f1fdc-90e2-445d-8ac9-bd51260115e8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'genozen', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/home/genozen/.local/bin:/opt/ros/humble/bin:/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6d29bd55a5.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/genozen/Desktop/ros2_ws/build/my_first_robot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.141 49672 10.0.0.104 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/genozen/Desktop/ros2_ws/build/my_first_robot/prefix_override:/home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.632577] (-) TimerEvent: {}
+[3.733585] (-) TimerEvent: {}
+[3.834393] (-) TimerEvent: {}
+[3.935299] (-) TimerEvent: {}
+[4.036088] (-) TimerEvent: {}
+[4.137362] (-) TimerEvent: {}
+[4.238181] (-) TimerEvent: {}
+[4.339178] (-) TimerEvent: {}
+[4.441174] (-) TimerEvent: {}
+[4.585303] (-) TimerEvent: {}
+[4.686209] (-) TimerEvent: {}
+[4.787290] (-) TimerEvent: {}
+[4.888318] (-) TimerEvent: {}
+[4.989416] (-) TimerEvent: {}
+[5.037545] (my_first_robot) StdoutLine: {'line': b'running egg_info\n'}
+[5.045155] (my_first_robot) StdoutLine: {'line': b'writing ../../build/my_first_robot/my_first_robot.egg-info/PKG-INFO\n'}
+[5.045946] (my_first_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/my_first_robot/my_first_robot.egg-info/dependency_links.txt\n'}
+[5.054973] (my_first_robot) StdoutLine: {'line': b'writing entry points to ../../build/my_first_robot/my_first_robot.egg-info/entry_points.txt\n'}
+[5.055778] (my_first_robot) StdoutLine: {'line': b'writing requirements to ../../build/my_first_robot/my_first_robot.egg-info/requires.txt\n'}
+[5.056450] (my_first_robot) StdoutLine: {'line': b'writing top-level names to ../../build/my_first_robot/my_first_robot.egg-info/top_level.txt\n'}
+[5.058805] (my_first_robot) StdoutLine: {'line': b"reading manifest file '../../build/my_first_robot/my_first_robot.egg-info/SOURCES.txt'\n"}
+[5.066114] (my_first_robot) StdoutLine: {'line': b"writing manifest file '../../build/my_first_robot/my_first_robot.egg-info/SOURCES.txt'\n"}
+[5.070669] (my_first_robot) StdoutLine: {'line': b'running build\n'}
+[5.071647] (my_first_robot) StdoutLine: {'line': b'running build_py\n'}
+[5.074048] (my_first_robot) StdoutLine: {'line': b'running install\n'}
+[5.074876] (my_first_robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.075790] (my_first_robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.076491] (my_first_robot) StdoutLine: {'line': b'running install_lib\n'}
+[5.083893] (my_first_robot) StdoutLine: {'line': b'running install_data\n'}
+[5.084752] (my_first_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.089626] (-) TimerEvent: {}
+[5.093858] (my_first_robot) StdoutLine: {'line': b"removing '/home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages/my_first_robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.097426] (my_first_robot) StdoutLine: {'line': b'Copying ../../build/my_first_robot/my_first_robot.egg-info to /home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages/my_first_robot-0.0.0-py3.10.egg-info\n'}
+[5.108985] (my_first_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[5.190889] (-) TimerEvent: {}
+[5.227440] (my_first_robot) StdoutLine: {'line': b'Installing joystick_listener script to /home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/my_first_robot\n'}
+[5.230041] (my_first_robot) StdoutLine: {'line': b"writing list of installed files to '/home/genozen/Desktop/ros2_ws/build/my_first_robot/install.log'\n"}
+[5.291199] (-) TimerEvent: {}
+[5.392564] (-) TimerEvent: {}
+[5.445760] (my_first_robot) CommandEnded: {'returncode': 0}
+[5.492920] (-) TimerEvent: {}
+[5.572075] (my_first_robot) JobEnded: {'identifier': 'my_first_robot', 'rc': 0}
+[5.580096] (-) EventReactorShutdown: {}

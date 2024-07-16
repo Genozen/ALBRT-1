@@ -1,0 +1,27 @@
+[3.673s] Invoking command in '/home/genozen/Desktop/ros2_ws/src/my_first_robot': PYTHONPATH=/home/genozen/Desktop/ros2_ws/build/my_first_robot/prefix_override:/home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_robot build --build-base /home/genozen/Desktop/ros2_ws/build/my_first_robot/build install --record /home/genozen/Desktop/ros2_ws/build/my_first_robot/install.log --single-version-externally-managed
+[5.027s] running egg_info
+[5.030s] writing ../../build/my_first_robot/my_first_robot.egg-info/PKG-INFO
+[5.289s] writing dependency_links to ../../build/my_first_robot/my_first_robot.egg-info/dependency_links.txt
+[5.370s] writing entry points to ../../build/my_first_robot/my_first_robot.egg-info/entry_points.txt
+[5.372s] writing requirements to ../../build/my_first_robot/my_first_robot.egg-info/requires.txt
+[5.373s] writing top-level names to ../../build/my_first_robot/my_first_robot.egg-info/top_level.txt
+[5.386s] reading manifest file '../../build/my_first_robot/my_first_robot.egg-info/SOURCES.txt'
+[5.475s] writing manifest file '../../build/my_first_robot/my_first_robot.egg-info/SOURCES.txt'
+[5.477s] running build
+[5.478s] running build_py
+[5.478s] copying my_first_robot/my_first_robot_driver.py -> /home/genozen/Desktop/ros2_ws/build/my_first_robot/build/lib/my_first_robot
+[5.494s] running install
+[5.496s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.497s]   warnings.warn(
+[5.499s] running install_lib
+[5.536s] copying /home/genozen/Desktop/ros2_ws/build/my_first_robot/build/lib/my_first_robot/my_first_robot_driver.py -> /home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages/my_first_robot
+[5.538s] byte-compiling /home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages/my_first_robot/my_first_robot_driver.py to my_first_robot_driver.cpython-310.pyc
+[5.540s] Sorry: IndentationError: expected an indented block after function definition on line 44 (my_first_robot_driver.py, line 45)
+[5.541s] running install_data
+[5.542s] running install_egg_info
+[5.545s] removing '/home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages/my_first_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[5.545s] Copying ../../build/my_first_robot/my_first_robot.egg-info to /home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages/my_first_robot-0.0.0-py3.10.egg-info
+[5.552s] running install_scripts
+[5.650s] Installing joystick_listender script to /home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/my_first_robot
+[5.653s] writing list of installed files to '/home/genozen/Desktop/ros2_ws/build/my_first_robot/install.log'
+[5.828s] Invoked command in '/home/genozen/Desktop/ros2_ws/src/my_first_robot' returned '0': PYTHONPATH=/home/genozen/Desktop/ros2_ws/build/my_first_robot/prefix_override:/home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_robot build --build-base /home/genozen/Desktop/ros2_ws/build/my_first_robot/build install --record /home/genozen/Desktop/ros2_ws/build/my_first_robot/install.log --single-version-externally-managed

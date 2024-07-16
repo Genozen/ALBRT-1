@@ -1,0 +1,216 @@
+[0.000000] (-) TimerEvent: {}
+[0.000679] (mobile_robotics) JobQueued: {'identifier': 'mobile_robotics', 'dependencies': OrderedDict()}
+[0.002163] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.003032] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.005198] (mobile_robotics) JobStarted: {'identifier': 'mobile_robotics'}
+[0.094670] (-) TimerEvent: {}
+[0.195486] (-) TimerEvent: {}
+[0.296339] (-) TimerEvent: {}
+[0.388446] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.398667] (-) TimerEvent: {}
+[0.409670] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.498824] (-) TimerEvent: {}
+[0.599677] (-) TimerEvent: {}
+[0.701970] (-) TimerEvent: {}
+[0.802964] (-) TimerEvent: {}
+[0.903985] (-) TimerEvent: {}
+[1.005320] (-) TimerEvent: {}
+[1.106932] (-) TimerEvent: {}
+[1.208273] (-) TimerEvent: {}
+[1.309004] (-) TimerEvent: {}
+[1.409777] (-) TimerEvent: {}
+[1.510626] (-) TimerEvent: {}
+[1.611562] (-) TimerEvent: {}
+[1.712569] (-) TimerEvent: {}
+[1.813689] (-) TimerEvent: {}
+[1.818098] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[1.828758] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[1.832383] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/genozen/Desktop/ros2_ws/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genozen'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/genozen'), ('OLDPWD', '/home/genozen/Desktop/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1589'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'genozen'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'genozen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/genozen-desktop:@/tmp/.ICE-unix/1271,unix/genozen-desktop:/tmp/.ICE-unix/1271'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c98daa62_3258_4edd_ac9f_7718928c568a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P7QZ31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/genozen/Desktop/ros2_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[1.901915] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[1.904380] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/genozen/Desktop/ros2_ws/src/sllidar_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/genozen/Desktop/ros2_ws/install/sllidar_ros2'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genozen'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/genozen'), ('OLDPWD', '/home/genozen/Desktop/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1589'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'genozen'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'genozen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/genozen-desktop:@/tmp/.ICE-unix/1271,unix/genozen-desktop:/tmp/.ICE-unix/1271'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c98daa62_3258_4edd_ac9f_7718928c568a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P7QZ31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/genozen/Desktop/ros2_ws/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[1.936889] (-) TimerEvent: {}
+[2.051162] (-) TimerEvent: {}
+[2.155009] (-) TimerEvent: {}
+[2.258529] (-) TimerEvent: {}
+[2.360496] (-) TimerEvent: {}
+[2.462339] (-) TimerEvent: {}
+[2.600204] (-) TimerEvent: {}
+[2.704261] (-) TimerEvent: {}
+[2.808172] (-) TimerEvent: {}
+[2.909263] (-) TimerEvent: {}
+[3.010514] (-) TimerEvent: {}
+[3.112219] (-) TimerEvent: {}
+[3.213407] (-) TimerEvent: {}
+[3.314843] (-) TimerEvent: {}
+[3.415794] (-) TimerEvent: {}
+[3.460229] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_composition_node\x1b[0m\n'}
+[3.516037] (-) TimerEvent: {}
+[3.616953] (-) TimerEvent: {}
+[3.717737] (-) TimerEvent: {}
+[3.819440] (-) TimerEvent: {}
+[3.923258] (-) TimerEvent: {}
+[3.941692] (sllidar_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[4.023796] (-) TimerEvent: {}
+[4.126737] (-) TimerEvent: {}
+[4.228714] (-) TimerEvent: {}
+[4.330940] (-) TimerEvent: {}
+[4.449559] (-) TimerEvent: {}
+[4.550471] (-) TimerEvent: {}
+[4.651625] (-) TimerEvent: {}
+[4.752608] (-) TimerEvent: {}
+[4.853564] (-) TimerEvent: {}
+[4.955355] (-) TimerEvent: {}
+[5.058131] (-) TimerEvent: {}
+[5.105694] (rplidar_ros) StdoutLine: {'line': b'[ 77%] Built target rplidar_composition_node\n'}
+[5.158520] (-) TimerEvent: {}
+[5.210658] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_composition\x1b[0m\n'}
+[5.259019] (-) TimerEvent: {}
+[5.330633] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[5.359335] (-) TimerEvent: {}
+[5.377688] (rplidar_ros) CommandEnded: {'returncode': 0}
+[5.459675] (-) TimerEvent: {}
+[5.563374] (-) TimerEvent: {}
+[5.660391] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[5.665064] (-) TimerEvent: {}
+[5.707495] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/genozen/Desktop/ros2_ws/build/rplidar_ros'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genozen'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/genozen'), ('OLDPWD', '/home/genozen/Desktop/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1589'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'genozen'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'genozen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/genozen-desktop:@/tmp/.ICE-unix/1271,unix/genozen-desktop:/tmp/.ICE-unix/1271'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c98daa62_3258_4edd_ac9f_7718928c568a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P7QZ31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/genozen/Desktop/ros2_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[5.765204] (-) TimerEvent: {}
+[5.773742] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.814338] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.838589] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[5.860185] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/__pycache__/rplidar.launch.cpython-310.pyc\n'}
+[5.875942] (-) TimerEvent: {}
+[5.944906] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/__pycache__/view_rplidar.launch.cpython-310.pyc\n'}
+[5.983141] (-) TimerEvent: {}
+[6.020133] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py\n'}
+[6.021978] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py\n'}
+[6.028194] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py\n'}
+[6.029889] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py\n'}
+[6.031042] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py\n'}
+[6.033538] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py\n'}
+[6.041416] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py\n'}
+[6.043173] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py\n'}
+[6.044871] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py\n'}
+[6.047108] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz\n'}
+[6.060529] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib/librplidar_composition_node.so\n'}
+[6.062931] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/include/rplidar_node.hpp\n'}
+[6.071033] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/include/visibility.h\n'}
+[6.077341] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[6.083584] (-) TimerEvent: {}
+[6.088705] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[6.098025] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[6.106163] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[6.109637] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[6.116569] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[6.119831] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[6.126457] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[6.131358] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[6.135816] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[6.138703] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[6.145625] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[6.183757] (-) TimerEvent: {}
+[6.240322] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[6.243136] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros\n'}
+[6.244015] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.257157] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.266961] (mobile_robotics) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/genozen/Desktop/ros2_ws/build/mobile_robotics/build', '--no-deps', 'install_data'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/mobile_robotics', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'genozen', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/genozen', 'OLDPWD': '/home/genozen/Desktop/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1589', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'genozen', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'genozen', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/genozen-desktop:@/tmp/.ICE-unix/1271,unix/genozen-desktop:/tmp/.ICE-unix/1271', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c98daa62_3258_4edd_ac9f_7718928c568a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.P7QZ31', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/genozen/Desktop/ros2_ws/build/mobile_robotics', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTHONPATH': '/home/genozen/Desktop/ros2_ws/build/mobile_robotics/prefix_override:/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:'}, 'shell': False}
+[6.272506] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[6.291900] (-) TimerEvent: {}
+[6.293781] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[6.295551] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[6.298154] (rplidar_ros) CommandEnded: {'returncode': 0}
+[6.392596] (-) TimerEvent: {}
+[6.401748] (sllidar_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[6.493770] (-) TimerEvent: {}
+[6.557771] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.597278] (-) TimerEvent: {}
+[6.699621] (-) TimerEvent: {}
+[6.800939] (-) TimerEvent: {}
+[6.902148] (-) TimerEvent: {}
+[7.004796] (-) TimerEvent: {}
+[7.109268] (-) TimerEvent: {}
+[7.213301] (-) TimerEvent: {}
+[7.316832] (-) TimerEvent: {}
+[7.427238] (-) TimerEvent: {}
+[7.502458] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.527747] (-) TimerEvent: {}
+[7.532535] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[7.565418] (sllidar_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.570047] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.575889] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.605331] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.627983] (-) TimerEvent: {}
+[7.731590] (-) TimerEvent: {}
+[7.834599] (-) TimerEvent: {}
+[7.936512] (-) TimerEvent: {}
+[8.038154] (-) TimerEvent: {}
+[8.140030] (-) TimerEvent: {}
+[8.242487] (-) TimerEvent: {}
+[8.261646] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.299224] (sllidar_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.301724] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.309569] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.342870] (-) TimerEvent: {}
+[8.446361] (-) TimerEvent: {}
+[8.539499] (sllidar_ros2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:32 (find_package):\n'}
+[8.542940] (sllidar_ros2) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[8.545177] (sllidar_ros2) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[8.546525] (-) TimerEvent: {}
+[8.547670] (sllidar_ros2) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[8.550117] (sllidar_ros2) StderrLine: {'line': b'\n'}
+[8.550818] (sllidar_ros2) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[8.557488] (sllidar_ros2) StderrLine: {'line': b'  any of the following names:\n'}
+[8.558188] (sllidar_ros2) StderrLine: {'line': b'\n'}
+[8.558860] (sllidar_ros2) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[8.559861] (sllidar_ros2) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[8.561183] (sllidar_ros2) StderrLine: {'line': b'\n'}
+[8.562270] (sllidar_ros2) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[8.563014] (sllidar_ros2) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[8.563721] (sllidar_ros2) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[8.564619] (sllidar_ros2) StderrLine: {'line': b'  has been installed.\n'}
+[8.565392] (sllidar_ros2) StderrLine: {'line': b'\n'}
+[8.566128] (sllidar_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[8.566914] (sllidar_ros2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.567834] (sllidar_ros2) StdoutLine: {'line': b'See also "/home/genozen/Desktop/ros2_ws/build/sllidar_ros2/CMakeFiles/CMakeOutput.log".\n'}
+[8.573364] (sllidar_ros2) CommandEnded: {'returncode': 1}
+[8.618563] (mobile_robotics) StdoutLine: {'line': b'running develop\n'}
+[8.624959] (mobile_robotics) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.627374] (mobile_robotics) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.635044] (mobile_robotics) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.635897] (mobile_robotics) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.646922] (-) TimerEvent: {}
+[8.715791] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 1}
+[8.747335] (-) TimerEvent: {}
+[8.848756] (-) TimerEvent: {}
+[8.949633] (-) TimerEvent: {}
+[9.050514] (-) TimerEvent: {}
+[9.107757] (mobile_robotics) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[9.108728] (mobile_robotics) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.113472] (mobile_robotics) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[9.124641] (mobile_robotics) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.150727] (-) TimerEvent: {}
+[9.251566] (-) TimerEvent: {}
+[9.352781] (-) TimerEvent: {}
+[9.456566] (-) TimerEvent: {}
+[9.558121] (-) TimerEvent: {}
+[9.659467] (-) TimerEvent: {}
+[9.761013] (-) TimerEvent: {}
+[9.816482] (mobile_robotics) StdoutLine: {'line': b'running egg_info\n'}
+[9.817179] (mobile_robotics) StdoutLine: {'line': b'writing mobile_robotics.egg-info/PKG-INFO\n'}
+[9.828315] (mobile_robotics) StdoutLine: {'line': b'writing dependency_links to mobile_robotics.egg-info/dependency_links.txt\n'}
+[9.830020] (mobile_robotics) StdoutLine: {'line': b'writing entry points to mobile_robotics.egg-info/entry_points.txt\n'}
+[9.830876] (mobile_robotics) StdoutLine: {'line': b'writing requirements to mobile_robotics.egg-info/requires.txt\n'}
+[9.831690] (mobile_robotics) StdoutLine: {'line': b'writing top-level names to mobile_robotics.egg-info/top_level.txt\n'}
+[9.843699] (mobile_robotics) StdoutLine: {'line': b"reading manifest file 'mobile_robotics.egg-info/SOURCES.txt'\n"}
+[9.860815] (mobile_robotics) StdoutLine: {'line': b"writing manifest file 'mobile_robotics.egg-info/SOURCES.txt'\n"}
+[9.861966] (-) TimerEvent: {}
+[9.870106] (mobile_robotics) StdoutLine: {'line': b'running build_ext\n'}
+[9.871746] (mobile_robotics) StdoutLine: {'line': b'Creating /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile-robotics.egg-link (link to .)\n'}
+[9.877381] (mobile_robotics) StdoutLine: {'line': b'Installing cod_ex2 script to /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/mobile_robotics\n'}
+[9.878645] (mobile_robotics) StdoutLine: {'line': b'Installing part1 script to /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/mobile_robotics\n'}
+[9.880490] (mobile_robotics) StdoutLine: {'line': b'\n'}
+[9.881242] (mobile_robotics) StdoutLine: {'line': b'Installed /home/genozen/Desktop/ros2_ws/build/mobile_robotics\n'}
+[9.882282] (mobile_robotics) StdoutLine: {'line': b'running install_data\n'}
+[9.962605] (-) TimerEvent: {}
+[10.065163] (-) TimerEvent: {}
+[10.067527] (mobile_robotics) JobEnded: {'identifier': 'mobile_robotics', 'rc': 'SIGINT'}
+[10.086259] (-) EventReactorShutdown: {}

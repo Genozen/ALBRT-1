@@ -1,0 +1,45 @@
+[3.576s] Invoking command in '/home/genozen/Desktop/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/genozen/Desktop/ros2_ws/build/rplidar_ros -- -j4 -l4
+[4.658s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition_node[0m
+[5.387s] [ 77%] Built target rplidar_composition_node
+[5.484s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition[0m
+[5.708s] [100%] Built target rplidar_composition
+[5.798s] Invoked command in '/home/genozen/Desktop/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/genozen/Desktop/ros2_ws/build/rplidar_ros -- -j4 -l4
+[6.169s] Invoking command in '/home/genozen/Desktop/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/genozen/Desktop/ros2_ws/build/rplidar_ros
+[6.202s] -- Install configuration: ""
+[6.213s] -- Execute custom install script
+[6.229s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[6.233s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/__pycache__/rplidar.launch.cpython-310.pyc
+[6.234s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/__pycache__/view_rplidar.launch.cpython-310.pyc
+[6.241s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py
+[6.242s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py
+[6.242s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py
+[6.244s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py
+[6.245s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py
+[6.246s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py
+[6.247s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py
+[6.247s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py
+[6.248s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py
+[6.250s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+[6.320s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib/librplidar_composition_node.so
+[6.321s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/include/rplidar_node.hpp
+[6.323s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/include/visibility.h
+[6.334s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[6.334s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[6.344s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[6.345s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[6.352s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[6.352s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[6.353s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[6.354s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[6.354s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[6.355s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[6.356s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[6.356s] -- Symlinking: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[6.393s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[6.398s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros
+[6.406s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.409s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.410s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[6.411s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[6.416s] -- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[6.449s] Invoked command in '/home/genozen/Desktop/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/genozen/Desktop/ros2_ws/build/rplidar_ros

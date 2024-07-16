@@ -1,0 +1,261 @@
+[0.000000] (-) TimerEvent: {}
+[0.001824] (-) JobUnselected: {'identifier': 'mobile_robotics'}
+[0.002555] (-) JobUnselected: {'identifier': 'my_first_robot'}
+[0.005009] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.005434] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.005716] (-) JobUnselected: {'identifier': 'slam_gmapping'}
+[0.005895] (my_webcam_publisher) JobQueued: {'identifier': 'my_webcam_publisher', 'dependencies': OrderedDict()}
+[0.006156] (my_webcam_publisher) JobStarted: {'identifier': 'my_webcam_publisher'}
+[0.099387] (-) TimerEvent: {}
+[0.152060] (my_webcam_publisher) JobProgress: {'identifier': 'my_webcam_publisher', 'progress': 'cmake'}
+[0.153087] (my_webcam_publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/genozen/Desktop/ros2_ws/src/my_webcam_publisher', '-DCMAKE_INSTALL_PREFIX=/home/genozen/Desktop/ros2_ws/install/my_webcam_publisher'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genozen'), ('SSH_CLIENT', '10.1.8.215 45184 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/genozen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib:/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/genozen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/genozen'), ('OLDPWD', '/home/genozen/Desktop/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-09c175e9-163a-432a-aa6f-0c928e5b61c8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/genozen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/genozen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genozen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/genozen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/home/genozen/.local/bin:/opt/ros/humble/bin:/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-475ba8fc98.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install/slam_gmapping:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/home/genozen/Desktop/ros2_ws/install/my_first_robot:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.1.8.215 45184 10.1.8.212 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/genozen/Desktop/ros2_ws/build/my_first_robot:/home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages:/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install/sllidar_ros2:/home/genozen/Desktop/ros2_ws/install/slam_gmapping:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/home/genozen/Desktop/ros2_ws/install/my_first_robot:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble')]), 'shell': False}
+[0.199572] (-) TimerEvent: {}
+[0.300642] (-) TimerEvent: {}
+[0.402297] (-) TimerEvent: {}
+[0.503398] (-) TimerEvent: {}
+[0.604600] (-) TimerEvent: {}
+[0.705697] (-) TimerEvent: {}
+[0.821561] (-) TimerEvent: {}
+[0.922807] (-) TimerEvent: {}
+[1.023868] (-) TimerEvent: {}
+[1.124680] (-) TimerEvent: {}
+[1.225586] (-) TimerEvent: {}
+[1.328525] (-) TimerEvent: {}
+[1.429480] (-) TimerEvent: {}
+[1.530507] (-) TimerEvent: {}
+[1.631568] (-) TimerEvent: {}
+[1.732874] (-) TimerEvent: {}
+[1.833926] (-) TimerEvent: {}
+[1.934806] (-) TimerEvent: {}
+[2.035608] (-) TimerEvent: {}
+[2.136854] (-) TimerEvent: {}
+[2.238004] (-) TimerEvent: {}
+[2.338728] (-) TimerEvent: {}
+[2.439765] (-) TimerEvent: {}
+[2.484882] (my_webcam_publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.539928] (-) TimerEvent: {}
+[2.640834] (-) TimerEvent: {}
+[2.741879] (-) TimerEvent: {}
+[2.842805] (-) TimerEvent: {}
+[2.943972] (-) TimerEvent: {}
+[3.044934] (-) TimerEvent: {}
+[3.145793] (-) TimerEvent: {}
+[3.246810] (-) TimerEvent: {}
+[3.347750] (-) TimerEvent: {}
+[3.448709] (-) TimerEvent: {}
+[3.549530] (-) TimerEvent: {}
+[3.650570] (-) TimerEvent: {}
+[3.751630] (-) TimerEvent: {}
+[3.852950] (-) TimerEvent: {}
+[3.953868] (-) TimerEvent: {}
+[4.055138] (-) TimerEvent: {}
+[4.156020] (-) TimerEvent: {}
+[4.256971] (-) TimerEvent: {}
+[4.358463] (-) TimerEvent: {}
+[4.459852] (my_webcam_publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.461165] (-) TimerEvent: {}
+[4.562213] (-) TimerEvent: {}
+[4.663085] (-) TimerEvent: {}
+[4.764228] (-) TimerEvent: {}
+[4.817483] (my_webcam_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.864566] (-) TimerEvent: {}
+[4.969153] (-) TimerEvent: {}
+[5.070432] (-) TimerEvent: {}
+[5.171571] (-) TimerEvent: {}
+[5.272777] (-) TimerEvent: {}
+[5.374953] (-) TimerEvent: {}
+[5.413578] (my_webcam_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.444448] (my_webcam_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.447286] (my_webcam_publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.450866] (my_webcam_publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.475115] (-) TimerEvent: {}
+[5.491899] (my_webcam_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.575392] (-) TimerEvent: {}
+[5.678000] (-) TimerEvent: {}
+[5.778821] (-) TimerEvent: {}
+[5.879714] (-) TimerEvent: {}
+[5.980724] (-) TimerEvent: {}
+[6.027499] (my_webcam_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.080945] (-) TimerEvent: {}
+[6.095157] (my_webcam_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.096520] (my_webcam_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.098539] (my_webcam_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.181124] (-) TimerEvent: {}
+[6.282041] (-) TimerEvent: {}
+[6.310863] (my_webcam_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.382240] (-) TimerEvent: {}
+[6.483145] (-) TimerEvent: {}
+[6.583970] (-) TimerEvent: {}
+[6.684878] (-) TimerEvent: {}
+[6.785842] (-) TimerEvent: {}
+[6.886800] (-) TimerEvent: {}
+[6.987482] (-) TimerEvent: {}
+[7.088497] (-) TimerEvent: {}
+[7.190057] (-) TimerEvent: {}
+[7.290936] (-) TimerEvent: {}
+[7.391729] (-) TimerEvent: {}
+[7.492622] (-) TimerEvent: {}
+[7.493493] (my_webcam_publisher) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[7.592810] (-) TimerEvent: {}
+[7.693679] (-) TimerEvent: {}
+[7.794570] (-) TimerEvent: {}
+[7.895620] (-) TimerEvent: {}
+[7.997140] (-) TimerEvent: {}
+[8.098315] (-) TimerEvent: {}
+[8.199156] (-) TimerEvent: {}
+[8.300300] (-) TimerEvent: {}
+[8.401321] (-) TimerEvent: {}
+[8.502116] (-) TimerEvent: {}
+[8.603116] (-) TimerEvent: {}
+[8.703942] (-) TimerEvent: {}
+[8.804738] (-) TimerEvent: {}
+[8.905775] (-) TimerEvent: {}
+[8.975328] (my_webcam_publisher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[9.005983] (-) TimerEvent: {}
+[9.106769] (-) TimerEvent: {}
+[9.207520] (-) TimerEvent: {}
+[9.308256] (-) TimerEvent: {}
+[9.409164] (-) TimerEvent: {}
+[9.510023] (-) TimerEvent: {}
+[9.610800] (-) TimerEvent: {}
+[9.711613] (-) TimerEvent: {}
+[9.812450] (-) TimerEvent: {}
+[9.913259] (-) TimerEvent: {}
+[10.014264] (-) TimerEvent: {}
+[10.084583] (my_webcam_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[10.114440] (-) TimerEvent: {}
+[10.163684] (my_webcam_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[10.214748] (-) TimerEvent: {}
+[10.267072] (my_webcam_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.315002] (-) TimerEvent: {}
+[10.416262] (-) TimerEvent: {}
+[10.436259] (my_webcam_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.516443] (-) TimerEvent: {}
+[10.617248] (-) TimerEvent: {}
+[10.637907] (my_webcam_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.717470] (-) TimerEvent: {}
+[10.818626] (-) TimerEvent: {}
+[10.920183] (-) TimerEvent: {}
+[11.021534] (-) TimerEvent: {}
+[11.122760] (-) TimerEvent: {}
+[11.223615] (-) TimerEvent: {}
+[11.324351] (-) TimerEvent: {}
+[11.327782] (my_webcam_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[11.371490] (my_webcam_publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.424616] (-) TimerEvent: {}
+[11.525796] (-) TimerEvent: {}
+[11.626597] (-) TimerEvent: {}
+[11.727414] (-) TimerEvent: {}
+[11.828189] (-) TimerEvent: {}
+[11.928963] (-) TimerEvent: {}
+[12.029817] (-) TimerEvent: {}
+[12.130658] (-) TimerEvent: {}
+[12.231483] (-) TimerEvent: {}
+[12.332689] (-) TimerEvent: {}
+[12.421389] (my_webcam_publisher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[12.434224] (-) TimerEvent: {}
+[12.535404] (-) TimerEvent: {}
+[12.636726] (-) TimerEvent: {}
+[12.737525] (-) TimerEvent: {}
+[12.752689] (my_webcam_publisher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[12.837829] (-) TimerEvent: {}
+[12.939095] (-) TimerEvent: {}
+[13.040032] (-) TimerEvent: {}
+[13.142448] (-) TimerEvent: {}
+[13.243401] (-) TimerEvent: {}
+[13.327351] (my_webcam_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.343583] (-) TimerEvent: {}
+[13.445609] (-) TimerEvent: {}
+[13.484107] (my_webcam_publisher) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[13.546174] (-) TimerEvent: {}
+[13.648226] (-) TimerEvent: {}
+[13.752362] (-) TimerEvent: {}
+[13.902244] (-) TimerEvent: {}
+[14.003101] (-) TimerEvent: {}
+[14.099477] (my_webcam_publisher) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[14.102021] (my_webcam_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[14.103249] (-) TimerEvent: {}
+[14.206277] (-) TimerEvent: {}
+[14.307166] (-) TimerEvent: {}
+[14.408279] (-) TimerEvent: {}
+[14.510192] (-) TimerEvent: {}
+[14.562381] (my_webcam_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[14.563410] (my_webcam_publisher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[14.610365] (-) TimerEvent: {}
+[14.711303] (-) TimerEvent: {}
+[14.812740] (-) TimerEvent: {}
+[14.913734] (-) TimerEvent: {}
+[15.014757] (-) TimerEvent: {}
+[15.115515] (-) TimerEvent: {}
+[15.216383] (-) TimerEvent: {}
+[15.317298] (-) TimerEvent: {}
+[15.418077] (-) TimerEvent: {}
+[15.518841] (-) TimerEvent: {}
+[15.619686] (-) TimerEvent: {}
+[15.720941] (-) TimerEvent: {}
+[15.822111] (-) TimerEvent: {}
+[15.923368] (-) TimerEvent: {}
+[16.028177] (-) TimerEvent: {}
+[16.129054] (-) TimerEvent: {}
+[16.211657] (my_webcam_publisher) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[16.229288] (-) TimerEvent: {}
+[16.330855] (-) TimerEvent: {}
+[16.431780] (-) TimerEvent: {}
+[16.532690] (-) TimerEvent: {}
+[16.633766] (-) TimerEvent: {}
+[16.734588] (-) TimerEvent: {}
+[16.835370] (-) TimerEvent: {}
+[16.910038] (my_webcam_publisher) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[16.935596] (-) TimerEvent: {}
+[17.038575] (-) TimerEvent: {}
+[17.059471] (my_webcam_publisher) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[17.138736] (-) TimerEvent: {}
+[17.239528] (-) TimerEvent: {}
+[17.340339] (-) TimerEvent: {}
+[17.441198] (-) TimerEvent: {}
+[17.542064] (-) TimerEvent: {}
+[17.642865] (-) TimerEvent: {}
+[17.713534] (my_webcam_publisher) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[17.719664] (my_webcam_publisher) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[17.725020] (my_webcam_publisher) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[17.737886] (my_webcam_publisher) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[17.743094] (-) TimerEvent: {}
+[17.756940] (my_webcam_publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.805884] (my_webcam_publisher) StdoutLine: {'line': b'-- Generating done\n'}
+[17.815768] (my_webcam_publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/genozen/Desktop/ros2_ws/build/my_webcam_publisher\n'}
+[17.843559] (-) TimerEvent: {}
+[17.889199] (my_webcam_publisher) CommandEnded: {'returncode': 0}
+[17.891595] (my_webcam_publisher) JobProgress: {'identifier': 'my_webcam_publisher', 'progress': 'build'}
+[17.891832] (my_webcam_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher', '--', '-j4', '-l4'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genozen'), ('SSH_CLIENT', '10.1.8.215 45184 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/genozen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib:/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/genozen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/genozen'), ('OLDPWD', '/home/genozen/Desktop/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-09c175e9-163a-432a-aa6f-0c928e5b61c8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/genozen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/genozen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genozen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/genozen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/home/genozen/.local/bin:/opt/ros/humble/bin:/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-475ba8fc98.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install/slam_gmapping:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/home/genozen/Desktop/ros2_ws/install/my_first_robot:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.1.8.215 45184 10.1.8.212 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/genozen/Desktop/ros2_ws/build/my_first_robot:/home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages:/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install/sllidar_ros2:/home/genozen/Desktop/ros2_ws/install/slam_gmapping:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/home/genozen/Desktop/ros2_ws/install/my_first_robot:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble')]), 'shell': False}
+[17.943729] (-) TimerEvent: {}
+[18.044746] (-) TimerEvent: {}
+[18.122471] (my_webcam_publisher) CommandEnded: {'returncode': 0}
+[18.144977] (-) TimerEvent: {}
+[18.245845] (-) TimerEvent: {}
+[18.252507] (my_webcam_publisher) JobProgress: {'identifier': 'my_webcam_publisher', 'progress': 'install'}
+[18.296534] (my_webcam_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genozen'), ('SSH_CLIENT', '10.1.8.215 45184 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/genozen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib:/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/genozen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/genozen'), ('OLDPWD', '/home/genozen/Desktop/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-09c175e9-163a-432a-aa6f-0c928e5b61c8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/genozen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/genozen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genozen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/genozen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/home/genozen/.local/bin:/opt/ros/humble/bin:/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-475ba8fc98.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install/slam_gmapping:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/home/genozen/Desktop/ros2_ws/install/my_first_robot:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.1.8.215 45184 10.1.8.212 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/genozen/Desktop/ros2_ws/build/my_first_robot:/home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages:/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install/sllidar_ros2:/home/genozen/Desktop/ros2_ws/install/slam_gmapping:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/home/genozen/Desktop/ros2_ws/install/my_first_robot:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble')]), 'shell': False}
+[18.337865] (my_webcam_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.346047] (-) TimerEvent: {}
+[18.372499] (my_webcam_publisher) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/ament_index/resource_index/package_run_dependencies/my_webcam_publisher\n'}
+[18.378496] (my_webcam_publisher) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/ament_index/resource_index/parent_prefix_path/my_webcam_publisher\n'}
+[18.382076] (my_webcam_publisher) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/environment/ament_prefix_path.sh\n'}
+[18.390226] (my_webcam_publisher) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/environment/ament_prefix_path.dsv\n'}
+[18.396407] (my_webcam_publisher) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/environment/path.sh\n'}
+[18.399257] (my_webcam_publisher) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/environment/path.dsv\n'}
+[18.402644] (my_webcam_publisher) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/local_setup.bash\n'}
+[18.403295] (my_webcam_publisher) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/local_setup.sh\n'}
+[18.403787] (my_webcam_publisher) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/local_setup.zsh\n'}
+[18.406284] (my_webcam_publisher) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/local_setup.dsv\n'}
+[18.407252] (my_webcam_publisher) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/package.dsv\n'}
+[18.408181] (my_webcam_publisher) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/ament_index/resource_index/packages/my_webcam_publisher\n'}
+[18.409074] (my_webcam_publisher) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/cmake/my_webcam_publisherConfig.cmake\n'}
+[18.410162] (my_webcam_publisher) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/cmake/my_webcam_publisherConfig-version.cmake\n'}
+[18.414249] (my_webcam_publisher) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/package.xml\n'}
+[18.417307] (my_webcam_publisher) CommandEnded: {'returncode': 0}
+[18.446285] (-) TimerEvent: {}
+[18.548790] (-) TimerEvent: {}
+[18.649575] (-) TimerEvent: {}
+[18.750798] (-) TimerEvent: {}
+[18.853165] (-) TimerEvent: {}
+[18.898342] (my_webcam_publisher) JobEnded: {'identifier': 'my_webcam_publisher', 'rc': 0}
+[18.901239] (-) EventReactorShutdown: {}

@@ -1,0 +1,62 @@
+[0.152s] Invoking command in '/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genozen/Desktop/ros2_ws/install/my_first_robot:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake /home/genozen/Desktop/ros2_ws/src/my_webcam_publisher -DCMAKE_INSTALL_PREFIX=/home/genozen/Desktop/ros2_ws/install/my_webcam_publisher
+[2.479s] -- The C compiler identification is GNU 11.4.0
+[4.455s] -- The CXX compiler identification is GNU 11.4.0
+[4.812s] -- Detecting C compiler ABI info
+[5.408s] -- Detecting C compiler ABI info - done
+[5.439s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.442s] -- Detecting C compile features
+[5.445s] -- Detecting C compile features - done
+[5.486s] -- Detecting CXX compiler ABI info
+[6.022s] -- Detecting CXX compiler ABI info - done
+[6.090s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.091s] -- Detecting CXX compile features
+[6.093s] -- Detecting CXX compile features - done
+[6.305s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.488s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[8.970s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[10.079s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.158s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.261s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.431s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.632s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.322s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[11.366s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.416s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[12.747s] -- Found FastRTPS: /opt/ros/humble/include  
+[13.324s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.478s] -- Looking for pthread.h
+[14.094s] -- Looking for pthread.h - found
+[14.096s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.557s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[14.558s] -- Found Threads: TRUE  
+[16.206s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[16.905s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[17.054s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[17.708s] -- Added test 'flake8' to check Python code syntax and style conventions
+[17.714s] -- Added test 'lint_cmake' to check CMake code style
+[17.719s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[17.733s] -- Added test 'xmllint' to check XML markup files
+[17.751s] -- Configuring done
+[17.800s] -- Generating done
+[17.810s] -- Build files have been written to: /home/genozen/Desktop/ros2_ws/build/my_webcam_publisher
+[17.884s] Invoked command in '/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genozen/Desktop/ros2_ws/install/my_first_robot:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake /home/genozen/Desktop/ros2_ws/src/my_webcam_publisher -DCMAKE_INSTALL_PREFIX=/home/genozen/Desktop/ros2_ws/install/my_webcam_publisher
+[17.889s] Invoking command in '/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genozen/Desktop/ros2_ws/install/my_first_robot:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --build /home/genozen/Desktop/ros2_ws/build/my_webcam_publisher -- -j4 -l4
+[18.118s] Invoked command in '/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genozen/Desktop/ros2_ws/install/my_first_robot:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --build /home/genozen/Desktop/ros2_ws/build/my_webcam_publisher -- -j4 -l4
+[18.299s] Invoking command in '/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genozen/Desktop/ros2_ws/install/my_first_robot:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --install /home/genozen/Desktop/ros2_ws/build/my_webcam_publisher
+[18.332s] -- Install configuration: ""
+[18.367s] -- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/ament_index/resource_index/package_run_dependencies/my_webcam_publisher
+[18.373s] -- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/ament_index/resource_index/parent_prefix_path/my_webcam_publisher
+[18.381s] -- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/environment/ament_prefix_path.sh
+[18.389s] -- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/environment/ament_prefix_path.dsv
+[18.392s] -- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/environment/path.sh
+[18.396s] -- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/environment/path.dsv
+[18.397s] -- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/local_setup.bash
+[18.397s] -- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/local_setup.sh
+[18.400s] -- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/local_setup.zsh
+[18.401s] -- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/local_setup.dsv
+[18.402s] -- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/package.dsv
+[18.402s] -- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/ament_index/resource_index/packages/my_webcam_publisher
+[18.403s] -- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/cmake/my_webcam_publisherConfig.cmake
+[18.407s] -- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/cmake/my_webcam_publisherConfig-version.cmake
+[18.410s] -- Installing: /home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/package.xml
+[18.414s] Invoked command in '/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genozen/Desktop/ros2_ws/install/my_first_robot:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --install /home/genozen/Desktop/ros2_ws/build/my_webcam_publisher

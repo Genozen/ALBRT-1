@@ -1,0 +1,203 @@
+[1.524s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.525s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffbb012e30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbb9f92d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbb9f92d0>>)
+[1.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.645s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.645s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/genozen/Desktop/ros2_ws'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.747s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.747s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extensions ['ignore', 'ignore_ament_install']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extension 'ignore'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extension 'ignore_ament_install'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extensions ['colcon_pkg']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extension 'colcon_pkg'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extensions ['colcon_meta']
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extension 'colcon_meta'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extensions ['ros']
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extension 'ros'
+[1.771s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobile_robotics' with type 'ros.ament_python' and name 'mobile_robotics'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ignore'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ignore_ament_install'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['colcon_pkg']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'colcon_pkg'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['colcon_meta']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'colcon_meta'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['ros']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ros'
+[1.777s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros2' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[1.777s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.777s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.777s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.899s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.899s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.913s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/genozen/Desktop/ros2_ws/install
+[1.926s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[1.933s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.227s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'cmake_args' from command line to 'None'
+[2.227s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'cmake_target' from command line to 'None'
+[2.227s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.227s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'cmake_clean_cache' from command line to 'False'
+[2.227s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'cmake_clean_first' from command line to 'False'
+[2.227s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'cmake_force_configure' from command line to 'False'
+[2.228s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'ament_cmake_args' from command line to 'None'
+[2.228s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'catkin_cmake_args' from command line to 'None'
+[2.228s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.228s] DEBUG:colcon.colcon_core.verb:Building package 'mobile_robotics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/genozen/Desktop/ros2_ws/build/mobile_robotics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/genozen/Desktop/ros2_ws/install/mobile_robotics', 'merge_install': False, 'path': '/home/genozen/Desktop/ros2_ws/src/mobile_robotics', 'symlink_install': True, 'test_result_base': None}
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[2.234s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[2.234s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.234s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/genozen/Desktop/ros2_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/genozen/Desktop/ros2_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/genozen/Desktop/ros2_ws/src/rplidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[2.237s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.254s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/genozen/Desktop/ros2_ws/src/mobile_robotics' with build type 'ament_python'
+[2.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robotics', 'ament_prefix_path')
+[2.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genozen/Desktop/ros2_ws/install/mobile_robotics/share/mobile_robotics/hook/ament_prefix_path.ps1'
+[2.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genozen/Desktop/ros2_ws/install/mobile_robotics/share/mobile_robotics/hook/ament_prefix_path.dsv'
+[2.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genozen/Desktop/ros2_ws/install/mobile_robotics/share/mobile_robotics/hook/ament_prefix_path.sh'
+[2.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.324s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/genozen/Desktop/ros2_ws/src/rplidar_ros2' with build type 'ament_cmake'
+[2.324s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/genozen/Desktop/ros2_ws/src/rplidar_ros2'
+[2.331s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.705s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/genozen/Desktop/ros2_ws/src/mobile_robotics'
+[3.712s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.712s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genozen/Desktop/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --build /home/genozen/Desktop/ros2_ws/build/rplidar_ros -- -j4 -l4
+[4.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genozen/Desktop/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --build /home/genozen/Desktop/ros2_ws/build/rplidar_ros -- -j4 -l4
+[4.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genozen/Desktop/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --install /home/genozen/Desktop/ros2_ws/build/rplidar_ros
+[4.828s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[4.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genozen/Desktop/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --install /home/genozen/Desktop/ros2_ws/build/rplidar_ros
+[4.860s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/rplidar_ros' for CMake module files
+[4.863s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/rplidar_ros' for CMake config files
+[4.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[4.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[4.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[4.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[4.880s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib'
+[4.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'ld_library_path_lib')
+[4.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.ps1'
+[4.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.dsv'
+[4.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.sh'
+[4.893s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/bin'
+[4.894s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[4.895s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[4.896s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/bin'
+[4.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[4.907s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[4.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[4.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[4.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[4.922s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[5.208s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[5.218s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/rplidar_ros' for CMake module files
+[5.223s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/rplidar_ros' for CMake config files
+[5.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[5.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[5.238s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[5.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[5.245s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib'
+[5.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'ld_library_path_lib')
+[5.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.ps1'
+[5.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.dsv'
+[5.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.sh'
+[5.313s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/bin'
+[5.313s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[5.315s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[5.316s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/bin'
+[5.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[5.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[5.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[5.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[5.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[5.364s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[5.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genozen/Desktop/ros2_ws/build/mobile_robotics': PYTHONPATH=/home/genozen/Desktop/ros2_ws/build/mobile_robotics/prefix_override:/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build --no-deps install_data
+[8.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robotics', 'pythonpath_develop')
+[8.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genozen/Desktop/ros2_ws/build/mobile_robotics/share/mobile_robotics/hook/pythonpath_develop.ps1'
+[8.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genozen/Desktop/ros2_ws/build/mobile_robotics' returned '0': PYTHONPATH=/home/genozen/Desktop/ros2_ws/build/mobile_robotics/prefix_override:/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build --no-deps install_data
+[8.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genozen/Desktop/ros2_ws/build/mobile_robotics/share/mobile_robotics/hook/pythonpath_develop.dsv'
+[8.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genozen/Desktop/ros2_ws/build/mobile_robotics/share/mobile_robotics/hook/pythonpath_develop.sh'
+[8.245s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/mobile_robotics' for CMake module files
+[8.248s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/mobile_robotics' for CMake config files
+[8.252s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib'
+[8.253s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/mobile_robotics/bin'
+[8.254s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/pkgconfig/mobile_robotics.pc'
+[8.255s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages'
+[8.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robotics', 'pythonpath')
+[8.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genozen/Desktop/ros2_ws/install/mobile_robotics/share/mobile_robotics/hook/pythonpath.ps1'
+[8.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genozen/Desktop/ros2_ws/install/mobile_robotics/share/mobile_robotics/hook/pythonpath.dsv'
+[8.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genozen/Desktop/ros2_ws/install/mobile_robotics/share/mobile_robotics/hook/pythonpath.sh'
+[8.283s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/mobile_robotics/bin'
+[8.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobile_robotics)
+[8.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/mobile_robotics/share/mobile_robotics/package.ps1'
+[8.293s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genozen/Desktop/ros2_ws/install/mobile_robotics/share/mobile_robotics/package.dsv'
+[8.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/mobile_robotics/share/mobile_robotics/package.sh'
+[8.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/mobile_robotics/share/mobile_robotics/package.bash'
+[8.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/mobile_robotics/share/mobile_robotics/package.zsh'
+[8.301s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genozen/Desktop/ros2_ws/install/mobile_robotics/share/colcon-core/packages/mobile_robotics)
+[8.302s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.303s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.303s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.304s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.338s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.352s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.352s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.419s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.428s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genozen/Desktop/ros2_ws/install/local_setup.ps1'
+[8.434s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/genozen/Desktop/ros2_ws/install/_local_setup_util_ps1.py'
+[8.442s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genozen/Desktop/ros2_ws/install/setup.ps1'
+[8.452s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genozen/Desktop/ros2_ws/install/local_setup.sh'
+[8.457s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/genozen/Desktop/ros2_ws/install/_local_setup_util_sh.py'
+[8.461s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genozen/Desktop/ros2_ws/install/setup.sh'
+[8.471s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genozen/Desktop/ros2_ws/install/local_setup.bash'
+[8.475s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genozen/Desktop/ros2_ws/install/setup.bash'
+[8.484s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genozen/Desktop/ros2_ws/install/local_setup.zsh'
+[8.488s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genozen/Desktop/ros2_ws/install/setup.zsh'

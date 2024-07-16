@@ -1,0 +1,1806 @@
+[0.000000] (-) TimerEvent: {}
+[0.002095] (mobile_robotics) JobQueued: {'identifier': 'mobile_robotics', 'dependencies': OrderedDict()}
+[0.005788] (my_first_robot) JobQueued: {'identifier': 'my_first_robot', 'dependencies': OrderedDict()}
+[0.006515] (openslam_gmapping) JobQueued: {'identifier': 'openslam_gmapping', 'dependencies': OrderedDict()}
+[0.006816] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.007029] (slam_gmapping) JobQueued: {'identifier': 'slam_gmapping', 'dependencies': OrderedDict([('openslam_gmapping', '/home/genozen/Desktop/ros2_ws/install/openslam_gmapping')])}
+[0.007332] (openslam_gmapping) JobStarted: {'identifier': 'openslam_gmapping'}
+[0.071278] (mobile_robotics) JobStarted: {'identifier': 'mobile_robotics'}
+[0.094732] (-) TimerEvent: {}
+[0.123943] (my_first_robot) JobStarted: {'identifier': 'my_first_robot'}
+[0.178665] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.194990] (-) TimerEvent: {}
+[0.231386] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'cmake'}
+[0.236368] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'build'}
+[0.240805] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/genozen/Desktop/ros2_ws/build/openslam_gmapping', '--', '-j4', '-l4'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genozen'), ('SSH_CLIENT', '10.0.0.141 49672 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/genozen'), ('OLDPWD', '/home/genozen/Desktop/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c715eab8-f5e4-4621-9671-ba1aace1a985.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genozen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/home/genozen/.local/bin:/opt/ros/humble/bin:/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6d29bd55a5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/genozen/Desktop/ros2_ws/build/openslam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.141 49672 10.0.0.104 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.295382] (-) TimerEvent: {}
+[0.397111] (-) TimerEvent: {}
+[0.498085] (-) TimerEvent: {}
+[0.599031] (-) TimerEvent: {}
+[0.700054] (-) TimerEvent: {}
+[0.805317] (-) TimerEvent: {}
+[0.906324] (-) TimerEvent: {}
+[1.008226] (-) TimerEvent: {}
+[1.109097] (-) TimerEvent: {}
+[1.212817] (-) TimerEvent: {}
+[1.315175] (-) TimerEvent: {}
+[1.417679] (-) TimerEvent: {}
+[1.519178] (-) TimerEvent: {}
+[1.620047] (-) TimerEvent: {}
+[1.720974] (-) TimerEvent: {}
+[1.821966] (-) TimerEvent: {}
+[1.959139] (-) TimerEvent: {}
+[2.060611] (-) TimerEvent: {}
+[2.162879] (-) TimerEvent: {}
+[2.265213] (-) TimerEvent: {}
+[2.368510] (-) TimerEvent: {}
+[2.471108] (-) TimerEvent: {}
+[2.572061] (-) TimerEvent: {}
+[2.673173] (-) TimerEvent: {}
+[2.774176] (-) TimerEvent: {}
+[2.875269] (-) TimerEvent: {}
+[2.976270] (-) TimerEvent: {}
+[3.092321] (-) TimerEvent: {}
+[3.194789] (-) TimerEvent: {}
+[3.298148] (-) TimerEvent: {}
+[3.400722] (-) TimerEvent: {}
+[3.502932] (-) TimerEvent: {}
+[3.605336] (-) TimerEvent: {}
+[3.709853] (-) TimerEvent: {}
+[3.813766] (-) TimerEvent: {}
+[3.917319] (-) TimerEvent: {}
+[4.020257] (-) TimerEvent: {}
+[4.123196] (-) TimerEvent: {}
+[4.225977] (-) TimerEvent: {}
+[4.329020] (-) TimerEvent: {}
+[4.431444] (-) TimerEvent: {}
+[4.533277] (-) TimerEvent: {}
+[4.636231] (-) TimerEvent: {}
+[4.790427] (-) TimerEvent: {}
+[4.893107] (-) TimerEvent: {}
+[4.995168] (-) TimerEvent: {}
+[5.096402] (-) TimerEvent: {}
+[5.198085] (-) TimerEvent: {}
+[5.303013] (-) TimerEvent: {}
+[5.405464] (-) TimerEvent: {}
+[5.509410] (-) TimerEvent: {}
+[5.616417] (-) TimerEvent: {}
+[5.733401] (-) TimerEvent: {}
+[5.848617] (-) TimerEvent: {}
+[5.875315] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[5.904391] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/genozen/Desktop/ros2_ws/src/rplidar_ros2', '-DCMAKE_INSTALL_PREFIX=/home/genozen/Desktop/ros2_ws/install/rplidar_ros'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genozen'), ('SSH_CLIENT', '10.0.0.141 49672 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/genozen'), ('OLDPWD', '/home/genozen/Desktop/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c715eab8-f5e4-4621-9671-ba1aace1a985.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genozen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/home/genozen/.local/bin:/opt/ros/humble/bin:/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6d29bd55a5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/genozen/Desktop/ros2_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.141 49672 10.0.0.104 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.946257] (openslam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensor_base\x1b[0m\n'}
+[5.953055] (-) TimerEvent: {}
+[5.954418] (openslam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target utils\x1b[0m\n'}
+[5.955265] (openslam_gmapping) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o\x1b[0m\n'}
+[5.955953] (openslam_gmapping) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o\x1b[0m\n'}
+[5.956710] (openslam_gmapping) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object utils/CMakeFiles/utils.dir/stat.cpp.o\x1b[0m\n'}
+[5.957338] (openslam_gmapping) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object utils/CMakeFiles/utils.dir/movement.cpp.o\x1b[0m\n'}
+[5.957998] (openslam_gmapping) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX static library libsensor_base.a\x1b[0m\n'}
+[5.968939] (openslam_gmapping) StdoutLine: {'line': b'[ 22%] Built target sensor_base\n'}
+[5.969682] (openslam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensor_odometry\x1b[0m\n'}
+[5.971203] (openslam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensor_range\x1b[0m\n'}
+[6.056799] (-) TimerEvent: {}
+[6.085848] (openslam_gmapping) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o\x1b[0m\n'}
+[6.145860] (openslam_gmapping) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o\x1b[0m\n'}
+[6.158286] (-) TimerEvent: {}
+[6.224325] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.4 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[6.258517] (-) TimerEvent: {}
+[6.284506] (openslam_gmapping) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o\x1b[0m\n'}
+[6.358812] (-) TimerEvent: {}
+[6.415602] (openslam_gmapping) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX static library libutils.a\x1b[0m\n'}
+[6.458988] (-) TimerEvent: {}
+[6.560517] (-) TimerEvent: {}
+[6.662094] (-) TimerEvent: {}
+[6.763478] (-) TimerEvent: {}
+[6.865789] (-) TimerEvent: {}
+[6.972534] (-) TimerEvent: {}
+[7.072527] (openslam_gmapping) StdoutLine: {'line': b'[ 40%] Built target utils\n'}
+[7.076609] (-) TimerEvent: {}
+[7.180352] (-) TimerEvent: {}
+[7.253745] (openslam_gmapping) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o\x1b[0m\n'}
+[7.280563] (-) TimerEvent: {}
+[7.385995] (-) TimerEvent: {}
+[7.489088] (-) TimerEvent: {}
+[7.592084] (-) TimerEvent: {}
+[7.695294] (-) TimerEvent: {}
+[7.799138] (-) TimerEvent: {}
+[7.903081] (-) TimerEvent: {}
+[8.007079] (-) TimerEvent: {}
+[8.110047] (-) TimerEvent: {}
+[8.215237] (-) TimerEvent: {}
+[8.318780] (-) TimerEvent: {}
+[8.421571] (-) TimerEvent: {}
+[8.523076] (-) TimerEvent: {}
+[8.625042] (-) TimerEvent: {}
+[8.732353] (-) TimerEvent: {}
+[8.836381] (-) TimerEvent: {}
+[8.938035] (-) TimerEvent: {}
+[9.040353] (-) TimerEvent: {}
+[9.143388] (-) TimerEvent: {}
+[9.247632] (-) TimerEvent: {}
+[9.350787] (-) TimerEvent: {}
+[9.467181] (-) TimerEvent: {}
+[9.575784] (-) TimerEvent: {}
+[9.577351] (rplidar_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[9.676057] (-) TimerEvent: {}
+[9.781738] (-) TimerEvent: {}
+[9.884462] (-) TimerEvent: {}
+[9.987362] (-) TimerEvent: {}
+[10.086523] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[10.087467] (-) TimerEvent: {}
+[10.202650] (-) TimerEvent: {}
+[10.313542] (-) TimerEvent: {}
+[10.432429] (-) TimerEvent: {}
+[10.536467] (-) TimerEvent: {}
+[10.644316] (-) TimerEvent: {}
+[10.760318] (-) TimerEvent: {}
+[10.864364] (-) TimerEvent: {}
+[10.960366] (openslam_gmapping) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libsensor_odometry.a\x1b[0m\n'}
+[10.976339] (-) TimerEvent: {}
+[11.078299] (-) TimerEvent: {}
+[11.193148] (-) TimerEvent: {}
+[11.296390] (-) TimerEvent: {}
+[11.400510] (-) TimerEvent: {}
+[11.504260] (-) TimerEvent: {}
+[11.608733] (-) TimerEvent: {}
+[11.632520] (openslam_gmapping) StdoutLine: {'line': b'[ 50%] Built target sensor_odometry\n'}
+[11.708983] (-) TimerEvent: {}
+[11.810737] (-) TimerEvent: {}
+[11.920404] (-) TimerEvent: {}
+[12.024309] (-) TimerEvent: {}
+[12.127588] (-) TimerEvent: {}
+[12.234214] (-) TimerEvent: {}
+[12.337198] (-) TimerEvent: {}
+[12.441419] (-) TimerEvent: {}
+[12.502823] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[12.541657] (-) TimerEvent: {}
+[12.643393] (-) TimerEvent: {}
+[12.697594] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[12.743666] (-) TimerEvent: {}
+[12.825986] (mobile_robotics) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/genozen/Desktop/ros2_ws/build/mobile_robotics/build'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/mobile_robotics', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'genozen', 'SSH_CLIENT': '10.0.0.141 49672 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/genozen', 'OLDPWD': '/home/genozen/Desktop/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.83.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c715eab8-f5e4-4621-9671-ba1aace1a985.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'genozen', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/home/genozen/.local/bin:/opt/ros/humble/bin:/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6d29bd55a5.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/genozen/Desktop/ros2_ws/build/mobile_robotics', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.141 49672 10.0.0.104 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/genozen/Desktop/ros2_ws/build/mobile_robotics/prefix_override:/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[12.838178] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[12.843948] (-) TimerEvent: {}
+[12.885957] (my_first_robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_first_robot', 'build', '--build-base', '/home/genozen/Desktop/ros2_ws/build/my_first_robot/build', 'install', '--record', '/home/genozen/Desktop/ros2_ws/build/my_first_robot/install.log', '--single-version-externally-managed'], 'cwd': '/home/genozen/Desktop/ros2_ws/src/my_first_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'genozen', 'SSH_CLIENT': '10.0.0.141 49672 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/genozen', 'OLDPWD': '/home/genozen/Desktop/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.83.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c715eab8-f5e4-4621-9671-ba1aace1a985.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'genozen', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/home/genozen/.local/bin:/opt/ros/humble/bin:/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6d29bd55a5.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/genozen/Desktop/ros2_ws/build/my_first_robot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.141 49672 10.0.0.104 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/genozen/Desktop/ros2_ws/build/my_first_robot/prefix_override:/home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[12.944162] (-) TimerEvent: {}
+[13.018521] (openslam_gmapping) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX static library libsensor_range.a\x1b[0m\n'}
+[13.044334] (-) TimerEvent: {}
+[13.165933] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.166851] (-) TimerEvent: {}
+[13.268502] (-) TimerEvent: {}
+[13.336315] (openslam_gmapping) StdoutLine: {'line': b'[ 54%] Built target sensor_range\n'}
+[13.369071] (-) TimerEvent: {}
+[13.475198] (-) TimerEvent: {}
+[13.543533] (openslam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target scanmatcher\x1b[0m\n'}
+[13.564841] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.612377] (-) TimerEvent: {}
+[13.689229] (openslam_gmapping) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/eig3.cpp.o\x1b[0m\n'}
+[13.717637] (-) TimerEvent: {}
+[13.760383] (openslam_gmapping) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o\x1b[0m\n'}
+[13.792268] (openslam_gmapping) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/smmap.cpp.o\x1b[0m\n'}
+[13.817875] (-) TimerEvent: {}
+[13.832493] (openslam_gmapping) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o\x1b[0m\n'}
+[13.920479] (-) TimerEvent: {}
+[14.027941] (-) TimerEvent: {}
+[14.130163] (-) TimerEvent: {}
+[14.231131] (-) TimerEvent: {}
+[14.333193] (-) TimerEvent: {}
+[14.436427] (-) TimerEvent: {}
+[14.538566] (-) TimerEvent: {}
+[14.640424] (-) TimerEvent: {}
+[14.744072] (-) TimerEvent: {}
+[14.846408] (-) TimerEvent: {}
+[14.948936] (-) TimerEvent: {}
+[15.051817] (-) TimerEvent: {}
+[15.154304] (-) TimerEvent: {}
+[15.250541] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[15.254595] (-) TimerEvent: {}
+[15.267727] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[15.355023] (-) TimerEvent: {}
+[15.458591] (-) TimerEvent: {}
+[15.561899] (-) TimerEvent: {}
+[15.682853] (-) TimerEvent: {}
+[15.785472] (-) TimerEvent: {}
+[15.887437] (-) TimerEvent: {}
+[15.993092] (-) TimerEvent: {}
+[16.095154] (-) TimerEvent: {}
+[16.208379] (-) TimerEvent: {}
+[16.311217] (-) TimerEvent: {}
+[16.416498] (-) TimerEvent: {}
+[16.518707] (-) TimerEvent: {}
+[16.624508] (-) TimerEvent: {}
+[16.707303] (mobile_robotics) StdoutLine: {'line': b'running develop\n'}
+[16.712386] (mobile_robotics) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[16.716364] (mobile_robotics) StderrLine: {'line': b'  warnings.warn(\n'}
+[16.724765] (-) TimerEvent: {}
+[16.733343] (mobile_robotics) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[16.737138] (mobile_robotics) StderrLine: {'line': b'  warnings.warn(\n'}
+[16.825006] (-) TimerEvent: {}
+[16.926667] (-) TimerEvent: {}
+[17.028317] (-) TimerEvent: {}
+[17.129796] (-) TimerEvent: {}
+[17.231716] (-) TimerEvent: {}
+[17.280940] (my_first_robot) StdoutLine: {'line': b'running egg_info\n'}
+[17.285015] (my_first_robot) StdoutLine: {'line': b'creating ../../build/my_first_robot/my_first_robot.egg-info\n'}
+[17.294581] (my_first_robot) StdoutLine: {'line': b'writing ../../build/my_first_robot/my_first_robot.egg-info/PKG-INFO\n'}
+[17.317146] (my_first_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/my_first_robot/my_first_robot.egg-info/dependency_links.txt\n'}
+[17.324312] (my_first_robot) StdoutLine: {'line': b'writing entry points to ../../build/my_first_robot/my_first_robot.egg-info/entry_points.txt\n'}
+[17.330903] (my_first_robot) StdoutLine: {'line': b'writing requirements to ../../build/my_first_robot/my_first_robot.egg-info/requires.txt\n'}
+[17.352461] (-) TimerEvent: {}
+[17.364900] (my_first_robot) StdoutLine: {'line': b'writing top-level names to ../../build/my_first_robot/my_first_robot.egg-info/top_level.txt\n'}
+[17.381269] (my_first_robot) StdoutLine: {'line': b"writing manifest file '../../build/my_first_robot/my_first_robot.egg-info/SOURCES.txt'\n"}
+[17.418221] (my_first_robot) StdoutLine: {'line': b"reading manifest file '../../build/my_first_robot/my_first_robot.egg-info/SOURCES.txt'\n"}
+[17.441344] (my_first_robot) StdoutLine: {'line': b"writing manifest file '../../build/my_first_robot/my_first_robot.egg-info/SOURCES.txt'\n"}
+[17.459373] (-) TimerEvent: {}
+[17.480375] (my_first_robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[17.481509] (my_first_robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[17.496556] (my_first_robot) StdoutLine: {'line': b'running build\n'}
+[17.497861] (my_first_robot) StdoutLine: {'line': b'running build_py\n'}
+[17.498712] (my_first_robot) StdoutLine: {'line': b'creating /home/genozen/Desktop/ros2_ws/build/my_first_robot/build\n'}
+[17.499405] (my_first_robot) StdoutLine: {'line': b'creating /home/genozen/Desktop/ros2_ws/build/my_first_robot/build/lib\n'}
+[17.500088] (my_first_robot) StdoutLine: {'line': b'creating /home/genozen/Desktop/ros2_ws/build/my_first_robot/build/lib/my_first_robot\n'}
+[17.505137] (my_first_robot) StdoutLine: {'line': b'copying my_first_robot/__init__.py -> /home/genozen/Desktop/ros2_ws/build/my_first_robot/build/lib/my_first_robot\n'}
+[17.505877] (my_first_robot) StdoutLine: {'line': b'copying my_first_robot/my_first_robot_driver.py -> /home/genozen/Desktop/ros2_ws/build/my_first_robot/build/lib/my_first_robot\n'}
+[17.506639] (my_first_robot) StdoutLine: {'line': b'running install\n'}
+[17.507421] (my_first_robot) StdoutLine: {'line': b'running install_lib\n'}
+[17.508266] (my_first_robot) StdoutLine: {'line': b'creating /home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages/my_first_robot\n'}
+[17.509038] (my_first_robot) StdoutLine: {'line': b'copying /home/genozen/Desktop/ros2_ws/build/my_first_robot/build/lib/my_first_robot/__init__.py -> /home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages/my_first_robot\n'}
+[17.509714] (my_first_robot) StdoutLine: {'line': b'copying /home/genozen/Desktop/ros2_ws/build/my_first_robot/build/lib/my_first_robot/my_first_robot_driver.py -> /home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages/my_first_robot\n'}
+[17.510378] (my_first_robot) StdoutLine: {'line': b'byte-compiling /home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages/my_first_robot/__init__.py to __init__.cpython-310.pyc\n'}
+[17.511033] (my_first_robot) StdoutLine: {'line': b'byte-compiling /home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages/my_first_robot/my_first_robot_driver.py to my_first_robot_driver.cpython-310.pyc\n'}
+[17.521920] (my_first_robot) StderrLine: {'line': b'  File "/home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages/my_first_robot/my_first_robot_driver.py", line 10\n'}
+[17.522889] (my_first_robot) StderrLine: {'line': b'    def joy_callback(self. msg):\n'}
+[17.523635] (my_first_robot) StderrLine: {'line': b'                         ^\n'}
+[17.552686] (my_first_robot) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[17.553437] (my_first_robot) StderrLine: {'line': b'\n'}
+[17.554078] (my_first_robot) StdoutLine: {'line': b'running install_data\n'}
+[17.554670] (my_first_robot) StdoutLine: {'line': b'creating /home/genozen/Desktop/ros2_ws/install/my_first_robot/share/ament_index\n'}
+[17.555258] (my_first_robot) StdoutLine: {'line': b'creating /home/genozen/Desktop/ros2_ws/install/my_first_robot/share/ament_index/resource_index\n'}
+[17.555800] (my_first_robot) StdoutLine: {'line': b'creating /home/genozen/Desktop/ros2_ws/install/my_first_robot/share/ament_index/resource_index/packages\n'}
+[17.568608] (-) TimerEvent: {}
+[17.569357] (my_first_robot) StdoutLine: {'line': b'copying resource/my_first_robot -> /home/genozen/Desktop/ros2_ws/install/my_first_robot/share/ament_index/resource_index/packages\n'}
+[17.570093] (my_first_robot) StdoutLine: {'line': b'copying package.xml -> /home/genozen/Desktop/ros2_ws/install/my_first_robot/share/my_first_robot\n'}
+[17.570675] (my_first_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.571321] (my_first_robot) StdoutLine: {'line': b'Copying ../../build/my_first_robot/my_first_robot.egg-info to /home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages/my_first_robot-0.0.0-py3.10.egg-info\n'}
+[17.571954] (mobile_robotics) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[17.587595] (mobile_robotics) StderrLine: {'line': b'  warnings.warn(\n'}
+[17.602241] (mobile_robotics) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[17.602996] (mobile_robotics) StderrLine: {'line': b'  warnings.warn(\n'}
+[17.623086] (my_first_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[17.676381] (-) TimerEvent: {}
+[17.780356] (-) TimerEvent: {}
+[17.881269] (-) TimerEvent: {}
+[17.984446] (-) TimerEvent: {}
+[18.028332] (my_first_robot) StdoutLine: {'line': b'Installing joystick_listender script to /home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/my_first_robot\n'}
+[18.029460] (my_first_robot) StdoutLine: {'line': b"writing list of installed files to '/home/genozen/Desktop/ros2_ws/build/my_first_robot/install.log'\n"}
+[18.088752] (-) TimerEvent: {}
+[18.190079] (-) TimerEvent: {}
+[18.291118] (-) TimerEvent: {}
+[18.392206] (-) TimerEvent: {}
+[18.493204] (-) TimerEvent: {}
+[18.594366] (-) TimerEvent: {}
+[18.630373] (my_first_robot) CommandEnded: {'returncode': 0}
+[18.704451] (-) TimerEvent: {}
+[18.727986] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[18.806813] (-) TimerEvent: {}
+[18.911450] (-) TimerEvent: {}
+[18.968366] (mobile_robotics) StdoutLine: {'line': b'Removing /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile-robotics.egg-link (link to .)\n'}
+[19.012170] (-) TimerEvent: {}
+[19.113821] (-) TimerEvent: {}
+[19.344517] (-) TimerEvent: {}
+[19.445845] (-) TimerEvent: {}
+[19.546949] (-) TimerEvent: {}
+[19.661093] (-) TimerEvent: {}
+[19.768978] (-) TimerEvent: {}
+[19.858610] (my_first_robot) JobEnded: {'identifier': 'my_first_robot', 'rc': 0}
+[19.906072] (-) TimerEvent: {}
+[19.911345] (mobile_robotics) CommandEnded: {'returncode': 0}
+[19.918038] (mobile_robotics) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mobile_robotics', 'build', '--build-base', '/home/genozen/Desktop/ros2_ws/build/mobile_robotics/build', 'install', '--record', '/home/genozen/Desktop/ros2_ws/build/mobile_robotics/install.log', '--single-version-externally-managed'], 'cwd': '/home/genozen/Desktop/ros2_ws/src/mobile_robotics', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'genozen', 'SSH_CLIENT': '10.0.0.141 49672 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/genozen', 'OLDPWD': '/home/genozen/Desktop/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.83.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c715eab8-f5e4-4621-9671-ba1aace1a985.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'genozen', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/home/genozen/.local/bin:/opt/ros/humble/bin:/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6d29bd55a5.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/genozen/Desktop/ros2_ws/build/mobile_robotics', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.141 49672 10.0.0.104 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/genozen/Desktop/ros2_ws/build/mobile_robotics/prefix_override:/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[20.006368] (-) TimerEvent: {}
+[20.133044] (-) TimerEvent: {}
+[20.236368] (-) TimerEvent: {}
+[20.341352] (-) TimerEvent: {}
+[20.460425] (-) TimerEvent: {}
+[20.561429] (-) TimerEvent: {}
+[20.663234] (-) TimerEvent: {}
+[20.764793] (-) TimerEvent: {}
+[20.874141] (-) TimerEvent: {}
+[20.975866] (-) TimerEvent: {}
+[21.077481] (-) TimerEvent: {}
+[21.191679] (-) TimerEvent: {}
+[21.293691] (-) TimerEvent: {}
+[21.395598] (-) TimerEvent: {}
+[21.500481] (-) TimerEvent: {}
+[21.604349] (-) TimerEvent: {}
+[21.705352] (-) TimerEvent: {}
+[21.807702] (-) TimerEvent: {}
+[21.909207] (-) TimerEvent: {}
+[22.010838] (-) TimerEvent: {}
+[22.120707] (-) TimerEvent: {}
+[22.223205] (-) TimerEvent: {}
+[22.318363] (mobile_robotics) StdoutLine: {'line': b'running egg_info\n'}
+[22.326239] (-) TimerEvent: {}
+[22.352177] (mobile_robotics) StdoutLine: {'line': b'writing ../../build/mobile_robotics/mobile_robotics.egg-info/PKG-INFO\n'}
+[22.357721] (mobile_robotics) StdoutLine: {'line': b'writing dependency_links to ../../build/mobile_robotics/mobile_robotics.egg-info/dependency_links.txt\n'}
+[22.366900] (mobile_robotics) StdoutLine: {'line': b'writing entry points to ../../build/mobile_robotics/mobile_robotics.egg-info/entry_points.txt\n'}
+[22.370345] (mobile_robotics) StdoutLine: {'line': b'writing requirements to ../../build/mobile_robotics/mobile_robotics.egg-info/requires.txt\n'}
+[22.373863] (mobile_robotics) StdoutLine: {'line': b'writing top-level names to ../../build/mobile_robotics/mobile_robotics.egg-info/top_level.txt\n'}
+[22.392618] (mobile_robotics) StdoutLine: {'line': b"reading manifest file '../../build/mobile_robotics/mobile_robotics.egg-info/SOURCES.txt'\n"}
+[22.398843] (mobile_robotics) StdoutLine: {'line': b"writing manifest file '../../build/mobile_robotics/mobile_robotics.egg-info/SOURCES.txt'\n"}
+[22.424939] (mobile_robotics) StdoutLine: {'line': b'running build\n'}
+[22.434061] (-) TimerEvent: {}
+[22.435266] (mobile_robotics) StdoutLine: {'line': b'running build_py\n'}
+[22.440363] (mobile_robotics) StdoutLine: {'line': b'creating /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build\n'}
+[22.447108] (mobile_robotics) StdoutLine: {'line': b'creating /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build/lib\n'}
+[22.452803] (mobile_robotics) StdoutLine: {'line': b'creating /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics\n'}
+[22.456054] (mobile_robotics) StdoutLine: {'line': b'copying mobile_robotics/img_sub.py -> /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics\n'}
+[22.459356] (mobile_robotics) StdoutLine: {'line': b'copying mobile_robotics/img_threading.py -> /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics\n'}
+[22.463341] (mobile_robotics) StdoutLine: {'line': b'copying mobile_robotics/__init__.py -> /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics\n'}
+[22.466286] (mobile_robotics) StdoutLine: {'line': b'copying mobile_robotics/img_pub2.py -> /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics\n'}
+[22.469168] (mobile_robotics) StdoutLine: {'line': b'copying mobile_robotics/img_pub.py -> /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics\n'}
+[22.477233] (mobile_robotics) StdoutLine: {'line': b'running install\n'}
+[22.477827] (mobile_robotics) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[22.478488] (mobile_robotics) StderrLine: {'line': b'  warnings.warn(\n'}
+[22.479105] (mobile_robotics) StdoutLine: {'line': b'running install_lib\n'}
+[22.479667] (mobile_robotics) StdoutLine: {'line': b'creating /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics\n'}
+[22.480396] (mobile_robotics) StdoutLine: {'line': b'copying /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics/img_sub.py -> /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics\n'}
+[22.481215] (mobile_robotics) StdoutLine: {'line': b'copying /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics/img_threading.py -> /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics\n'}
+[22.481839] (mobile_robotics) StdoutLine: {'line': b'copying /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics/__init__.py -> /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics\n'}
+[22.482512] (mobile_robotics) StdoutLine: {'line': b'copying /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics/img_pub2.py -> /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics\n'}
+[22.483142] (mobile_robotics) StdoutLine: {'line': b'copying /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics/img_pub.py -> /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics\n'}
+[22.483751] (mobile_robotics) StdoutLine: {'line': b'byte-compiling /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics/img_sub.py to img_sub.cpython-310.pyc\n'}
+[22.493023] (mobile_robotics) StdoutLine: {'line': b'byte-compiling /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics/img_threading.py to img_threading.cpython-310.pyc\n'}
+[22.494414] (mobile_robotics) StdoutLine: {'line': b'byte-compiling /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics/__init__.py to __init__.cpython-310.pyc\n'}
+[22.495534] (mobile_robotics) StdoutLine: {'line': b'byte-compiling /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics/img_pub2.py to img_pub2.cpython-310.pyc\n'}
+[22.504749] (mobile_robotics) StdoutLine: {'line': b'byte-compiling /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics/img_pub.py to img_pub.cpython-310.pyc\n'}
+[22.506804] (mobile_robotics) StdoutLine: {'line': b'running install_data\n'}
+[22.507454] (mobile_robotics) StdoutLine: {'line': b'running install_egg_info\n'}
+[22.507994] (mobile_robotics) StdoutLine: {'line': b'Copying ../../build/mobile_robotics/mobile_robotics.egg-info to /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics-0.0.0-py3.10.egg-info\n'}
+[22.508745] (mobile_robotics) StdoutLine: {'line': b'running install_scripts\n'}
+[22.539495] (-) TimerEvent: {}
+[22.640520] (-) TimerEvent: {}
+[22.741726] (-) TimerEvent: {}
+[22.749275] (mobile_robotics) StdoutLine: {'line': b'Installing cod_ex2 script to /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/mobile_robotics\n'}
+[22.750241] (mobile_robotics) StdoutLine: {'line': b'Installing part1 script to /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/mobile_robotics\n'}
+[22.756708] (mobile_robotics) StdoutLine: {'line': b"writing list of installed files to '/home/genozen/Desktop/ros2_ws/build/mobile_robotics/install.log'\n"}
+[22.846862] (-) TimerEvent: {}
+[22.948467] (-) TimerEvent: {}
+[23.033561] (mobile_robotics) CommandEnded: {'returncode': 0}
+[23.048994] (-) TimerEvent: {}
+[23.153141] (-) TimerEvent: {}
+[23.157340] (mobile_robotics) JobEnded: {'identifier': 'mobile_robotics', 'rc': 0}
+[23.252914] (-) TimerEvent: {}
+[23.353895] (-) TimerEvent: {}
+[23.454794] (-) TimerEvent: {}
+[23.558519] (-) TimerEvent: {}
+[23.665770] (-) TimerEvent: {}
+[23.766746] (-) TimerEvent: {}
+[23.867709] (-) TimerEvent: {}
+[23.970004] (-) TimerEvent: {}
+[24.071052] (-) TimerEvent: {}
+[24.131461] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[24.172192] (-) TimerEvent: {}
+[24.273210] (-) TimerEvent: {}
+[24.382991] (-) TimerEvent: {}
+[24.485057] (-) TimerEvent: {}
+[24.588905] (-) TimerEvent: {}
+[24.690825] (-) TimerEvent: {}
+[24.756981] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[24.780440] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/genozen/Desktop/ros2_ws/build/rplidar_ros\n'}
+[24.791220] (-) TimerEvent: {}
+[24.826548] (rplidar_ros) CommandEnded: {'returncode': 0}
+[24.852059] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[24.852531] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/genozen/Desktop/ros2_ws/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genozen'), ('SSH_CLIENT', '10.0.0.141 49672 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/genozen'), ('OLDPWD', '/home/genozen/Desktop/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c715eab8-f5e4-4621-9671-ba1aace1a985.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genozen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/home/genozen/.local/bin:/opt/ros/humble/bin:/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6d29bd55a5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/genozen/Desktop/ros2_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.141 49672 10.0.0.104 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[24.891423] (-) TimerEvent: {}
+[24.996356] (-) TimerEvent: {}
+[25.097773] (-) TimerEvent: {}
+[25.170370] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_composition_node\x1b[0m\n'}
+[25.198072] (-) TimerEvent: {}
+[25.299533] (-) TimerEvent: {}
+[25.400634] (-) TimerEvent: {}
+[25.502320] (-) TimerEvent: {}
+[25.596936] (rplidar_ros) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[25.602631] (-) TimerEvent: {}
+[25.692382] (rplidar_ros) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/timer.cpp.o\x1b[0m\n'}
+[25.702914] (-) TimerEvent: {}
+[25.714631] (rplidar_ros) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_socket.cpp.o\x1b[0m\n'}
+[25.718689] (rplidar_ros) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_serial.cpp.o\x1b[0m\n'}
+[25.803126] (-) TimerEvent: {}
+[25.904763] (-) TimerEvent: {}
+[26.007682] (-) TimerEvent: {}
+[26.039882] (openslam_gmapping) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX static library libscanmatcher.a\x1b[0m\n'}
+[26.107915] (-) TimerEvent: {}
+[26.210190] (-) TimerEvent: {}
+[26.319094] (-) TimerEvent: {}
+[26.426801] (-) TimerEvent: {}
+[26.490319] (openslam_gmapping) StdoutLine: {'line': b'[ 77%] Built target scanmatcher\n'}
+[26.527038] (-) TimerEvent: {}
+[26.628983] (-) TimerEvent: {}
+[26.730893] (-) TimerEvent: {}
+[26.743737] (openslam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gridfastslam\x1b[0m\n'}
+[26.831129] (-) TimerEvent: {}
+[26.935297] (-) TimerEvent: {}
+[26.994655] (openslam_gmapping) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o\x1b[0m\n'}
+[27.013578] (openslam_gmapping) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o\x1b[0m\n'}
+[27.027360] (openslam_gmapping) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/motionmodel.cpp.o\x1b[0m\n'}
+[27.034531] (openslam_gmapping) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gfsreader.cpp.o\x1b[0m\n'}
+[27.040409] (-) TimerEvent: {}
+[27.143106] (-) TimerEvent: {}
+[27.248364] (-) TimerEvent: {}
+[27.352223] (-) TimerEvent: {}
+[27.454303] (-) TimerEvent: {}
+[27.595065] (-) TimerEvent: {}
+[27.713078] (-) TimerEvent: {}
+[27.852626] (-) TimerEvent: {}
+[27.953456] (-) TimerEvent: {}
+[28.054284] (-) TimerEvent: {}
+[28.155168] (-) TimerEvent: {}
+[28.260382] (-) TimerEvent: {}
+[28.364670] (-) TimerEvent: {}
+[28.466202] (-) TimerEvent: {}
+[28.568403] (-) TimerEvent: {}
+[28.672345] (-) TimerEvent: {}
+[28.776336] (-) TimerEvent: {}
+[28.877617] (-) TimerEvent: {}
+[28.979093] (-) TimerEvent: {}
+[29.081801] (-) TimerEvent: {}
+[29.184262] (-) TimerEvent: {}
+[29.286866] (-) TimerEvent: {}
+[29.389365] (-) TimerEvent: {}
+[29.491848] (-) TimerEvent: {}
+[29.593296] (-) TimerEvent: {}
+[29.694427] (-) TimerEvent: {}
+[29.795495] (-) TimerEvent: {}
+[29.896550] (-) TimerEvent: {}
+[29.998149] (-) TimerEvent: {}
+[30.099796] (-) TimerEvent: {}
+[30.201440] (-) TimerEvent: {}
+[30.303750] (-) TimerEvent: {}
+[30.405418] (-) TimerEvent: {}
+[30.507043] (-) TimerEvent: {}
+[30.609341] (-) TimerEvent: {}
+[30.712767] (-) TimerEvent: {}
+[30.816119] (-) TimerEvent: {}
+[30.918983] (-) TimerEvent: {}
+[31.036025] (-) TimerEvent: {}
+[31.140539] (-) TimerEvent: {}
+[31.243006] (-) TimerEvent: {}
+[31.304887] (rplidar_ros) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/hal/thread.cpp.o\x1b[0m\n'}
+[31.343266] (-) TimerEvent: {}
+[31.446432] (-) TimerEvent: {}
+[31.549216] (-) TimerEvent: {}
+[31.650279] (-) TimerEvent: {}
+[31.752113] (-) TimerEvent: {}
+[31.854697] (-) TimerEvent: {}
+[31.956907] (-) TimerEvent: {}
+[32.058551] (-) TimerEvent: {}
+[32.160103] (-) TimerEvent: {}
+[32.287541] (-) TimerEvent: {}
+[32.389109] (-) TimerEvent: {}
+[32.490700] (-) TimerEvent: {}
+[32.596483] (-) TimerEvent: {}
+[32.700103] (-) TimerEvent: {}
+[32.801966] (-) TimerEvent: {}
+[32.914366] (-) TimerEvent: {}
+[33.016545] (-) TimerEvent: {}
+[33.117700] (-) TimerEvent: {}
+[33.228055] (-) TimerEvent: {}
+[33.332582] (-) TimerEvent: {}
+[33.435993] (-) TimerEvent: {}
+[33.549991] (-) TimerEvent: {}
+[33.652494] (-) TimerEvent: {}
+[33.738146] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[33.740665] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/include/rplidar_node.hpp:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"M_PI" redefined\n'}
+[33.741788] (rplidar_ros) StderrLine: {'line': b'   50 | #define M_PI 3.1415926535897932384626433832795\n'}
+[33.742692] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[33.744613] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[33.746008] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[33.747279] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[33.750440] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[33.751400] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[33.756972] (-) TimerEvent: {}
+[33.764387] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[33.765447] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[33.766446] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[33.767027] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[33.767706] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[33.794188] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[33.795110] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[33.795899] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[33.813138] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/include/rplidar_node.hpp:34\x1b[m\x1b[K,\n'}
+[33.813969] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[33.814770] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/math.h:1151:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[33.815638] (rplidar_ros) StderrLine: {'line': b' 1151 | # define M_PI           3.14159265358979323846  /* pi */\n'}
+[33.837245] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[33.860415] (-) TimerEvent: {}
+[33.970473] (-) TimerEvent: {}
+[34.071471] (-) TimerEvent: {}
+[34.173512] (-) TimerEvent: {}
+[34.204837] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[34.208521] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[34.212333] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[34.213479] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[34.214625] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[34.215429] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[34.228375] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[34.232739] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[34.241484] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[34.245379] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[34.251733] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[34.262586] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[34.308326] (-) TimerEvent: {}
+[34.409865] (-) TimerEvent: {}
+[34.487304] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[34.500855] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[34.506875] (rplidar_ros) StderrLine: {'line': b'  438 |         if (\x1b[01;35m\x1b[Kans == (int)len\x1b[m\x1b[K) {\n'}
+[34.524980] (-) TimerEvent: {}
+[34.533712] (rplidar_ros) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.568999] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/src/arch/linux/arch_linux.h:42\x1b[m\x1b[K,\n'}
+[34.572857] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/src/sdkcommon.h:40\x1b[m\x1b[K,\n'}
+[34.576932] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[34.580706] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[34.585227] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[34.589970] (rplidar_ros) StderrLine: {'line': b'  726 |             assert(\x1b[01;35m\x1b[Kans == (int)len\x1b[m\x1b[K);\n'}
+[34.609429] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.625213] (-) TimerEvent: {}
+[34.726909] (-) TimerEvent: {}
+[34.828575] (-) TimerEvent: {}
+[34.930135] (-) TimerEvent: {}
+[35.031665] (-) TimerEvent: {}
+[35.137388] (-) TimerEvent: {}
+[35.239140] (-) TimerEvent: {}
+[35.279441] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[35.300752] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[35.302536] (rplidar_ros) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, \x1b[01;35m\x1b[Kuint32_t flags\x1b[m\x1b[K)\n'}
+[35.303887] (rplidar_ros) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[35.309480] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::flush(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[35.310915] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[35.312396] (rplidar_ros) StderrLine: {'line': b'  281 | void raw_serial::flush( \x1b[01;35m\x1b[K_u32 flags\x1b[m\x1b[K)\n'}
+[35.314519] (rplidar_ros) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[35.316434] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[35.317894] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[35.319206] (rplidar_ros) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[35.320433] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[35.322421] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[35.324151] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[35.325614] (rplidar_ros) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[35.340410] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[35.341541] (-) TimerEvent: {}
+[35.445232] (-) TimerEvent: {}
+[35.546806] (-) TimerEvent: {}
+[35.648069] (-) TimerEvent: {}
+[35.750602] (-) TimerEvent: {}
+[35.854664] (-) TimerEvent: {}
+[35.957384] (-) TimerEvent: {}
+[36.059866] (-) TimerEvent: {}
+[36.164483] (-) TimerEvent: {}
+[36.267020] (-) TimerEvent: {}
+[36.369752] (-) TimerEvent: {}
+[36.472908] (-) TimerEvent: {}
+[36.576368] (-) TimerEvent: {}
+[36.698585] (-) TimerEvent: {}
+[36.803418] (-) TimerEvent: {}
+[36.906502] (-) TimerEvent: {}
+[37.011722] (-) TimerEvent: {}
+[37.163677] (-) TimerEvent: {}
+[37.266052] (-) TimerEvent: {}
+[37.368297] (-) TimerEvent: {}
+[37.476511] (-) TimerEvent: {}
+[37.578834] (-) TimerEvent: {}
+[37.679995] (-) TimerEvent: {}
+[37.784488] (-) TimerEvent: {}
+[37.898833] (-) TimerEvent: {}
+[38.000029] (-) TimerEvent: {}
+[38.103192] (-) TimerEvent: {}
+[38.207049] (-) TimerEvent: {}
+[38.309782] (-) TimerEvent: {}
+[38.413866] (-) TimerEvent: {}
+[38.521500] (-) TimerEvent: {}
+[38.624709] (-) TimerEvent: {}
+[38.727803] (-) TimerEvent: {}
+[38.832393] (-) TimerEvent: {}
+[38.943940] (-) TimerEvent: {}
+[39.046076] (-) TimerEvent: {}
+[39.147609] (-) TimerEvent: {}
+[39.250174] (-) TimerEvent: {}
+[39.300771] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[39.304766] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[39.308711] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[39.312756] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[39.317573] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[39.321538] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[39.324939] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[39.328591] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[39.335110] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[39.339815] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[39.367226] (-) TimerEvent: {}
+[39.367876] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[39.369147] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[39.370009] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/hal/thread.cpp:43\x1b[m\x1b[K:\n'}
+[39.370893] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[39.375231] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:48:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcast between incompatible function types from \xe2\x80\x98\x1b[01m\x1b[Kthread_proc_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int (*)(void*)\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid* (*)(void*)\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type\x07-Wcast-function-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[39.376115] (rplidar_ros) StderrLine: {'line': b'   48 |     pthread_create((pthread_t *)&newborn._handle, NULL, \x1b[01;35m\x1b[K(void * (*)(void *))proc\x1b[m\x1b[K, data);\n'}
+[39.379394] (rplidar_ros) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[39.481350] (-) TimerEvent: {}
+[39.481948] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::hal::Thread::join(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[39.482881] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[39.483599] (rplidar_ros) StderrLine: {'line': b'  129 | u_result Thread::join(\x1b[01;35m\x1b[Kunsigned long timeout\x1b[m\x1b[K)\n'}
+[39.484345] (rplidar_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[39.581595] (-) TimerEvent: {}
+[39.693753] (-) TimerEvent: {}
+[39.798502] (-) TimerEvent: {}
+[39.901532] (-) TimerEvent: {}
+[40.002966] (-) TimerEvent: {}
+[40.106916] (-) TimerEvent: {}
+[40.210831] (-) TimerEvent: {}
+[40.311767] (-) TimerEvent: {}
+[40.412770] (-) TimerEvent: {}
+[40.514186] (-) TimerEvent: {}
+[40.615277] (-) TimerEvent: {}
+[40.717352] (-) TimerEvent: {}
+[40.818499] (-) TimerEvent: {}
+[40.920395] (-) TimerEvent: {}
+[41.023979] (-) TimerEvent: {}
+[41.125268] (-) TimerEvent: {}
+[41.226296] (-) TimerEvent: {}
+[41.327322] (-) TimerEvent: {}
+[41.429230] (-) TimerEvent: {}
+[41.531788] (-) TimerEvent: {}
+[41.646125] (-) TimerEvent: {}
+[41.747452] (-) TimerEvent: {}
+[41.848755] (-) TimerEvent: {}
+[41.949748] (-) TimerEvent: {}
+[42.050791] (-) TimerEvent: {}
+[42.154964] (-) TimerEvent: {}
+[42.255914] (-) TimerEvent: {}
+[42.357141] (-) TimerEvent: {}
+[42.476268] (-) TimerEvent: {}
+[42.580370] (-) TimerEvent: {}
+[42.682612] (-) TimerEvent: {}
+[42.784370] (-) TimerEvent: {}
+[42.886271] (-) TimerEvent: {}
+[42.987492] (-) TimerEvent: {}
+[43.089438] (-) TimerEvent: {}
+[43.190714] (-) TimerEvent: {}
+[43.291962] (-) TimerEvent: {}
+[43.393219] (-) TimerEvent: {}
+[43.494266] (-) TimerEvent: {}
+[43.595376] (-) TimerEvent: {}
+[43.696458] (-) TimerEvent: {}
+[43.797555] (-) TimerEvent: {}
+[43.898560] (-) TimerEvent: {}
+[43.999733] (-) TimerEvent: {}
+[44.101162] (-) TimerEvent: {}
+[44.202730] (-) TimerEvent: {}
+[44.304058] (-) TimerEvent: {}
+[44.405709] (-) TimerEvent: {}
+[44.507727] (-) TimerEvent: {}
+[44.610011] (-) TimerEvent: {}
+[44.714742] (-) TimerEvent: {}
+[44.815711] (-) TimerEvent: {}
+[44.918135] (-) TimerEvent: {}
+[45.019374] (-) TimerEvent: {}
+[45.122037] (-) TimerEvent: {}
+[45.218841] (openslam_gmapping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library libgridfastslam.a\x1b[0m\n'}
+[45.222268] (-) TimerEvent: {}
+[45.323195] (-) TimerEvent: {}
+[45.427038] (-) TimerEvent: {}
+[45.509460] (openslam_gmapping) StdoutLine: {'line': b'[100%] Built target gridfastslam\n'}
+[45.527225] (-) TimerEvent: {}
+[45.574879] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[45.627473] (-) TimerEvent: {}
+[45.758211] (-) TimerEvent: {}
+[45.779993] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'install'}
+[45.828952] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/genozen/Desktop/ros2_ws/build/openslam_gmapping'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genozen'), ('SSH_CLIENT', '10.0.0.141 49672 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/genozen'), ('OLDPWD', '/home/genozen/Desktop/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c715eab8-f5e4-4621-9671-ba1aace1a985.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genozen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/home/genozen/.local/bin:/opt/ros/humble/bin:/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6d29bd55a5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/genozen/Desktop/ros2_ws/build/openslam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.141 49672 10.0.0.104 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[45.858497] (-) TimerEvent: {}
+[45.867175] (openslam_gmapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[45.871909] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[45.872768] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[45.881915] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include/\n'}
+[45.882823] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping\n'}
+[45.883553] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor\n'}
+[45.884549] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry\n'}
+[45.885301] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h\n'}
+[45.886026] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h\n'}
+[45.886768] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base\n'}
+[45.887449] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h\n'}
+[45.888113] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h\n'}
+[45.889034] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range\n'}
+[45.889735] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h\n'}
+[45.890388] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h\n'}
+[45.891173] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/grid\n'}
+[45.891915] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h\n'}
+[45.900307] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h\n'}
+[45.901157] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h\n'}
+[45.901867] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/grid/map.h\n'}
+[45.902536] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/utils\n'}
+[45.903192] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/utils/stat.h\n'}
+[45.903884] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h\n'}
+[45.904841] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h\n'}
+[45.905598] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h\n'}
+[45.906265] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/utils/point.h\n'}
+[45.906904] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h\n'}
+[45.907588] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/log\n'}
+[45.912453] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h\n'}
+[45.913306] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/log/configuration.h\n'}
+[45.913977] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam\n'}
+[45.914641] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx\n'}
+[45.915314] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h\n'}
+[45.915993] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h\n'}
+[45.921042] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/particlefilter\n'}
+[45.921766] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h\n'}
+[45.922465] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher\n'}
+[45.923187] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h\n'}
+[45.923844] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h\n'}
+[45.926989] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h\n'}
+[45.927905] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping\n'}
+[45.928734] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping\n'}
+[45.929450] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh\n'}
+[45.930197] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv\n'}
+[45.930859] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh\n'}
+[45.931506] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv\n'}
+[45.937189] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash\n'}
+[45.938165] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh\n'}
+[45.938810] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh\n'}
+[45.939426] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv\n'}
+[45.940050] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv\n'}
+[45.946903] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping\n'}
+[45.951881] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[45.952810] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[45.953541] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake\n'}
+[45.954277] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake\n'}
+[45.954960] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml\n'}
+[45.955669] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib/libgridfastslam.a\n'}
+[45.958826] (-) TimerEvent: {}
+[45.960684] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib/libscanmatcher.a\n'}
+[45.961553] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[45.962269] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[45.966847] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib/libsensor_base.a\n'}
+[45.970543] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[45.992354] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[45.993258] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib/libsensor_odometry.a\n'}
+[45.993928] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib/libsensor_range.a\n'}
+[45.994590] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib/libutils.a\n'}
+[46.006641] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[46.007631] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[46.032472] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[46.059029] (-) TimerEvent: {}
+[46.160085] (-) TimerEvent: {}
+[46.261146] (-) TimerEvent: {}
+[46.359832] (openslam_gmapping) JobEnded: {'identifier': 'openslam_gmapping', 'rc': 0}
+[46.364342] (-) TimerEvent: {}
+[46.364956] (slam_gmapping) JobStarted: {'identifier': 'slam_gmapping'}
+[46.467918] (-) TimerEvent: {}
+[46.502093] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'cmake'}
+[46.514701] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'build'}
+[46.517536] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/genozen/Desktop/ros2_ws/build/slam_gmapping', '--', '-j4', '-l4'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/slam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genozen'), ('SSH_CLIENT', '10.0.0.141 49672 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/genozen'), ('OLDPWD', '/home/genozen/Desktop/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c715eab8-f5e4-4621-9671-ba1aace1a985.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genozen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/home/genozen/.local/bin:/opt/ros/humble/bin:/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6d29bd55a5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/genozen/Desktop/ros2_ws/build/slam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.141 49672 10.0.0.104 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/opt/ros/humble')]), 'shell': False}
+[46.568233] (-) TimerEvent: {}
+[46.669834] (-) TimerEvent: {}
+[46.771653] (-) TimerEvent: {}
+[46.872686] (-) TimerEvent: {}
+[46.974303] (-) TimerEvent: {}
+[47.075772] (-) TimerEvent: {}
+[47.176793] (-) TimerEvent: {}
+[47.208683] (slam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_gmapping\x1b[0m\n'}
+[47.277021] (-) TimerEvent: {}
+[47.377935] (-) TimerEvent: {}
+[47.469662] (slam_gmapping) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o\x1b[0m\n'}
+[47.478203] (-) TimerEvent: {}
+[47.579912] (-) TimerEvent: {}
+[47.682939] (-) TimerEvent: {}
+[47.788340] (-) TimerEvent: {}
+[47.890461] (-) TimerEvent: {}
+[47.992376] (-) TimerEvent: {}
+[48.093335] (-) TimerEvent: {}
+[48.195037] (-) TimerEvent: {}
+[48.333860] (-) TimerEvent: {}
+[48.436990] (-) TimerEvent: {}
+[48.538296] (-) TimerEvent: {}
+[48.639767] (-) TimerEvent: {}
+[48.742581] (-) TimerEvent: {}
+[48.844235] (-) TimerEvent: {}
+[48.945203] (-) TimerEvent: {}
+[49.046585] (-) TimerEvent: {}
+[49.148080] (-) TimerEvent: {}
+[49.249594] (-) TimerEvent: {}
+[49.355297] (-) TimerEvent: {}
+[49.456881] (-) TimerEvent: {}
+[49.559461] (-) TimerEvent: {}
+[49.660587] (-) TimerEvent: {}
+[49.764387] (-) TimerEvent: {}
+[49.865309] (-) TimerEvent: {}
+[49.966393] (-) TimerEvent: {}
+[50.074221] (-) TimerEvent: {}
+[50.175219] (-) TimerEvent: {}
+[50.260618] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:38\x1b[m\x1b[K,\n'}
+[50.261983] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[50.262537] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[50.263014] (slam_gmapping) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[50.263544] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[50.275445] (-) TimerEvent: {}
+[50.376391] (-) TimerEvent: {}
+[50.477643] (-) TimerEvent: {}
+[50.578512] (-) TimerEvent: {}
+[50.679426] (-) TimerEvent: {}
+[50.780357] (-) TimerEvent: {}
+[50.796968] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[50.797792] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[50.798410] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[50.799276] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[50.799899] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[50.800565] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[50.801150] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[50.801724] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[50.802247] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[50.802812] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[50.803433] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[50.804012] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[50.880548] (-) TimerEvent: {}
+[50.981436] (-) TimerEvent: {}
+[51.082730] (-) TimerEvent: {}
+[51.122711] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rplidar_ros::rplidar_node::stop_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[51.123613] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:248:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[51.124808] (rplidar_ros) StderrLine: {'line': b'  248 | void rplidar_node::stop_motor(\x1b[01;35m\x1b[Kconst EmptyRequest req\x1b[m\x1b[K, EmptyResponse res)\n'}
+[51.126244] (rplidar_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[51.126972] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:248:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[51.127690] (rplidar_ros) StderrLine: {'line': b'  248 | void rplidar_node::stop_motor(const EmptyRequest req, \x1b[01;35m\x1b[KEmptyResponse res\x1b[m\x1b[K)\n'}
+[51.128452] (rplidar_ros) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[51.129107] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rplidar_ros::rplidar_node::start_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[51.130410] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:259:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[51.131183] (rplidar_ros) StderrLine: {'line': b'  259 | void rplidar_node::start_motor(\x1b[01;35m\x1b[Kconst EmptyRequest req\x1b[m\x1b[K, EmptyResponse res)\n'}
+[51.131738] (rplidar_ros) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[51.132473] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:259:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[51.133184] (rplidar_ros) StderrLine: {'line': b'  259 | void rplidar_node::start_motor(const EmptyRequest req, \x1b[01;35m\x1b[KEmptyResponse res\x1b[m\x1b[K)\n'}
+[51.133778] (rplidar_ros) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[51.156503] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rplidar_ros::rplidar_node::publish_loop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[51.157366] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:362:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[51.157951] (rplidar_ros) StderrLine: {'line': b'  362 |           for (j = 0; \x1b[01;35m\x1b[Kj < m_angle_compensate_multiple\x1b[m\x1b[K; j++) {\n'}
+[51.158483] (rplidar_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[51.159501] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:383:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[51.160606] (rplidar_ros) StderrLine: {'line': b'  383 |       for (size_t x = start_node, y = 0; \x1b[01;35m\x1b[Kx < end_node\x1b[m\x1b[K; ++x, ++y) {\n'}
+[51.161223] (rplidar_ros) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[51.161715] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:390:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kangle_min\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[51.162279] (rplidar_ros) StderrLine: {'line': b'  390 |     float \x1b[01;35m\x1b[Kangle_min\x1b[m\x1b[K = deg_2_rad(0.0f);\n'}
+[51.162998] (rplidar_ros) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[51.163736] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:391:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kangle_max\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[51.164545] (rplidar_ros) StderrLine: {'line': b'  391 |     float \x1b[01;35m\x1b[Kangle_max\x1b[m\x1b[K = deg_2_rad(359.0f);\n'}
+[51.165157] (rplidar_ros) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[51.182953] (-) TimerEvent: {}
+[51.286126] (-) TimerEvent: {}
+[51.388376] (-) TimerEvent: {}
+[51.489611] (-) TimerEvent: {}
+[51.590523] (-) TimerEvent: {}
+[51.691434] (-) TimerEvent: {}
+[51.792451] (-) TimerEvent: {}
+[51.893384] (-) TimerEvent: {}
+[51.994293] (-) TimerEvent: {}
+[52.095184] (-) TimerEvent: {}
+[52.196273] (-) TimerEvent: {}
+[52.297846] (-) TimerEvent: {}
+[52.399060] (-) TimerEvent: {}
+[52.500285] (-) TimerEvent: {}
+[52.601427] (-) TimerEvent: {}
+[52.702483] (-) TimerEvent: {}
+[52.803607] (-) TimerEvent: {}
+[52.905174] (-) TimerEvent: {}
+[53.006607] (-) TimerEvent: {}
+[53.112337] (-) TimerEvent: {}
+[53.214122] (-) TimerEvent: {}
+[53.316375] (-) TimerEvent: {}
+[53.420612] (-) TimerEvent: {}
+[53.521666] (-) TimerEvent: {}
+[53.623787] (-) TimerEvent: {}
+[53.727025] (-) TimerEvent: {}
+[53.829743] (-) TimerEvent: {}
+[53.931215] (-) TimerEvent: {}
+[54.032194] (-) TimerEvent: {}
+[54.133552] (-) TimerEvent: {}
+[54.235182] (-) TimerEvent: {}
+[54.336301] (-) TimerEvent: {}
+[54.437794] (-) TimerEvent: {}
+[54.538781] (-) TimerEvent: {}
+[54.639882] (-) TimerEvent: {}
+[54.744334] (-) TimerEvent: {}
+[54.845278] (-) TimerEvent: {}
+[54.946814] (-) TimerEvent: {}
+[55.049096] (-) TimerEvent: {}
+[55.151262] (-) TimerEvent: {}
+[55.255087] (-) TimerEvent: {}
+[55.356461] (-) TimerEvent: {}
+[55.465691] (-) TimerEvent: {}
+[55.572101] (-) TimerEvent: {}
+[55.673345] (-) TimerEvent: {}
+[55.774301] (-) TimerEvent: {}
+[55.875265] (-) TimerEvent: {}
+[55.976302] (-) TimerEvent: {}
+[56.077250] (-) TimerEvent: {}
+[56.178230] (-) TimerEvent: {}
+[56.279258] (-) TimerEvent: {}
+[56.384378] (-) TimerEvent: {}
+[56.485417] (-) TimerEvent: {}
+[56.588344] (-) TimerEvent: {}
+[56.692341] (-) TimerEvent: {}
+[56.793579] (-) TimerEvent: {}
+[56.894592] (-) TimerEvent: {}
+[56.996026] (-) TimerEvent: {}
+[57.097172] (-) TimerEvent: {}
+[57.199650] (-) TimerEvent: {}
+[57.300677] (-) TimerEvent: {}
+[57.402680] (-) TimerEvent: {}
+[57.503667] (-) TimerEvent: {}
+[57.608382] (-) TimerEvent: {}
+[57.712397] (-) TimerEvent: {}
+[57.813504] (-) TimerEvent: {}
+[57.914589] (-) TimerEvent: {}
+[58.015836] (-) TimerEvent: {}
+[58.119938] (-) TimerEvent: {}
+[58.220936] (-) TimerEvent: {}
+[58.323189] (-) TimerEvent: {}
+[58.425616] (-) TimerEvent: {}
+[58.528225] (-) TimerEvent: {}
+[58.629877] (-) TimerEvent: {}
+[58.736347] (-) TimerEvent: {}
+[58.839007] (-) TimerEvent: {}
+[58.941039] (-) TimerEvent: {}
+[59.042758] (-) TimerEvent: {}
+[59.145196] (-) TimerEvent: {}
+[59.246195] (-) TimerEvent: {}
+[59.347258] (-) TimerEvent: {}
+[59.448289] (-) TimerEvent: {}
+[59.549201] (-) TimerEvent: {}
+[59.650607] (-) TimerEvent: {}
+[59.798434] (-) TimerEvent: {}
+[59.899434] (-) TimerEvent: {}
+[60.000753] (-) TimerEvent: {}
+[60.117018] (-) TimerEvent: {}
+[60.219804] (-) TimerEvent: {}
+[60.327839] (-) TimerEvent: {}
+[60.429212] (-) TimerEvent: {}
+[60.530195] (-) TimerEvent: {}
+[60.636365] (-) TimerEvent: {}
+[60.737406] (-) TimerEvent: {}
+[60.838438] (-) TimerEvent: {}
+[60.940329] (-) TimerEvent: {}
+[61.041423] (-) TimerEvent: {}
+[61.144473] (-) TimerEvent: {}
+[61.255679] (-) TimerEvent: {}
+[61.366563] (-) TimerEvent: {}
+[61.467643] (-) TimerEvent: {}
+[61.570561] (-) TimerEvent: {}
+[61.673748] (-) TimerEvent: {}
+[61.776218] (-) TimerEvent: {}
+[61.881663] (-) TimerEvent: {}
+[61.983641] (-) TimerEvent: {}
+[62.086116] (-) TimerEvent: {}
+[62.187092] (-) TimerEvent: {}
+[62.288088] (-) TimerEvent: {}
+[62.389143] (-) TimerEvent: {}
+[62.490159] (-) TimerEvent: {}
+[62.591134] (-) TimerEvent: {}
+[62.692203] (-) TimerEvent: {}
+[62.793294] (-) TimerEvent: {}
+[62.894381] (-) TimerEvent: {}
+[63.000382] (-) TimerEvent: {}
+[63.101464] (-) TimerEvent: {}
+[63.204352] (-) TimerEvent: {}
+[63.308353] (-) TimerEvent: {}
+[63.412366] (-) TimerEvent: {}
+[63.516355] (-) TimerEvent: {}
+[63.620328] (-) TimerEvent: {}
+[63.721383] (-) TimerEvent: {}
+[63.822440] (-) TimerEvent: {}
+[63.923905] (-) TimerEvent: {}
+[64.025476] (-) TimerEvent: {}
+[64.126437] (-) TimerEvent: {}
+[64.229517] (-) TimerEvent: {}
+[64.334272] (-) TimerEvent: {}
+[64.443073] (-) TimerEvent: {}
+[64.545882] (-) TimerEvent: {}
+[64.648336] (-) TimerEvent: {}
+[64.752428] (-) TimerEvent: {}
+[64.856476] (-) TimerEvent: {}
+[64.960332] (-) TimerEvent: {}
+[65.064353] (-) TimerEvent: {}
+[65.166738] (-) TimerEvent: {}
+[65.271722] (-) TimerEvent: {}
+[65.372959] (-) TimerEvent: {}
+[65.473974] (-) TimerEvent: {}
+[65.576035] (-) TimerEvent: {}
+[65.678733] (-) TimerEvent: {}
+[65.779682] (-) TimerEvent: {}
+[65.884503] (-) TimerEvent: {}
+[65.985470] (-) TimerEvent: {}
+[66.086489] (-) TimerEvent: {}
+[66.187461] (-) TimerEvent: {}
+[66.317554] (-) TimerEvent: {}
+[66.418622] (-) TimerEvent: {}
+[66.519600] (-) TimerEvent: {}
+[66.620559] (-) TimerEvent: {}
+[66.721486] (-) TimerEvent: {}
+[66.822489] (-) TimerEvent: {}
+[66.923582] (-) TimerEvent: {}
+[66.980084] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9\x1b[m\x1b[K,\n'}
+[66.985558] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[66.986301] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[66.987037] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[66.987767] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99 clause does not guard... [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation\x07-Wmisleading-indentation\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[66.988685] (slam_gmapping) StderrLine: {'line': b'  140 |         \x1b[01;35m\x1b[Kif\x1b[m\x1b[K (count>0)\n'}
+[66.989364] (slam_gmapping) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[66.989989] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K...this statement, but the latter is misleadingly indented as if it were guarded by the \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[66.990824] (slam_gmapping) StderrLine: {'line': b'  142 |                 \x1b[01;36m\x1b[Kout\x1b[m\x1b[K++;\n'}
+[66.991548] (slam_gmapping) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[67.023793] (-) TimerEvent: {}
+[67.124840] (-) TimerEvent: {}
+[67.225826] (-) TimerEvent: {}
+[67.326776] (-) TimerEvent: {}
+[67.427937] (-) TimerEvent: {}
+[67.531490] (-) TimerEvent: {}
+[67.632875] (-) TimerEvent: {}
+[67.736370] (-) TimerEvent: {}
+[67.837351] (-) TimerEvent: {}
+[67.938556] (-) TimerEvent: {}
+[68.039565] (-) TimerEvent: {}
+[68.141197] (-) TimerEvent: {}
+[68.244005] (-) TimerEvent: {}
+[68.345262] (-) TimerEvent: {}
+[68.446292] (-) TimerEvent: {}
+[68.514730] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/utility:70\x1b[m\x1b[K,\n'}
+[68.515619] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:38\x1b[m\x1b[K,\n'}
+[68.516446] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:38\x1b[m\x1b[K,\n'}
+[68.524846] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:26\x1b[m\x1b[K,\n'}
+[68.538147] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[68.539989] (slam_gmapping) StderrLine: {'line': b'/usr/include/c++/11/bits/stl_pair.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::pair<typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type, typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type> std::make_pair(_T1&&, _T2&&) [with _T1 = GMapping::point<double>&; _T2 = GMapping::point<double>&; typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type = GMapping::point<double>; typename std::decay<_Tp2>::type = std::decay<GMapping::point<double>&>::type; typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type = GMapping::point<double>; typename std::decay<_Tp>::type = std::decay<GMapping::point<double>&>::type]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[68.559162] (-) TimerEvent: {}
+[68.571341] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:127:34:\x1b[m\x1b[K   required from here\n'}
+[68.572336] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:567:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<GMapping::point<double>, GMapping::point<double> >\x1b[m\x1b[K\xe2\x80\x99 when C++17 is enabled changed to match C++14 \x1b]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_base\x07in GCC 10.1\x1b]8;;\x07\n'}
+[68.573317] (slam_gmapping) StderrLine: {'line': b'  567 |     \x1b[01;36m\x1b[Kmake_pair\x1b[m\x1b[K(_T1&& __x, _T2&& __y)\n'}
+[68.574139] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[68.659403] (-) TimerEvent: {}
+[68.760388] (-) TimerEvent: {}
+[68.885697] (-) TimerEvent: {}
+[68.986642] (-) TimerEvent: {}
+[69.087686] (-) TimerEvent: {}
+[69.188832] (-) TimerEvent: {}
+[69.290008] (-) TimerEvent: {}
+[69.394235] (-) TimerEvent: {}
+[69.504657] (-) TimerEvent: {}
+[69.613436] (-) TimerEvent: {}
+[69.716364] (-) TimerEvent: {}
+[69.817505] (-) TimerEvent: {}
+[69.919011] (-) TimerEvent: {}
+[70.020709] (-) TimerEvent: {}
+[70.123465] (-) TimerEvent: {}
+[70.224704] (-) TimerEvent: {}
+[70.328342] (-) TimerEvent: {}
+[70.429280] (-) TimerEvent: {}
+[70.530293] (-) TimerEvent: {}
+[70.631322] (-) TimerEvent: {}
+[70.734440] (-) TimerEvent: {}
+[70.835378] (-) TimerEvent: {}
+[70.938646] (-) TimerEvent: {}
+[71.040729] (-) TimerEvent: {}
+[71.143298] (-) TimerEvent: {}
+[71.244360] (-) TimerEvent: {}
+[71.347258] (-) TimerEvent: {}
+[71.449376] (-) TimerEvent: {}
+[71.550788] (-) TimerEvent: {}
+[71.656709] (-) TimerEvent: {}
+[71.758087] (-) TimerEvent: {}
+[71.803885] (rplidar_ros) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/rplidar_driver.cpp.o\x1b[0m\n'}
+[71.858780] (-) TimerEvent: {}
+[71.960763] (-) TimerEvent: {}
+[72.061912] (-) TimerEvent: {}
+[72.163041] (-) TimerEvent: {}
+[72.264124] (-) TimerEvent: {}
+[72.365288] (-) TimerEvent: {}
+[72.467085] (-) TimerEvent: {}
+[72.569873] (-) TimerEvent: {}
+[72.672859] (-) TimerEvent: {}
+[72.775339] (-) TimerEvent: {}
+[72.878425] (-) TimerEvent: {}
+[72.981167] (-) TimerEvent: {}
+[73.083646] (-) TimerEvent: {}
+[73.185845] (-) TimerEvent: {}
+[73.288970] (-) TimerEvent: {}
+[73.391939] (-) TimerEvent: {}
+[73.494747] (-) TimerEvent: {}
+[73.597653] (-) TimerEvent: {}
+[73.699415] (-) TimerEvent: {}
+[73.801808] (-) TimerEvent: {}
+[73.903907] (-) TimerEvent: {}
+[74.008381] (-) TimerEvent: {}
+[74.116360] (-) TimerEvent: {}
+[74.217529] (-) TimerEvent: {}
+[74.321489] (-) TimerEvent: {}
+[74.424692] (-) TimerEvent: {}
+[74.530234] (-) TimerEvent: {}
+[74.633212] (-) TimerEvent: {}
+[74.736179] (-) TimerEvent: {}
+[74.839289] (-) TimerEvent: {}
+[74.942404] (-) TimerEvent: {}
+[74.994492] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[74.998324] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[75.002785] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35\x1b[m\x1b[K:\n'}
+[75.007084] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[75.010986] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[75.015048] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[75.019499] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[75.024384] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[75.029270] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35\x1b[m\x1b[K:\n'}
+[75.033720] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[75.037969] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[75.042227] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[75.048206] (-) TimerEvent: {}
+[75.152122] (-) TimerEvent: {}
+[75.254078] (-) TimerEvent: {}
+[75.355710] (-) TimerEvent: {}
+[75.459197] (-) TimerEvent: {}
+[75.560714] (-) TimerEvent: {}
+[75.661941] (-) TimerEvent: {}
+[75.763702] (-) TimerEvent: {}
+[75.865530] (-) TimerEvent: {}
+[75.931233] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::reset(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[75.934200] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:121:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[75.935809] (rplidar_ros) StderrLine: {'line': b'  121 | u_result RPlidarDriverImplCommon::reset(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[75.944504] (rplidar_ros) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[75.945979] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::checkIfTofLidar(bool&, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[75.947441] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:275:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[75.966101] (-) TimerEvent: {}
+[75.973363] (rplidar_ros) StderrLine: {'line': b'  275 | u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, \x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[75.983532] (rplidar_ros) StderrLine: {'line': b'      |                                                                      \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[75.988271] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::standalone::rplidar::RPlidarDriverImplCommon::_getSyncBitByAngle(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[75.993024] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:671:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Klast_angleInc_q16\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[76.002624] (rplidar_ros) StderrLine: {'line': b'  671 |     static int \x1b[01;35m\x1b[Klast_angleInc_q16\x1b[m\x1b[K = 0;\n'}
+[76.007364] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[76.013876] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:673:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[76.018700] (rplidar_ros) StderrLine: {'line': b'  673 |     int \x1b[01;35m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K = (int)((5 << 16) / angleInc_q16) + 1;//find syncBit in 0~3 degree\n'}
+[76.023520] (rplidar_ros) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[76.028829] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::_cacheUltraCapsuledScanData()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.034370] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:771:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klast_scan_count\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[76.039164] (rplidar_ros) StderrLine: {'line': b'  771 |     size_t                                   \x1b[01;35m\x1b[Klast_scan_count\x1b[m\x1b[K = 0;\n'}
+[76.044012] (rplidar_ros) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[76.048650] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.053252] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:850:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[76.057939] (rplidar_ros) StderrLine: {'line': b'  850 |             int \x1b[01;35m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K = (int)((2 << 16) / angleInc_q16) + 1;//find syncBit in 0~1 degree\n'}
+[76.062537] (rplidar_ros) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[76.066517] (-) TimerEvent: {}
+[76.068320] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_dense_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.072904] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:903:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on cast result type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[76.077518] (rplidar_ros) StderrLine: {'line': b'  903 |             const int dist = \x1b[01;35m\x1b[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)\x1b[m\x1b[K;\n'}
+[76.085410] (rplidar_ros) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[76.089939] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_u32 rp::standalone::rplidar::_crc32cal(_u32, void*, _u16)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.094738] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1027:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around \xe2\x80\x98\x1b[01m\x1b[K-\x1b[m\x1b[K\xe2\x80\x99 in operand of \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses\x07-Wparentheses\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[76.099297] (rplidar_ros) StderrLine: {'line': b' 1027 |     _u8 leftBytes = \x1b[01;35m\x1b[K4 - len\x1b[m\x1b[K & 0x3;\n'}
+[76.103980] (rplidar_ros) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~\x1b[m\x1b[K\n'}
+[76.108713] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.113417] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1238:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[76.118215] (rplidar_ros) StderrLine: {'line': b' 1238 |             if ((\x1b[01;35m\x1b[Kdist_predict1 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict1 == 0x1FF)) {\n'}
+[76.122807] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[76.127507] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1246:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[76.135426] (rplidar_ros) StderrLine: {'line': b' 1246 |             if ((\x1b[01;35m\x1b[Kdist_predict2 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict2 == 0x1FF)) {\n'}
+[76.145874] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[76.150867] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1256:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[76.155493] (rplidar_ros) StderrLine: {'line': b' 1256 |                 int \x1b[01;35m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K = (int)((3 << 16) / angleInc_q16)+1;//find syncBit in 0~1 degree\n'}
+[76.160123] (rplidar_ros) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[76.164890] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<rp::standalone::rplidar::RplidarScanMode>&, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.169569] (-) TimerEvent: {}
+[76.171320] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1484:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[76.176104] (rplidar_ros) StderrLine: {'line': b' 1484 | sult RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, \x1b[01;35m\x1b[K_u32 timeoutInMs\x1b[m\x1b[K)\n'}
+[76.184173] (rplidar_ros) StderrLine: {'line': b'      |                                                                                                \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[76.192516] (rplidar_ros) StderrLine: {'line': b'\n'}
+[76.193861] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startScan(bool, bool, _u32, rp::standalone::rplidar::RplidarScanMode*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.195140] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1581:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Koptions\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[76.196383] (rplidar_ros) StderrLine: {'line': b' 1581 | u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, \x1b[01;35m\x1b[K_u32 options\x1b[m\x1b[K, RplidarScanMode* outUsedScanMode)\n'}
+[76.197591] (rplidar_ros) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[76.198777] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::stop(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.199932] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1805:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[76.201308] (rplidar_ros) StderrLine: {'line': b' 1805 | u_result RPlidarDriverImplCommon::stop(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[76.202463] (rplidar_ros) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[76.203700] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::setLidarSpinSpeed(_u16, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.209311] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2193:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[76.210850] (rplidar_ros) StderrLine: {'line': b' 2193 | u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, \x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[76.215707] (rplidar_ros) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[76.220305] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverSerial::connect(const char*, _u32, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.225033] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2270:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[76.230018] (rplidar_ros) StderrLine: {'line': b' 2270 | u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, \x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K)\n'}
+[76.233213] (rplidar_ros) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[76.234367] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverTCP::connect(const char*, _u32, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.235426] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2312:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[76.238547] (rplidar_ros) StderrLine: {'line': b' 2312 | u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, \x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K)\n'}
+[76.243157] (rplidar_ros) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[76.269830] (-) TimerEvent: {}
+[76.372054] (-) TimerEvent: {}
+[76.386302] (rplidar_ros) StderrLine: {'line': b'/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::ascendScanData_(TNode*, size_t) [with TNode = _rplidar_response_measurement_node_t; u_result = unsigned int; size_t = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.391766] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2025:64:\x1b[m\x1b[K   required from here\n'}
+[76.395612] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1991:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of unsigned expression in \xe2\x80\x98\x1b[01m\x1b[K>= 0\x1b[m\x1b[K\xe2\x80\x99 is always true [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[76.401740] (rplidar_ros) StderrLine: {'line': b' 1991 |     for (i = count - 1; \x1b[01;35m\x1b[Ki >= 0\x1b[m\x1b[K; i--) {\n'}
+[76.407094] (rplidar_ros) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~\x1b[m\x1b[K\n'}
+[76.410921] (rplidar_ros) StderrLine: {'line': b'/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::ascendScanData_(TNode*, size_t) [with TNode = rplidar_response_measurement_node_hq_t; u_result = unsigned int; size_t = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.415137] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2030:67:\x1b[m\x1b[K   required from here\n'}
+[76.418972] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1991:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of unsigned expression in \xe2\x80\x98\x1b[01m\x1b[K>= 0\x1b[m\x1b[K\xe2\x80\x99 is always true [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[76.472309] (-) TimerEvent: {}
+[76.575209] (-) TimerEvent: {}
+[76.676297] (-) TimerEvent: {}
+[76.751909] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startMotor()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.753096] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2225:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[76.753890] (rplidar_ros) StderrLine: {'line': b' 2225 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[76.754603] (rplidar_ros) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[76.776522] (-) TimerEvent: {}
+[76.877593] (-) TimerEvent: {}
+[76.978599] (-) TimerEvent: {}
+[77.079639] (-) TimerEvent: {}
+[77.181465] (-) TimerEvent: {}
+[77.282524] (-) TimerEvent: {}
+[77.383599] (-) TimerEvent: {}
+[77.484590] (-) TimerEvent: {}
+[77.585663] (-) TimerEvent: {}
+[77.686634] (-) TimerEvent: {}
+[77.787671] (-) TimerEvent: {}
+[77.888931] (-) TimerEvent: {}
+[77.989836] (-) TimerEvent: {}
+[78.093024] (-) TimerEvent: {}
+[78.194703] (-) TimerEvent: {}
+[78.228273] (rplidar_ros) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library librplidar_composition_node.so\x1b[0m\n'}
+[78.294933] (-) TimerEvent: {}
+[78.395864] (-) TimerEvent: {}
+[78.497906] (-) TimerEvent: {}
+[78.599574] (-) TimerEvent: {}
+[78.701939] (-) TimerEvent: {}
+[78.803307] (-) TimerEvent: {}
+[78.904300] (-) TimerEvent: {}
+[79.005911] (-) TimerEvent: {}
+[79.107294] (-) TimerEvent: {}
+[79.208307] (-) TimerEvent: {}
+[79.310185] (-) TimerEvent: {}
+[79.413988] (-) TimerEvent: {}
+[79.514996] (-) TimerEvent: {}
+[79.616787] (-) TimerEvent: {}
+[79.722837] (-) TimerEvent: {}
+[79.824058] (-) TimerEvent: {}
+[79.925072] (-) TimerEvent: {}
+[80.026175] (-) TimerEvent: {}
+[80.127573] (-) TimerEvent: {}
+[80.232332] (-) TimerEvent: {}
+[80.333795] (-) TimerEvent: {}
+[80.434722] (-) TimerEvent: {}
+[80.535740] (-) TimerEvent: {}
+[80.636748] (-) TimerEvent: {}
+[80.738441] (-) TimerEvent: {}
+[80.803598] (rplidar_ros) StdoutLine: {'line': b'[ 77%] Built target rplidar_composition_node\n'}
+[80.838657] (-) TimerEvent: {}
+[80.934417] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_composition\x1b[0m\n'}
+[80.938977] (-) TimerEvent: {}
+[81.042252] (-) TimerEvent: {}
+[81.144341] (-) TimerEvent: {}
+[81.192377] (rplidar_ros) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/standalone_rplidar.cpp.o\x1b[0m\n'}
+[81.260419] (-) TimerEvent: {}
+[81.361444] (-) TimerEvent: {}
+[81.462435] (-) TimerEvent: {}
+[81.565294] (-) TimerEvent: {}
+[81.666271] (-) TimerEvent: {}
+[81.767216] (-) TimerEvent: {}
+[81.868108] (-) TimerEvent: {}
+[81.969090] (-) TimerEvent: {}
+[82.070043] (-) TimerEvent: {}
+[82.171072] (-) TimerEvent: {}
+[82.609682] (-) TimerEvent: {}
+[82.710567] (-) TimerEvent: {}
+[82.833523] (-) TimerEvent: {}
+[82.936308] (-) TimerEvent: {}
+[83.038484] (-) TimerEvent: {}
+[83.139453] (-) TimerEvent: {}
+[83.240750] (-) TimerEvent: {}
+[83.343939] (-) TimerEvent: {}
+[83.414798] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[83.415976] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/include/rplidar_node.hpp:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"M_PI" redefined\n'}
+[83.419537] (rplidar_ros) StderrLine: {'line': b'   50 | #define M_PI 3.1415926535897932384626433832795\n'}
+[83.422570] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[83.423349] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[83.427290] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[83.431063] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[83.434808] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[83.438568] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[83.442321] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[83.448577] (-) TimerEvent: {}
+[83.452242] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[83.462557] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[83.467637] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[83.475720] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[83.479342] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[83.483220] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[83.487111] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[83.491015] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/include/rplidar_node.hpp:34\x1b[m\x1b[K,\n'}
+[83.494837] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[83.498705] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/math.h:1151:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[83.502161] (rplidar_ros) StderrLine: {'line': b' 1151 | # define M_PI           3.14159265358979323846  /* pi */\n'}
+[83.505954] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[83.548775] (-) TimerEvent: {}
+[83.652113] (-) TimerEvent: {}
+[83.753158] (-) TimerEvent: {}
+[83.855105] (-) TimerEvent: {}
+[83.958336] (-) TimerEvent: {}
+[84.061099] (-) TimerEvent: {}
+[84.164441] (-) TimerEvent: {}
+[84.268358] (-) TimerEvent: {}
+[84.369403] (-) TimerEvent: {}
+[84.472453] (-) TimerEvent: {}
+[84.573509] (-) TimerEvent: {}
+[84.675735] (-) TimerEvent: {}
+[84.776760] (-) TimerEvent: {}
+[84.877776] (-) TimerEvent: {}
+[84.980334] (-) TimerEvent: {}
+[85.084424] (-) TimerEvent: {}
+[85.186742] (-) TimerEvent: {}
+[85.288316] (-) TimerEvent: {}
+[85.389372] (-) TimerEvent: {}
+[85.490970] (-) TimerEvent: {}
+[85.592375] (-) TimerEvent: {}
+[85.693325] (-) TimerEvent: {}
+[85.794444] (-) TimerEvent: {}
+[85.895575] (-) TimerEvent: {}
+[85.996578] (-) TimerEvent: {}
+[86.097548] (-) TimerEvent: {}
+[86.198643] (-) TimerEvent: {}
+[86.299579] (-) TimerEvent: {}
+[86.400709] (-) TimerEvent: {}
+[86.502463] (-) TimerEvent: {}
+[86.603595] (-) TimerEvent: {}
+[86.705592] (-) TimerEvent: {}
+[86.806694] (-) TimerEvent: {}
+[86.907868] (-) TimerEvent: {}
+[87.008854] (-) TimerEvent: {}
+[87.112321] (-) TimerEvent: {}
+[87.213409] (-) TimerEvent: {}
+[87.314862] (-) TimerEvent: {}
+[87.416317] (-) TimerEvent: {}
+[87.518640] (-) TimerEvent: {}
+[87.621073] (-) TimerEvent: {}
+[87.724407] (-) TimerEvent: {}
+[87.828055] (-) TimerEvent: {}
+[87.931587] (-) TimerEvent: {}
+[88.033967] (-) TimerEvent: {}
+[88.136306] (-) TimerEvent: {}
+[88.237330] (-) TimerEvent: {}
+[88.340356] (-) TimerEvent: {}
+[88.441401] (-) TimerEvent: {}
+[88.544237] (-) TimerEvent: {}
+[88.648027] (-) TimerEvent: {}
+[88.752352] (-) TimerEvent: {}
+[88.856263] (-) TimerEvent: {}
+[88.957402] (-) TimerEvent: {}
+[89.059997] (-) TimerEvent: {}
+[89.161936] (-) TimerEvent: {}
+[89.263724] (-) TimerEvent: {}
+[89.367003] (-) TimerEvent: {}
+[89.470778] (-) TimerEvent: {}
+[89.572585] (-) TimerEvent: {}
+[89.673613] (-) TimerEvent: {}
+[89.774864] (-) TimerEvent: {}
+[89.876626] (-) TimerEvent: {}
+[89.977620] (-) TimerEvent: {}
+[90.080355] (-) TimerEvent: {}
+[90.184360] (-) TimerEvent: {}
+[90.285415] (-) TimerEvent: {}
+[90.386771] (-) TimerEvent: {}
+[90.488356] (-) TimerEvent: {}
+[90.589835] (-) TimerEvent: {}
+[90.692337] (-) TimerEvent: {}
+[90.794108] (-) TimerEvent: {}
+[90.900338] (-) TimerEvent: {}
+[91.001318] (-) TimerEvent: {}
+[91.102989] (-) TimerEvent: {}
+[91.204074] (-) TimerEvent: {}
+[91.305165] (-) TimerEvent: {}
+[91.406150] (-) TimerEvent: {}
+[91.507358] (-) TimerEvent: {}
+[91.609693] (-) TimerEvent: {}
+[91.720327] (-) TimerEvent: {}
+[91.821347] (-) TimerEvent: {}
+[91.922279] (-) TimerEvent: {}
+[92.023240] (-) TimerEvent: {}
+[92.124290] (-) TimerEvent: {}
+[92.225402] (-) TimerEvent: {}
+[92.328612] (-) TimerEvent: {}
+[92.433395] (-) TimerEvent: {}
+[92.534463] (-) TimerEvent: {}
+[92.635621] (-) TimerEvent: {}
+[92.736775] (-) TimerEvent: {}
+[92.841224] (-) TimerEvent: {}
+[92.942202] (-) TimerEvent: {}
+[93.045305] (-) TimerEvent: {}
+[93.147327] (-) TimerEvent: {}
+[93.252983] (-) TimerEvent: {}
+[93.353976] (-) TimerEvent: {}
+[93.459244] (-) TimerEvent: {}
+[93.560220] (-) TimerEvent: {}
+[93.661202] (-) TimerEvent: {}
+[93.762225] (-) TimerEvent: {}
+[93.863421] (-) TimerEvent: {}
+[93.966002] (-) TimerEvent: {}
+[94.066949] (-) TimerEvent: {}
+[94.170152] (-) TimerEvent: {}
+[94.272866] (-) TimerEvent: {}
+[94.375384] (-) TimerEvent: {}
+[94.478153] (-) TimerEvent: {}
+[94.581363] (-) TimerEvent: {}
+[94.683920] (-) TimerEvent: {}
+[94.786954] (-) TimerEvent: {}
+[94.892238] (-) TimerEvent: {}
+[94.993329] (-) TimerEvent: {}
+[95.095363] (-) TimerEvent: {}
+[95.198077] (-) TimerEvent: {}
+[95.299863] (-) TimerEvent: {}
+[95.400925] (-) TimerEvent: {}
+[95.504337] (-) TimerEvent: {}
+[95.605283] (-) TimerEvent: {}
+[95.706411] (-) TimerEvent: {}
+[95.809285] (-) TimerEvent: {}
+[95.910240] (-) TimerEvent: {}
+[96.011948] (-) TimerEvent: {}
+[96.112928] (-) TimerEvent: {}
+[96.213905] (-) TimerEvent: {}
+[96.314886] (-) TimerEvent: {}
+[96.415977] (-) TimerEvent: {}
+[96.517062] (-) TimerEvent: {}
+[96.620040] (-) TimerEvent: {}
+[96.721027] (-) TimerEvent: {}
+[96.822105] (-) TimerEvent: {}
+[96.924094] (-) TimerEvent: {}
+[97.025328] (-) TimerEvent: {}
+[97.126404] (-) TimerEvent: {}
+[97.229479] (-) TimerEvent: {}
+[97.333791] (-) TimerEvent: {}
+[97.346993] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[97.351258] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[97.355162] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[97.362452] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[97.370095] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[97.373885] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[97.377675] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[97.381653] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[97.386405] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[97.390862] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[97.394780] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[97.398424] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[97.434011] (-) TimerEvent: {}
+[97.537243] (-) TimerEvent: {}
+[97.640494] (-) TimerEvent: {}
+[97.742811] (-) TimerEvent: {}
+[97.845003] (-) TimerEvent: {}
+[97.948309] (-) TimerEvent: {}
+[98.050358] (-) TimerEvent: {}
+[98.151504] (-) TimerEvent: {}
+[98.254752] (-) TimerEvent: {}
+[98.357591] (-) TimerEvent: {}
+[98.460326] (-) TimerEvent: {}
+[98.563724] (-) TimerEvent: {}
+[98.666267] (-) TimerEvent: {}
+[98.776333] (-) TimerEvent: {}
+[98.878410] (-) TimerEvent: {}
+[98.980389] (-) TimerEvent: {}
+[99.081637] (-) TimerEvent: {}
+[99.183735] (-) TimerEvent: {}
+[99.285718] (-) TimerEvent: {}
+[99.386691] (-) TimerEvent: {}
+[99.487801] (-) TimerEvent: {}
+[99.592339] (-) TimerEvent: {}
+[99.693342] (-) TimerEvent: {}
+[99.794237] (-) TimerEvent: {}
+[99.895225] (-) TimerEvent: {}
+[99.997680] (-) TimerEvent: {}
+[100.099902] (-) TimerEvent: {}
+[100.201679] (-) TimerEvent: {}
+[100.283683] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[100.288559] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/genozen/Desktop/ros2_ws/src/rplidar_ros2/include/rplidar_node.hpp:76:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat rplidar_ros::getAngle(const rplidar_response_measurement_node_hq_t&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[100.292356] (rplidar_ros) StderrLine: {'line': b'   76 | static float \x1b[01;35m\x1b[KgetAngle\x1b[m\x1b[K(const rplidar_response_measurement_node_hq_t & node)\n'}
+[100.298832] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[100.311859] (-) TimerEvent: {}
+[100.414593] (-) TimerEvent: {}
+[100.520023] (-) TimerEvent: {}
+[100.625196] (-) TimerEvent: {}
+[100.728038] (-) TimerEvent: {}
+[100.831666] (-) TimerEvent: {}
+[100.932766] (-) TimerEvent: {}
+[101.033620] (-) TimerEvent: {}
+[101.138084] (-) TimerEvent: {}
+[101.198152] (rplidar_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rplidar_composition\x1b[0m\n'}
+[101.242781] (-) TimerEvent: {}
+[101.343646] (-) TimerEvent: {}
+[101.446009] (-) TimerEvent: {}
+[101.546977] (-) TimerEvent: {}
+[101.648264] (-) TimerEvent: {}
+[101.752476] (-) TimerEvent: {}
+[101.854125] (-) TimerEvent: {}
+[101.956575] (-) TimerEvent: {}
+[102.058458] (-) TimerEvent: {}
+[102.160408] (-) TimerEvent: {}
+[102.263249] (-) TimerEvent: {}
+[102.364207] (-) TimerEvent: {}
+[102.465271] (-) TimerEvent: {}
+[102.566985] (-) TimerEvent: {}
+[102.582622] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[102.648900] (rplidar_ros) CommandEnded: {'returncode': 0}
+[102.667169] (-) TimerEvent: {}
+[102.768292] (-) TimerEvent: {}
+[102.869314] (-) TimerEvent: {}
+[102.970578] (-) TimerEvent: {}
+[102.978227] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[102.987496] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/genozen/Desktop/ros2_ws/build/rplidar_ros'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genozen'), ('SSH_CLIENT', '10.0.0.141 49672 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/genozen'), ('OLDPWD', '/home/genozen/Desktop/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c715eab8-f5e4-4621-9671-ba1aace1a985.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genozen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/home/genozen/.local/bin:/opt/ros/humble/bin:/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6d29bd55a5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/genozen/Desktop/ros2_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.141 49672 10.0.0.104 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[103.023578] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[103.028706] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[103.068635] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[103.129177] (-) TimerEvent: {}
+[103.144855] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/__pycache__/rplidar.launch.cpython-310.pyc\n'}
+[103.158194] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/__pycache__/view_rplidar.launch.cpython-310.pyc\n'}
+[103.169456] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py\n'}
+[103.207946] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py\n'}
+[103.230712] (-) TimerEvent: {}
+[103.233605] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py\n'}
+[103.263850] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py\n'}
+[103.275362] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py\n'}
+[103.279516] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py\n'}
+[103.283134] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py\n'}
+[103.322461] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py\n'}
+[103.328965] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py\n'}
+[103.330937] (-) TimerEvent: {}
+[103.364571] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz\n'}
+[103.369288] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib/librplidar_composition_node.so\n'}
+[103.382666] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/include/rplidar_node.hpp\n'}
+[103.385711] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/include/visibility.h\n'}
+[103.388478] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[103.405761] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[103.408921] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[103.412858] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[103.424581] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[103.432744] (-) TimerEvent: {}
+[103.439834] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[103.441833] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[103.442661] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[103.443349] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[103.452200] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[103.455319] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[103.458478] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[103.514202] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[103.524459] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros\n'}
+[103.529405] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[103.533082] (-) TimerEvent: {}
+[103.535644] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[103.541622] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[103.553122] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[103.560312] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genozen/Desktop/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[103.592007] (rplidar_ros) CommandEnded: {'returncode': 0}
+[103.633364] (-) TimerEvent: {}
+[103.741847] (-) TimerEvent: {}
+[103.842824] (-) TimerEvent: {}
+[103.946113] (-) TimerEvent: {}
+[104.049838] (-) TimerEvent: {}
+[104.156017] (-) TimerEvent: {}
+[104.257230] (-) TimerEvent: {}
+[104.260632] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[104.357482] (-) TimerEvent: {}
+[104.458583] (-) TimerEvent: {}
+[104.560706] (-) TimerEvent: {}
+[104.661722] (-) TimerEvent: {}
+[104.763350] (-) TimerEvent: {}
+[104.864458] (-) TimerEvent: {}
+[104.965416] (-) TimerEvent: {}
+[105.066408] (-) TimerEvent: {}
+[105.167497] (-) TimerEvent: {}
+[105.268575] (-) TimerEvent: {}
+[105.369692] (-) TimerEvent: {}
+[105.470678] (-) TimerEvent: {}
+[105.572026] (-) TimerEvent: {}
+[105.673903] (-) TimerEvent: {}
+[105.775987] (-) TimerEvent: {}
+[105.877210] (-) TimerEvent: {}
+[105.978131] (-) TimerEvent: {}
+[106.078983] (-) TimerEvent: {}
+[106.179891] (-) TimerEvent: {}
+[106.280793] (-) TimerEvent: {}
+[106.381675] (-) TimerEvent: {}
+[106.482629] (-) TimerEvent: {}
+[106.583526] (-) TimerEvent: {}
+[106.684477] (-) TimerEvent: {}
+[106.785438] (-) TimerEvent: {}
+[106.886349] (-) TimerEvent: {}
+[106.987192] (-) TimerEvent: {}
+[107.088077] (-) TimerEvent: {}
+[107.188984] (-) TimerEvent: {}
+[107.289905] (-) TimerEvent: {}
+[107.390788] (-) TimerEvent: {}
+[107.491651] (-) TimerEvent: {}
+[107.592677] (-) TimerEvent: {}
+[107.693829] (-) TimerEvent: {}
+[107.794746] (-) TimerEvent: {}
+[107.895820] (-) TimerEvent: {}
+[107.996793] (-) TimerEvent: {}
+[108.097924] (-) TimerEvent: {}
+[108.198775] (-) TimerEvent: {}
+[108.299732] (-) TimerEvent: {}
+[108.401041] (-) TimerEvent: {}
+[108.501928] (-) TimerEvent: {}
+[108.602815] (-) TimerEvent: {}
+[108.703727] (-) TimerEvent: {}
+[108.804757] (-) TimerEvent: {}
+[108.905599] (-) TimerEvent: {}
+[109.006564] (-) TimerEvent: {}
+[109.107559] (-) TimerEvent: {}
+[109.208475] (-) TimerEvent: {}
+[109.309312] (-) TimerEvent: {}
+[109.410194] (-) TimerEvent: {}
+[109.511048] (-) TimerEvent: {}
+[109.611949] (-) TimerEvent: {}
+[109.712792] (-) TimerEvent: {}
+[109.813667] (-) TimerEvent: {}
+[109.914564] (-) TimerEvent: {}
+[110.015485] (-) TimerEvent: {}
+[110.116364] (-) TimerEvent: {}
+[110.217252] (-) TimerEvent: {}
+[110.318277] (-) TimerEvent: {}
+[110.419836] (-) TimerEvent: {}
+[110.520970] (-) TimerEvent: {}
+[110.622460] (-) TimerEvent: {}
+[110.723403] (-) TimerEvent: {}
+[110.825453] (-) TimerEvent: {}
+[110.926496] (-) TimerEvent: {}
+[111.027682] (-) TimerEvent: {}
+[111.128632] (-) TimerEvent: {}
+[111.229598] (-) TimerEvent: {}
+[111.330470] (-) TimerEvent: {}
+[111.431331] (-) TimerEvent: {}
+[111.532219] (-) TimerEvent: {}
+[111.633091] (-) TimerEvent: {}
+[111.733927] (-) TimerEvent: {}
+[111.834796] (-) TimerEvent: {}
+[111.935628] (-) TimerEvent: {}
+[112.036509] (-) TimerEvent: {}
+[112.137277] (-) TimerEvent: {}
+[112.238078] (-) TimerEvent: {}
+[112.338899] (-) TimerEvent: {}
+[112.439794] (-) TimerEvent: {}
+[112.540583] (-) TimerEvent: {}
+[112.641429] (-) TimerEvent: {}
+[112.742284] (-) TimerEvent: {}
+[112.843238] (-) TimerEvent: {}
+[112.944675] (-) TimerEvent: {}
+[113.046011] (-) TimerEvent: {}
+[113.147348] (-) TimerEvent: {}
+[113.248301] (-) TimerEvent: {}
+[113.349351] (-) TimerEvent: {}
+[113.450092] (-) TimerEvent: {}
+[113.551063] (-) TimerEvent: {}
+[113.651909] (-) TimerEvent: {}
+[113.752933] (-) TimerEvent: {}
+[113.853770] (-) TimerEvent: {}
+[113.954656] (-) TimerEvent: {}
+[114.055514] (-) TimerEvent: {}
+[114.156528] (-) TimerEvent: {}
+[114.257450] (-) TimerEvent: {}
+[114.358406] (-) TimerEvent: {}
+[114.459236] (-) TimerEvent: {}
+[114.560035] (-) TimerEvent: {}
+[114.660815] (-) TimerEvent: {}
+[114.761520] (-) TimerEvent: {}
+[114.862411] (-) TimerEvent: {}
+[114.963245] (-) TimerEvent: {}
+[115.064310] (-) TimerEvent: {}
+[115.165430] (-) TimerEvent: {}
+[115.266973] (-) TimerEvent: {}
+[115.367957] (-) TimerEvent: {}
+[115.472641] (-) TimerEvent: {}
+[115.574817] (-) TimerEvent: {}
+[115.682953] (-) TimerEvent: {}
+[115.786570] (-) TimerEvent: {}
+[115.894826] (-) TimerEvent: {}
+[116.081719] (-) TimerEvent: {}
+[116.184745] (-) TimerEvent: {}
+[116.287812] (-) TimerEvent: {}
+[116.389906] (-) TimerEvent: {}
+[116.491962] (-) TimerEvent: {}
+[116.594707] (-) TimerEvent: {}
+[116.697261] (-) TimerEvent: {}
+[116.800089] (-) TimerEvent: {}
+[116.901171] (-) TimerEvent: {}
+[117.001965] (-) TimerEvent: {}
+[117.103752] (-) TimerEvent: {}
+[117.205499] (-) TimerEvent: {}
+[117.308064] (-) TimerEvent: {}
+[117.409410] (-) TimerEvent: {}
+[117.513025] (-) TimerEvent: {}
+[117.614397] (-) TimerEvent: {}
+[117.715515] (-) TimerEvent: {}
+[117.816605] (-) TimerEvent: {}
+[117.917624] (-) TimerEvent: {}
+[118.018516] (-) TimerEvent: {}
+[118.119342] (-) TimerEvent: {}
+[118.221016] (-) TimerEvent: {}
+[118.322403] (-) TimerEvent: {}
+[118.423760] (-) TimerEvent: {}
+[118.524635] (-) TimerEvent: {}
+[118.625560] (-) TimerEvent: {}
+[118.726478] (-) TimerEvent: {}
+[118.827874] (-) TimerEvent: {}
+[118.928869] (-) TimerEvent: {}
+[119.029812] (-) TimerEvent: {}
+[119.131360] (-) TimerEvent: {}
+[119.233045] (-) TimerEvent: {}
+[119.334402] (-) TimerEvent: {}
+[119.435770] (-) TimerEvent: {}
+[119.537414] (-) TimerEvent: {}
+[119.638523] (-) TimerEvent: {}
+[119.740260] (-) TimerEvent: {}
+[119.841226] (-) TimerEvent: {}
+[119.942108] (-) TimerEvent: {}
+[120.042959] (-) TimerEvent: {}
+[120.143807] (-) TimerEvent: {}
+[120.230109] (slam_gmapping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable slam_gmapping\x1b[0m\n'}
+[120.244033] (-) TimerEvent: {}
+[120.351484] (-) TimerEvent: {}
+[120.452589] (-) TimerEvent: {}
+[120.553745] (-) TimerEvent: {}
+[120.654619] (-) TimerEvent: {}
+[120.755979] (-) TimerEvent: {}
+[120.857046] (-) TimerEvent: {}
+[120.959131] (-) TimerEvent: {}
+[121.060657] (-) TimerEvent: {}
+[121.162677] (-) TimerEvent: {}
+[121.265202] (-) TimerEvent: {}
+[121.366715] (-) TimerEvent: {}
+[121.468179] (-) TimerEvent: {}
+[121.569311] (-) TimerEvent: {}
+[121.670755] (-) TimerEvent: {}
+[121.772371] (-) TimerEvent: {}
+[121.874114] (-) TimerEvent: {}
+[121.976454] (-) TimerEvent: {}
+[122.078738] (-) TimerEvent: {}
+[122.180056] (-) TimerEvent: {}
+[122.281345] (-) TimerEvent: {}
+[122.382263] (-) TimerEvent: {}
+[122.483102] (-) TimerEvent: {}
+[122.583861] (-) TimerEvent: {}
+[122.684649] (-) TimerEvent: {}
+[122.785396] (-) TimerEvent: {}
+[122.886164] (-) TimerEvent: {}
+[122.986947] (-) TimerEvent: {}
+[123.087901] (-) TimerEvent: {}
+[123.189079] (-) TimerEvent: {}
+[123.290069] (-) TimerEvent: {}
+[123.391086] (-) TimerEvent: {}
+[123.492275] (-) TimerEvent: {}
+[123.593325] (-) TimerEvent: {}
+[123.695406] (-) TimerEvent: {}
+[123.796231] (-) TimerEvent: {}
+[123.810862] (slam_gmapping) StdoutLine: {'line': b'[100%] Built target slam_gmapping\n'}
+[123.874100] (slam_gmapping) CommandEnded: {'returncode': 0}
+[123.896341] (-) TimerEvent: {}
+[123.997305] (-) TimerEvent: {}
+[124.024406] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'install'}
+[124.025907] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/genozen/Desktop/ros2_ws/build/slam_gmapping'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/slam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genozen'), ('SSH_CLIENT', '10.0.0.141 49672 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/genozen'), ('OLDPWD', '/home/genozen/Desktop/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c715eab8-f5e4-4621-9671-ba1aace1a985.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genozen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/genozen/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/home/genozen/.local/bin:/opt/ros/humble/bin:/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6d29bd55a5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/genozen/Desktop/ros2_ws/build/slam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.141 49672 10.0.0.104 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/opt/ros/humble')]), 'shell': False}
+[124.082768] (slam_gmapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[124.096283] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping\n'}
+[124.097438] (-) TimerEvent: {}
+[124.169554] (slam_gmapping) StdoutLine: {'line': b'-- Set runtime path of "/home/genozen/Desktop/ros2_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping" to ""\n'}
+[124.170632] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/launch\n'}
+[124.171465] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py\n'}
+[124.172310] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping\n'}
+[124.173105] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping\n'}
+[124.173905] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh\n'}
+[124.174634] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv\n'}
+[124.175688] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh\n'}
+[124.176421] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv\n'}
+[124.177033] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash\n'}
+[124.177584] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh\n'}
+[124.178101] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh\n'}
+[124.178750] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv\n'}
+[124.179485] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/package.dsv\n'}
+[124.187727] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping\n'}
+[124.188748] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake\n'}
+[124.197598] (-) TimerEvent: {}
+[124.204067] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake\n'}
+[124.208583] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/package.xml\n'}
+[124.214627] (slam_gmapping) CommandEnded: {'returncode': 0}
+[124.300477] (-) TimerEvent: {}
+[124.401891] (-) TimerEvent: {}
+[124.509244] (-) TimerEvent: {}
+[124.542666] (slam_gmapping) JobEnded: {'identifier': 'slam_gmapping', 'rc': 0}
+[124.550372] (-) EventReactorShutdown: {}

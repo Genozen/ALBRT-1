@@ -1,0 +1,120 @@
+[0.205s] Invoking command in '/home/genozen/Desktop/ros2_ws/src/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/genozen/Desktop/ros2_ws/src/slam_gmapping/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping
+[3.974s] -- The C compiler identification is GNU 11.4.0
+[3.976s] -- The CXX compiler identification is GNU 11.4.0
+[3.977s] -- Detecting C compiler ABI info
+[3.977s] -- Detecting C compiler ABI info - done
+[3.978s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.979s] -- Detecting C compile features
+[3.981s] -- Detecting C compile features - done
+[3.983s] -- Detecting CXX compiler ABI info
+[4.756s] -- Detecting CXX compiler ABI info - done
+[4.883s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.883s] -- Detecting CXX compile features
+[4.885s] -- Detecting CXX compile features - done
+[5.025s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.991s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[10.472s] -- Configuring done
+[10.854s] -- Generating done
+[10.936s] -- Build files have been written to: /home/genozen/Desktop/ros2_ws/src/build/openslam_gmapping
+[10.970s] Invoked command in '/home/genozen/Desktop/ros2_ws/src/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/genozen/Desktop/ros2_ws/src/slam_gmapping/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping
+[10.974s] Invoking command in '/home/genozen/Desktop/ros2_ws/src/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/genozen/Desktop/ros2_ws/src/build/openslam_gmapping -- -j4 -l4
+[11.582s] [  4%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o[0m
+[11.752s] [ 18%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/movement.cpp.o[0m
+[11.753s] [ 18%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/stat.cpp.o[0m
+[11.771s] [ 18%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o[0m
+[16.113s] [ 22%] [32m[1mLinking CXX static library libsensor_base.a[0m
+[16.416s] [ 22%] Built target sensor_base
+[16.555s] [ 27%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o[0m
+[16.585s] [ 31%] [32m[1mLinking CXX static library libutils.a[0m
+[16.605s] [ 36%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o[0m
+[16.625s] [ 40%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o[0m
+[17.072s] [ 40%] Built target utils
+[17.169s] [ 45%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o[0m
+[20.548s] [ 50%] [32m[1mLinking CXX static library libsensor_odometry.a[0m
+[20.765s] [ 54%] [32m[1mLinking CXX static library libsensor_range.a[0m
+[20.856s] [ 54%] Built target sensor_odometry
+[20.985s] [ 54%] Built target sensor_range
+[21.141s] [ 59%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o[0m
+[21.166s] [ 63%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/eig3.cpp.o[0m
+[28.662s] [ 68%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/smmap.cpp.o[0m
+[30.067s] [ 72%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o[0m
+[33.519s] [ 77%] [32m[1mLinking CXX static library libscanmatcher.a[0m
+[33.752s] [ 77%] Built target scanmatcher
+[33.847s] [ 81%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gfsreader.cpp.o[0m
+[39.349s] [ 86%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/motionmodel.cpp.o[0m
+[41.159s] [ 90%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o[0m
+[45.646s] [ 95%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o[0m
+[53.500s] [100%] [32m[1mLinking CXX static library libgridfastslam.a[0m
+[53.728s] [100%] Built target gridfastslam
+[53.795s] Invoked command in '/home/genozen/Desktop/ros2_ws/src/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/genozen/Desktop/ros2_ws/src/build/openslam_gmapping -- -j4 -l4
+[53.999s] Invoking command in '/home/genozen/Desktop/ros2_ws/src/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/genozen/Desktop/ros2_ws/src/build/openslam_gmapping
+[54.042s] -- Install configuration: ""
+[54.045s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[54.053s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[54.054s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include/
+[54.054s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping
+[54.055s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/sensor
+[54.057s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry
+[54.058s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+[54.059s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+[54.059s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/sensor/sensor_base
+[54.060s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+[54.061s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+[54.062s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/sensor/sensor_range
+[54.063s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+[54.064s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+[54.070s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/grid
+[54.071s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+[54.072s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/grid/array2d.h
+[54.085s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+[54.091s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/grid/map.h
+[54.097s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/utils
+[54.098s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/utils/stat.h
+[54.104s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+[54.109s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+[54.113s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+[54.118s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/utils/point.h
+[54.120s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/utils/commandline.h
+[54.125s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/log
+[54.132s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+[54.133s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/log/configuration.h
+[54.144s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/gridfastslam
+[54.149s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+[54.150s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+[54.151s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+[54.152s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/particlefilter
+[54.153s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+[54.155s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/scanmatcher
+[54.156s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+[54.168s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+[54.169s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+[54.173s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+[54.174s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+[54.178s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+[54.179s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+[54.180s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+[54.181s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+[54.205s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+[54.209s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+[54.211s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+[54.212s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+[54.213s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+[54.214s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+[54.215s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+[54.216s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[54.217s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+[54.218s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+[54.219s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/package.xml
+[54.220s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/lib/libgridfastslam.a
+[54.221s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/lib/libscanmatcher.a
+[54.222s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[54.222s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[54.223s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/lib/libsensor_base.a
+[54.224s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[54.225s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[54.226s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/lib/libsensor_odometry.a
+[54.229s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/lib/libsensor_range.a
+[54.230s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/lib/libutils.a
+[54.231s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[54.232s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[54.253s] Invoked command in '/home/genozen/Desktop/ros2_ws/src/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/genozen/Desktop/ros2_ws/src/build/openslam_gmapping

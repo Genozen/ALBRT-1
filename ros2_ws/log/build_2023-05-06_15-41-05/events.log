@@ -1,0 +1,401 @@
+[0.000000] (-) TimerEvent: {}
+[0.002967] (-) JobUnselected: {'identifier': 'mobile_robotics'}
+[0.003214] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.003518] (-) JobUnselected: {'identifier': 'slam_gmapping'}
+[0.003698] (openslam_gmapping) JobQueued: {'identifier': 'openslam_gmapping', 'dependencies': OrderedDict()}
+[0.003809] (openslam_gmapping) JobStarted: {'identifier': 'openslam_gmapping'}
+[0.078389] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'cmake'}
+[0.079394] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '/home/genozen/Desktop/ros2_ws/src/slam_gmapping/openslam_gmapping', '-DCMAKE_INSTALL_PREFIX=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genozen'), ('SSH_CLIENT', '10.0.0.198 51190 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/genozen'), ('OLDPWD', '/home/genozen/Desktop/ros2_ws/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genozen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/genozen/Desktop/ros2_ws/build/openslam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.198 51190 10.0.0.104 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/genozen/Desktop/ros2_ws/build/mobile_robotics:/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install/sllidar_ros2:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble')]), 'shell': False}
+[0.098468] (-) TimerEvent: {}
+[0.199429] (-) TimerEvent: {}
+[0.300467] (-) TimerEvent: {}
+[0.401423] (-) TimerEvent: {}
+[0.502500] (-) TimerEvent: {}
+[0.603537] (-) TimerEvent: {}
+[0.704479] (-) TimerEvent: {}
+[0.805533] (-) TimerEvent: {}
+[0.906404] (-) TimerEvent: {}
+[1.007710] (-) TimerEvent: {}
+[1.108697] (-) TimerEvent: {}
+[1.209828] (-) TimerEvent: {}
+[1.311204] (-) TimerEvent: {}
+[1.412256] (-) TimerEvent: {}
+[1.513271] (-) TimerEvent: {}
+[1.614374] (-) TimerEvent: {}
+[1.715253] (-) TimerEvent: {}
+[1.807994] (openslam_gmapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.815411] (-) TimerEvent: {}
+[1.916211] (-) TimerEvent: {}
+[2.017193] (-) TimerEvent: {}
+[2.118362] (-) TimerEvent: {}
+[2.219389] (-) TimerEvent: {}
+[2.320325] (-) TimerEvent: {}
+[2.421072] (-) TimerEvent: {}
+[2.522126] (-) TimerEvent: {}
+[2.623127] (-) TimerEvent: {}
+[2.723935] (-) TimerEvent: {}
+[2.769312] (openslam_gmapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.822367] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.824088] (-) TimerEvent: {}
+[2.924844] (-) TimerEvent: {}
+[3.025853] (-) TimerEvent: {}
+[3.127654] (-) TimerEvent: {}
+[3.228486] (-) TimerEvent: {}
+[3.310180] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.328666] (-) TimerEvent: {}
+[3.340502] (openslam_gmapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.342581] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.345745] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.364998] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.428909] (-) TimerEvent: {}
+[3.529935] (-) TimerEvent: {}
+[3.630779] (-) TimerEvent: {}
+[3.731629] (-) TimerEvent: {}
+[3.798472] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.829522] (openslam_gmapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.830809] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.831728] (-) TimerEvent: {}
+[3.832778] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.878773] (openslam_gmapping) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.931930] (-) TimerEvent: {}
+[4.032736] (-) TimerEvent: {}
+[4.133570] (-) TimerEvent: {}
+[4.234453] (-) TimerEvent: {}
+[4.335777] (-) TimerEvent: {}
+[4.436521] (-) TimerEvent: {}
+[4.537226] (-) TimerEvent: {}
+[4.637998] (-) TimerEvent: {}
+[4.743087] (-) TimerEvent: {}
+[4.852845] (-) TimerEvent: {}
+[4.951102] (openslam_gmapping) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[4.953009] (-) TimerEvent: {}
+[5.053668] (-) TimerEvent: {}
+[5.154387] (-) TimerEvent: {}
+[5.255157] (-) TimerEvent: {}
+[5.356013] (-) TimerEvent: {}
+[5.456801] (-) TimerEvent: {}
+[5.557775] (-) TimerEvent: {}
+[5.658493] (-) TimerEvent: {}
+[5.759254] (-) TimerEvent: {}
+[5.860031] (-) TimerEvent: {}
+[5.961047] (-) TimerEvent: {}
+[6.061775] (-) TimerEvent: {}
+[6.163474] (-) TimerEvent: {}
+[6.264217] (-) TimerEvent: {}
+[6.294683] (openslam_gmapping) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.364430] (-) TimerEvent: {}
+[6.415616] (openslam_gmapping) StdoutLine: {'line': b'-- Generating done\n'}
+[6.431303] (openslam_gmapping) StdoutLine: {'line': b'-- Build files have been written to: /home/genozen/Desktop/ros2_ws/build/openslam_gmapping\n'}
+[6.461827] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[6.464433] (-) TimerEvent: {}
+[6.465062] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'build'}
+[6.468408] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/genozen/Desktop/ros2_ws/build/openslam_gmapping', '--', '-j4', '-l4'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genozen'), ('SSH_CLIENT', '10.0.0.198 51190 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/genozen'), ('OLDPWD', '/home/genozen/Desktop/ros2_ws/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genozen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/genozen/Desktop/ros2_ws/build/openslam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.198 51190 10.0.0.104 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/genozen/Desktop/ros2_ws/build/mobile_robotics:/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install/sllidar_ros2:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble')]), 'shell': False}
+[6.564658] (-) TimerEvent: {}
+[6.665465] (-) TimerEvent: {}
+[6.693469] (openslam_gmapping) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object utils/CMakeFiles/utils.dir/movement.cpp.o\x1b[0m\n'}
+[6.702413] (openslam_gmapping) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object utils/CMakeFiles/utils.dir/stat.cpp.o\x1b[0m\n'}
+[6.722309] (openslam_gmapping) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o\x1b[0m\n'}
+[6.725846] (openslam_gmapping) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o\x1b[0m\n'}
+[6.765814] (-) TimerEvent: {}
+[6.866903] (-) TimerEvent: {}
+[6.967905] (-) TimerEvent: {}
+[7.068885] (-) TimerEvent: {}
+[7.169885] (-) TimerEvent: {}
+[7.271469] (-) TimerEvent: {}
+[7.372478] (-) TimerEvent: {}
+[7.474386] (-) TimerEvent: {}
+[7.576114] (-) TimerEvent: {}
+[7.677951] (-) TimerEvent: {}
+[7.780131] (-) TimerEvent: {}
+[7.881162] (-) TimerEvent: {}
+[7.982270] (-) TimerEvent: {}
+[8.083613] (-) TimerEvent: {}
+[8.184903] (-) TimerEvent: {}
+[8.286120] (-) TimerEvent: {}
+[8.387592] (-) TimerEvent: {}
+[8.488869] (-) TimerEvent: {}
+[8.590149] (-) TimerEvent: {}
+[8.691206] (-) TimerEvent: {}
+[8.792283] (-) TimerEvent: {}
+[8.836076] (openslam_gmapping) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX static library libsensor_base.a\x1b[0m\n'}
+[8.892524] (-) TimerEvent: {}
+[8.993950] (-) TimerEvent: {}
+[9.080229] (openslam_gmapping) StdoutLine: {'line': b'[ 22%] Built target sensor_base\n'}
+[9.094189] (-) TimerEvent: {}
+[9.195167] (-) TimerEvent: {}
+[9.209007] (openslam_gmapping) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o\x1b[0m\n'}
+[9.216173] (openslam_gmapping) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o\x1b[0m\n'}
+[9.225640] (openslam_gmapping) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o\x1b[0m\n'}
+[9.295386] (-) TimerEvent: {}
+[9.347866] (openslam_gmapping) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX static library libutils.a\x1b[0m\n'}
+[9.398774] (-) TimerEvent: {}
+[9.499746] (-) TimerEvent: {}
+[9.600925] (-) TimerEvent: {}
+[9.701927] (-) TimerEvent: {}
+[9.746282] (openslam_gmapping) StdoutLine: {'line': b'[ 40%] Built target utils\n'}
+[9.802149] (-) TimerEvent: {}
+[9.881465] (openslam_gmapping) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o\x1b[0m\n'}
+[9.902397] (-) TimerEvent: {}
+[10.004348] (-) TimerEvent: {}
+[10.105974] (-) TimerEvent: {}
+[10.207771] (-) TimerEvent: {}
+[10.309468] (-) TimerEvent: {}
+[10.411411] (-) TimerEvent: {}
+[10.513338] (-) TimerEvent: {}
+[10.615241] (-) TimerEvent: {}
+[10.718591] (-) TimerEvent: {}
+[10.820886] (-) TimerEvent: {}
+[10.923146] (-) TimerEvent: {}
+[11.026270] (-) TimerEvent: {}
+[11.128888] (-) TimerEvent: {}
+[11.231440] (-) TimerEvent: {}
+[11.288536] (openslam_gmapping) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libsensor_odometry.a\x1b[0m\n'}
+[11.331675] (-) TimerEvent: {}
+[11.433401] (-) TimerEvent: {}
+[11.487922] (openslam_gmapping) StdoutLine: {'line': b'[ 50%] Built target sensor_odometry\n'}
+[11.533602] (-) TimerEvent: {}
+[11.635207] (-) TimerEvent: {}
+[11.736376] (-) TimerEvent: {}
+[11.837354] (-) TimerEvent: {}
+[11.938212] (-) TimerEvent: {}
+[12.038974] (-) TimerEvent: {}
+[12.139747] (-) TimerEvent: {}
+[12.163637] (openslam_gmapping) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX static library libsensor_range.a\x1b[0m\n'}
+[12.239987] (-) TimerEvent: {}
+[12.318886] (openslam_gmapping) StdoutLine: {'line': b'[ 54%] Built target sensor_range\n'}
+[12.340182] (-) TimerEvent: {}
+[12.419338] (openslam_gmapping) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/eig3.cpp.o\x1b[0m\n'}
+[12.422721] (openslam_gmapping) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o\x1b[0m\n'}
+[12.440442] (-) TimerEvent: {}
+[12.450523] (openslam_gmapping) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/smmap.cpp.o\x1b[0m\n'}
+[12.456578] (openslam_gmapping) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o\x1b[0m\n'}
+[12.540677] (-) TimerEvent: {}
+[12.641614] (-) TimerEvent: {}
+[12.742504] (-) TimerEvent: {}
+[12.843381] (-) TimerEvent: {}
+[12.945722] (-) TimerEvent: {}
+[13.046810] (-) TimerEvent: {}
+[13.148032] (-) TimerEvent: {}
+[13.249115] (-) TimerEvent: {}
+[13.350851] (-) TimerEvent: {}
+[13.452440] (-) TimerEvent: {}
+[13.554155] (-) TimerEvent: {}
+[13.656758] (-) TimerEvent: {}
+[13.759740] (-) TimerEvent: {}
+[13.862301] (-) TimerEvent: {}
+[13.965647] (-) TimerEvent: {}
+[14.067779] (-) TimerEvent: {}
+[14.170733] (-) TimerEvent: {}
+[14.273007] (-) TimerEvent: {}
+[14.375817] (-) TimerEvent: {}
+[14.478293] (-) TimerEvent: {}
+[14.580665] (-) TimerEvent: {}
+[14.682814] (-) TimerEvent: {}
+[14.785063] (-) TimerEvent: {}
+[14.887388] (-) TimerEvent: {}
+[14.989103] (-) TimerEvent: {}
+[15.090797] (-) TimerEvent: {}
+[15.191767] (-) TimerEvent: {}
+[15.335361] (-) TimerEvent: {}
+[15.436193] (-) TimerEvent: {}
+[15.537091] (-) TimerEvent: {}
+[15.638469] (-) TimerEvent: {}
+[15.739830] (-) TimerEvent: {}
+[15.841082] (-) TimerEvent: {}
+[15.942241] (-) TimerEvent: {}
+[16.043454] (-) TimerEvent: {}
+[16.144646] (-) TimerEvent: {}
+[16.246448] (-) TimerEvent: {}
+[16.347375] (-) TimerEvent: {}
+[16.448160] (-) TimerEvent: {}
+[16.549042] (-) TimerEvent: {}
+[16.649834] (-) TimerEvent: {}
+[16.750618] (-) TimerEvent: {}
+[16.851455] (-) TimerEvent: {}
+[16.952272] (-) TimerEvent: {}
+[17.053192] (-) TimerEvent: {}
+[17.154063] (-) TimerEvent: {}
+[17.254954] (-) TimerEvent: {}
+[17.355729] (-) TimerEvent: {}
+[17.456632] (-) TimerEvent: {}
+[17.557500] (-) TimerEvent: {}
+[17.658297] (-) TimerEvent: {}
+[17.759153] (-) TimerEvent: {}
+[17.859887] (-) TimerEvent: {}
+[17.960663] (-) TimerEvent: {}
+[18.061453] (-) TimerEvent: {}
+[18.162316] (-) TimerEvent: {}
+[18.216676] (openslam_gmapping) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX static library libscanmatcher.a\x1b[0m\n'}
+[18.262485] (-) TimerEvent: {}
+[18.363311] (-) TimerEvent: {}
+[18.382043] (openslam_gmapping) StdoutLine: {'line': b'[ 77%] Built target scanmatcher\n'}
+[18.463545] (-) TimerEvent: {}
+[18.484510] (openslam_gmapping) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gfsreader.cpp.o\x1b[0m\n'}
+[18.544064] (openslam_gmapping) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o\x1b[0m\n'}
+[18.545206] (openslam_gmapping) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/motionmodel.cpp.o\x1b[0m\n'}
+[18.546997] (openslam_gmapping) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o\x1b[0m\n'}
+[18.563770] (-) TimerEvent: {}
+[18.673731] (-) TimerEvent: {}
+[18.776113] (-) TimerEvent: {}
+[18.877820] (-) TimerEvent: {}
+[18.980067] (-) TimerEvent: {}
+[19.082972] (-) TimerEvent: {}
+[19.185090] (-) TimerEvent: {}
+[19.287294] (-) TimerEvent: {}
+[19.389679] (-) TimerEvent: {}
+[19.491838] (-) TimerEvent: {}
+[19.594960] (-) TimerEvent: {}
+[19.697713] (-) TimerEvent: {}
+[19.799895] (-) TimerEvent: {}
+[19.902237] (-) TimerEvent: {}
+[20.004642] (-) TimerEvent: {}
+[20.107350] (-) TimerEvent: {}
+[20.210087] (-) TimerEvent: {}
+[20.312341] (-) TimerEvent: {}
+[20.415532] (-) TimerEvent: {}
+[20.517634] (-) TimerEvent: {}
+[20.619928] (-) TimerEvent: {}
+[20.722343] (-) TimerEvent: {}
+[20.825392] (-) TimerEvent: {}
+[20.927701] (-) TimerEvent: {}
+[21.029807] (-) TimerEvent: {}
+[21.132445] (-) TimerEvent: {}
+[21.233431] (-) TimerEvent: {}
+[21.334690] (-) TimerEvent: {}
+[21.436884] (-) TimerEvent: {}
+[21.539432] (-) TimerEvent: {}
+[21.641771] (-) TimerEvent: {}
+[21.744229] (-) TimerEvent: {}
+[21.846580] (-) TimerEvent: {}
+[21.949165] (-) TimerEvent: {}
+[22.051361] (-) TimerEvent: {}
+[22.153827] (-) TimerEvent: {}
+[22.257028] (-) TimerEvent: {}
+[22.359264] (-) TimerEvent: {}
+[22.461615] (-) TimerEvent: {}
+[22.563884] (-) TimerEvent: {}
+[22.666393] (-) TimerEvent: {}
+[22.768859] (-) TimerEvent: {}
+[22.871424] (-) TimerEvent: {}
+[22.973980] (-) TimerEvent: {}
+[23.076218] (-) TimerEvent: {}
+[23.187484] (-) TimerEvent: {}
+[23.290964] (-) TimerEvent: {}
+[23.392345] (-) TimerEvent: {}
+[23.493640] (-) TimerEvent: {}
+[23.594968] (-) TimerEvent: {}
+[23.696252] (-) TimerEvent: {}
+[23.797074] (-) TimerEvent: {}
+[23.897973] (-) TimerEvent: {}
+[23.999000] (-) TimerEvent: {}
+[24.099959] (-) TimerEvent: {}
+[24.200940] (-) TimerEvent: {}
+[24.301911] (-) TimerEvent: {}
+[24.402759] (-) TimerEvent: {}
+[24.503514] (-) TimerEvent: {}
+[24.604307] (-) TimerEvent: {}
+[24.705082] (-) TimerEvent: {}
+[24.805919] (-) TimerEvent: {}
+[24.906832] (-) TimerEvent: {}
+[25.007657] (-) TimerEvent: {}
+[25.108456] (-) TimerEvent: {}
+[25.209362] (-) TimerEvent: {}
+[25.310192] (-) TimerEvent: {}
+[25.411369] (-) TimerEvent: {}
+[25.512420] (-) TimerEvent: {}
+[25.613312] (-) TimerEvent: {}
+[25.714085] (-) TimerEvent: {}
+[25.814892] (-) TimerEvent: {}
+[25.915682] (-) TimerEvent: {}
+[26.016502] (-) TimerEvent: {}
+[26.117357] (-) TimerEvent: {}
+[26.218197] (-) TimerEvent: {}
+[26.319024] (-) TimerEvent: {}
+[26.419779] (-) TimerEvent: {}
+[26.520541] (-) TimerEvent: {}
+[26.536412] (openslam_gmapping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library libgridfastslam.a\x1b[0m\n'}
+[26.620734] (-) TimerEvent: {}
+[26.721604] (-) TimerEvent: {}
+[26.781252] (openslam_gmapping) StdoutLine: {'line': b'[100%] Built target gridfastslam\n'}
+[26.821772] (-) TimerEvent: {}
+[26.833590] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[26.921949] (-) TimerEvent: {}
+[26.987297] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'install'}
+[27.022201] (-) TimerEvent: {}
+[27.031199] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/genozen/Desktop/ros2_ws/build/openslam_gmapping'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genozen'), ('SSH_CLIENT', '10.0.0.198 51190 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/genozen/Desktop/ros2_ws/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/genozen'), ('OLDPWD', '/home/genozen/Desktop/ros2_ws/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genozen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/genozen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/genozen/Desktop/ros2_ws/build/openslam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.198 51190 10.0.0.104 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/genozen/Desktop/ros2_ws/build/mobile_robotics:/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/genozen/Desktop/ros2_ws/install/sllidar_ros2:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble')]), 'shell': False}
+[27.062381] (openslam_gmapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.068667] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[27.069566] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[27.070826] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include/\n'}
+[27.071562] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping\n'}
+[27.072263] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor\n'}
+[27.073008] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry\n'}
+[27.073918] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h\n'}
+[27.075634] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h\n'}
+[27.076860] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base\n'}
+[27.077710] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h\n'}
+[27.079137] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h\n'}
+[27.080337] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range\n'}
+[27.081196] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h\n'}
+[27.082651] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h\n'}
+[27.083910] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/grid\n'}
+[27.084824] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h\n'}
+[27.086072] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h\n'}
+[27.087409] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h\n'}
+[27.088725] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/grid/map.h\n'}
+[27.089972] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/utils\n'}
+[27.090899] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/utils/stat.h\n'}
+[27.092182] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h\n'}
+[27.093422] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h\n'}
+[27.094757] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h\n'}
+[27.096001] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/utils/point.h\n'}
+[27.097308] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h\n'}
+[27.098492] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/log\n'}
+[27.099578] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h\n'}
+[27.100859] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/log/configuration.h\n'}
+[27.102009] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam\n'}
+[27.104252] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx\n'}
+[27.104933] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h\n'}
+[27.106794] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h\n'}
+[27.107595] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/particlefilter\n'}
+[27.108226] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h\n'}
+[27.109337] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher\n'}
+[27.110209] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h\n'}
+[27.111728] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h\n'}
+[27.113013] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h\n'}
+[27.117501] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping\n'}
+[27.118236] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping\n'}
+[27.120807] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh\n'}
+[27.121527] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv\n'}
+[27.122308] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh\n'}
+[27.123019] (-) TimerEvent: {}
+[27.123924] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv\n'}
+[27.125517] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash\n'}
+[27.127125] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh\n'}
+[27.128624] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh\n'}
+[27.130148] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv\n'}
+[27.131666] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv\n'}
+[27.133654] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping\n'}
+[27.135926] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[27.138845] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[27.140018] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake\n'}
+[27.140898] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake\n'}
+[27.142371] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml\n'}
+[27.145203] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib/libgridfastslam.a\n'}
+[27.150815] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib/libscanmatcher.a\n'}
+[27.152103] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[27.153055] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[27.153981] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib/libsensor_base.a\n'}
+[27.155710] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[27.156573] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[27.157533] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib/libsensor_odometry.a\n'}
+[27.159856] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib/libsensor_range.a\n'}
+[27.162248] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib/libutils.a\n'}
+[27.164086] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[27.165186] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/genozen/Desktop/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[27.175953] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[27.223239] (-) TimerEvent: {}
+[27.324616] (-) TimerEvent: {}
+[27.425355] (-) TimerEvent: {}
+[27.499676] (openslam_gmapping) JobEnded: {'identifier': 'openslam_gmapping', 'rc': 0}
+[27.502351] (-) EventReactorShutdown: {}

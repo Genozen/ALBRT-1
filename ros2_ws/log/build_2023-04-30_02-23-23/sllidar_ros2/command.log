@@ -1,0 +1,2 @@
+Invoking command in '/home/genozen/Desktop/ros2_ws/build/sllidar_ros2': /usr/bin/cmake /home/genozen/Desktop/ros2_ws/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/genozen/Desktop/ros2_ws/install/sllidar_ros2
+Invoked command in '/home/genozen/Desktop/ros2_ws/build/sllidar_ros2' returned '1': /usr/bin/cmake /home/genozen/Desktop/ros2_ws/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/genozen/Desktop/ros2_ws/install/sllidar_ros2

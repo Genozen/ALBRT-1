@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.001602] (mobile_robotics) JobQueued: {'identifier': 'mobile_robotics', 'dependencies': OrderedDict()}
+[0.002314] (mobile_robotics) JobStarted: {'identifier': 'mobile_robotics'}
+[0.099136] (-) TimerEvent: {}
+[0.199994] (-) TimerEvent: {}
+[0.300804] (-) TimerEvent: {}
+[0.401584] (-) TimerEvent: {}
+[0.502589] (-) TimerEvent: {}
+[0.603961] (-) TimerEvent: {}
+[0.704740] (-) TimerEvent: {}
+[0.805476] (-) TimerEvent: {}
+[0.906212] (-) TimerEvent: {}
+[1.006962] (-) TimerEvent: {}
+[1.107647] (-) TimerEvent: {}
+[1.208354] (-) TimerEvent: {}
+[1.309260] (-) TimerEvent: {}
+[1.410853] (-) TimerEvent: {}
+[1.517781] (-) TimerEvent: {}
+[1.618713] (-) TimerEvent: {}
+[1.719496] (-) TimerEvent: {}
+[1.820232] (-) TimerEvent: {}
+[1.920977] (-) TimerEvent: {}
+[2.021686] (-) TimerEvent: {}
+[2.122468] (-) TimerEvent: {}
+[2.223219] (-) TimerEvent: {}
+[2.323932] (-) TimerEvent: {}
+[2.424633] (-) TimerEvent: {}
+[2.525352] (-) TimerEvent: {}
+[2.626048] (-) TimerEvent: {}
+[2.726829] (-) TimerEvent: {}
+[2.827676] (-) TimerEvent: {}
+[2.928490] (-) TimerEvent: {}
+[3.029329] (-) TimerEvent: {}
+[3.130320] (-) TimerEvent: {}
+[3.231196] (-) TimerEvent: {}
+[3.280116] (mobile_robotics) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/genozen/Desktop/ros2_ws/build/mobile_robotics/build', '--no-deps', 'install_data'], 'cwd': '/home/genozen/Desktop/ros2_ws/build/mobile_robotics', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'genozen', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/genozen', 'OLDPWD': '/home/genozen/Desktop/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2999', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'LOGNAME': 'genozen', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'genozen', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/genozen-desktop:@/tmp/.ICE-unix/2079,unix/genozen-desktop:/tmp/.ICE-unix/2079', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/81b13ad8_4b5f_4c8d_bf1e_69e2f53078e4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.96', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/genozen/Desktop/ros2_ws/build/mobile_robotics', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/genozen/Desktop/ros2_ws/build/mobile_robotics/prefix_override:/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.331350] (-) TimerEvent: {}
+[3.432100] (-) TimerEvent: {}
+[3.532876] (-) TimerEvent: {}
+[3.633634] (-) TimerEvent: {}
+[3.734503] (-) TimerEvent: {}
+[3.835425] (-) TimerEvent: {}
+[3.936121] (-) TimerEvent: {}
+[4.036860] (-) TimerEvent: {}
+[4.137573] (-) TimerEvent: {}
+[4.238318] (-) TimerEvent: {}
+[4.339087] (-) TimerEvent: {}
+[4.439788] (-) TimerEvent: {}
+[4.540527] (-) TimerEvent: {}
+[4.629740] (mobile_robotics) StdoutLine: {'line': b'running develop\n'}
+[4.634725] (mobile_robotics) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.635499] (mobile_robotics) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.640691] (-) TimerEvent: {}
+[4.641901] (mobile_robotics) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.642743] (mobile_robotics) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.740882] (-) TimerEvent: {}
+[4.841624] (-) TimerEvent: {}
+[4.942374] (-) TimerEvent: {}
+[4.986010] (mobile_robotics) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[4.987133] (mobile_robotics) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.989969] (mobile_robotics) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[4.990871] (mobile_robotics) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.042540] (-) TimerEvent: {}
+[5.143240] (-) TimerEvent: {}
+[5.243987] (-) TimerEvent: {}
+[5.344761] (-) TimerEvent: {}
+[5.445590] (-) TimerEvent: {}
+[5.546365] (-) TimerEvent: {}
+[5.558600] (mobile_robotics) StdoutLine: {'line': b'running egg_info\n'}
+[5.559260] (mobile_robotics) StdoutLine: {'line': b'creating mobile_robotics.egg-info\n'}
+[5.559798] (mobile_robotics) StdoutLine: {'line': b'writing mobile_robotics.egg-info/PKG-INFO\n'}
+[5.560929] (mobile_robotics) StdoutLine: {'line': b'writing dependency_links to mobile_robotics.egg-info/dependency_links.txt\n'}
+[5.561570] (mobile_robotics) StdoutLine: {'line': b'writing entry points to mobile_robotics.egg-info/entry_points.txt\n'}
+[5.562282] (mobile_robotics) StdoutLine: {'line': b'writing requirements to mobile_robotics.egg-info/requires.txt\n'}
+[5.562882] (mobile_robotics) StdoutLine: {'line': b'writing top-level names to mobile_robotics.egg-info/top_level.txt\n'}
+[5.563637] (mobile_robotics) StdoutLine: {'line': b"writing manifest file 'mobile_robotics.egg-info/SOURCES.txt'\n"}
+[5.570841] (mobile_robotics) StdoutLine: {'line': b"reading manifest file 'mobile_robotics.egg-info/SOURCES.txt'\n"}
+[5.573767] (mobile_robotics) StdoutLine: {'line': b"writing manifest file 'mobile_robotics.egg-info/SOURCES.txt'\n"}
+[5.580832] (mobile_robotics) StdoutLine: {'line': b'running build_ext\n'}
+[5.581746] (mobile_robotics) StdoutLine: {'line': b'Creating /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile-robotics.egg-link (link to .)\n'}
+[5.586094] (mobile_robotics) StdoutLine: {'line': b'Installing cod_ex2 script to /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/mobile_robotics\n'}
+[5.587908] (mobile_robotics) StdoutLine: {'line': b'Installing part1 script to /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/mobile_robotics\n'}
+[5.589671] (mobile_robotics) StdoutLine: {'line': b'\n'}
+[5.590492] (mobile_robotics) StdoutLine: {'line': b'Installed /home/genozen/Desktop/ros2_ws/build/mobile_robotics\n'}
+[5.591245] (mobile_robotics) StdoutLine: {'line': b'running install_data\n'}
+[5.591843] (mobile_robotics) StdoutLine: {'line': b'creating /home/genozen/Desktop/ros2_ws/install/mobile_robotics/share/ament_index\n'}
+[5.592427] (mobile_robotics) StdoutLine: {'line': b'creating /home/genozen/Desktop/ros2_ws/install/mobile_robotics/share/ament_index/resource_index\n'}
+[5.594907] (mobile_robotics) StdoutLine: {'line': b'creating /home/genozen/Desktop/ros2_ws/install/mobile_robotics/share/ament_index/resource_index/packages\n'}
+[5.596342] (mobile_robotics) StdoutLine: {'line': b'copying resource/mobile_robotics -> /home/genozen/Desktop/ros2_ws/install/mobile_robotics/share/ament_index/resource_index/packages\n'}
+[5.597441] (mobile_robotics) StdoutLine: {'line': b'copying package.xml -> /home/genozen/Desktop/ros2_ws/install/mobile_robotics/share/mobile_robotics\n'}
+[5.646697] (-) TimerEvent: {}
+[5.738547] (mobile_robotics) CommandEnded: {'returncode': 0}
+[5.747178] (-) TimerEvent: {}
+[5.842913] (mobile_robotics) JobEnded: {'identifier': 'mobile_robotics', 'rc': 0}
+[5.846534] (-) EventReactorShutdown: {}

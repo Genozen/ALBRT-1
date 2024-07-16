@@ -1,0 +1,15 @@
+/home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/ament_index/resource_index/package_run_dependencies/my_webcam_publisher
+/home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/ament_index/resource_index/parent_prefix_path/my_webcam_publisher
+/home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/environment/ament_prefix_path.sh
+/home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/environment/ament_prefix_path.dsv
+/home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/environment/path.sh
+/home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/environment/path.dsv
+/home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/local_setup.bash
+/home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/local_setup.sh
+/home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/local_setup.zsh
+/home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/local_setup.dsv
+/home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/package.dsv
+/home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/ament_index/resource_index/packages/my_webcam_publisher
+/home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/cmake/my_webcam_publisherConfig.cmake
+/home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/cmake/my_webcam_publisherConfig-version.cmake
+/home/genozen/Desktop/ros2_ws/install/my_webcam_publisher/share/my_webcam_publisher/package.xml

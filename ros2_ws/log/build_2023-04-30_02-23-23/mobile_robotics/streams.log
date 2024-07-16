@@ -1,0 +1,25 @@
+[6.266s] Invoking command in '/home/genozen/Desktop/ros2_ws/build/mobile_robotics': PYTHONPATH=/home/genozen/Desktop/ros2_ws/build/mobile_robotics/prefix_override:/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages: /usr/bin/python3 setup.py develop --editable --build-directory /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build --no-deps install_data
+[8.614s] running develop
+[8.621s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.623s]   warnings.warn(
+[8.630s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.631s]   warnings.warn(
+[9.103s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[9.104s]   warnings.warn(
+[9.109s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[9.120s]   warnings.warn(
+[9.812s] running egg_info
+[9.812s] writing mobile_robotics.egg-info/PKG-INFO
+[9.824s] writing dependency_links to mobile_robotics.egg-info/dependency_links.txt
+[9.825s] writing entry points to mobile_robotics.egg-info/entry_points.txt
+[9.826s] writing requirements to mobile_robotics.egg-info/requires.txt
+[9.827s] writing top-level names to mobile_robotics.egg-info/top_level.txt
+[9.849s] reading manifest file 'mobile_robotics.egg-info/SOURCES.txt'
+[9.856s] writing manifest file 'mobile_robotics.egg-info/SOURCES.txt'
+[9.865s] running build_ext
+[9.867s] Creating /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile-robotics.egg-link (link to .)
+[9.873s] Installing cod_ex2 script to /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/mobile_robotics
+[9.874s] Installing part1 script to /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/mobile_robotics
+[9.876s] 
+[9.876s] Installed /home/genozen/Desktop/ros2_ws/build/mobile_robotics
+[9.878s] running install_data

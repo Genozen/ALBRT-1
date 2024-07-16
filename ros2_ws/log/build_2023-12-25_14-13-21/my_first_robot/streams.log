@@ -1,0 +1,26 @@
+[4.426s] Invoking command in '/home/genozen/Desktop/ros2_ws/src/my_first_robot': PYTHONPATH=/home/genozen/Desktop/ros2_ws/build/my_first_robot/prefix_override:/home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_robot build --build-base /home/genozen/Desktop/ros2_ws/build/my_first_robot/build install --record /home/genozen/Desktop/ros2_ws/build/my_first_robot/install.log --single-version-externally-managed
+[6.242s] running egg_info
+[6.247s] writing ../../build/my_first_robot/my_first_robot.egg-info/PKG-INFO
+[6.249s] writing dependency_links to ../../build/my_first_robot/my_first_robot.egg-info/dependency_links.txt
+[6.251s] writing entry points to ../../build/my_first_robot/my_first_robot.egg-info/entry_points.txt
+[6.253s] writing requirements to ../../build/my_first_robot/my_first_robot.egg-info/requires.txt
+[6.254s] writing top-level names to ../../build/my_first_robot/my_first_robot.egg-info/top_level.txt
+[6.268s] reading manifest file '../../build/my_first_robot/my_first_robot.egg-info/SOURCES.txt'
+[6.275s] writing manifest file '../../build/my_first_robot/my_first_robot.egg-info/SOURCES.txt'
+[6.287s] running build
+[6.291s] running build_py
+[6.294s] copying my_first_robot/my_first_robot_driver.py -> /home/genozen/Desktop/ros2_ws/build/my_first_robot/build/lib/my_first_robot
+[6.295s] running install
+[6.300s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.303s]   warnings.warn(
+[6.303s] running install_lib
+[6.307s] copying /home/genozen/Desktop/ros2_ws/build/my_first_robot/build/lib/my_first_robot/my_first_robot_driver.py -> /home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages/my_first_robot
+[6.308s] byte-compiling /home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages/my_first_robot/my_first_robot_driver.py to my_first_robot_driver.cpython-310.pyc
+[6.314s] running install_data
+[6.318s] running install_egg_info
+[6.331s] removing '/home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages/my_first_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[6.332s] Copying ../../build/my_first_robot/my_first_robot.egg-info to /home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages/my_first_robot-0.0.0-py3.10.egg-info
+[6.339s] running install_scripts
+[6.465s] Installing joystick_listener script to /home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/my_first_robot
+[6.472s] writing list of installed files to '/home/genozen/Desktop/ros2_ws/build/my_first_robot/install.log'
+[6.666s] Invoked command in '/home/genozen/Desktop/ros2_ws/src/my_first_robot' returned '0': PYTHONPATH=/home/genozen/Desktop/ros2_ws/build/my_first_robot/prefix_override:/home/genozen/Desktop/ros2_ws/install/my_first_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_robot build --build-base /home/genozen/Desktop/ros2_ws/build/my_first_robot/build install --record /home/genozen/Desktop/ros2_ws/build/my_first_robot/install.log --single-version-externally-managed

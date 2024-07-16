@@ -1,0 +1,1 @@
+Invoking command in '/home/genozen/Desktop/ros2_ws/build/mobile_robotics': PYTHONPATH=/home/genozen/Desktop/ros2_ws/build/mobile_robotics/prefix_override:/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages: /usr/bin/python3 setup.py develop --editable --build-directory /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build --no-deps install_data

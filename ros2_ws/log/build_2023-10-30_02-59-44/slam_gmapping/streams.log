@@ -1,0 +1,24 @@
+[0.179s] Invoking command in '/home/genozen/Desktop/ros2_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/home/genozen/Desktop/ros2_ws/install/sllidar_ros2:/home/genozen/Desktop/ros2_ws/install/slam_gmapping:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --build /home/genozen/Desktop/ros2_ws/build/slam_gmapping -- -j4 -l4
+[2.185s] [100%] Built target slam_gmapping
+[2.223s] Invoked command in '/home/genozen/Desktop/ros2_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/home/genozen/Desktop/ros2_ws/install/sllidar_ros2:/home/genozen/Desktop/ros2_ws/install/slam_gmapping:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --build /home/genozen/Desktop/ros2_ws/build/slam_gmapping -- -j4 -l4
+[2.701s] Invoking command in '/home/genozen/Desktop/ros2_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/home/genozen/Desktop/ros2_ws/install/sllidar_ros2:/home/genozen/Desktop/ros2_ws/install/slam_gmapping:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --install /home/genozen/Desktop/ros2_ws/build/slam_gmapping
+[2.834s] -- Install configuration: ""
+[2.874s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[2.957s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/launch
+[2.958s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[2.958s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[2.959s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[2.960s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[2.960s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[2.979s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[2.983s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[3.018s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[3.019s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[3.019s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[3.020s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[3.021s] -- Installing: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+[3.021s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[3.022s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[3.023s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[3.024s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/package.xml
+[3.025s] Invoked command in '/home/genozen/Desktop/ros2_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/home/genozen/Desktop/ros2_ws/install/sllidar_ros2:/home/genozen/Desktop/ros2_ws/install/slam_gmapping:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --install /home/genozen/Desktop/ros2_ws/build/slam_gmapping

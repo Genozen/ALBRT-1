@@ -1,0 +1,191 @@
+[1.594s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'slam_gmapping']
+[1.594s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['slam_gmapping'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff95ebab00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff95e0ffd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff95e0ffd0>>)
+[1.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.768s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/genozen/Desktop/ros2_ws'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extensions ['ignore', 'ignore_ament_install']
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extension 'ignore'
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extension 'ignore_ament_install'
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extensions ['colcon_pkg']
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extension 'colcon_pkg'
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extensions ['colcon_meta']
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extension 'colcon_meta'
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extensions ['ros']
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extension 'ros'
+[1.856s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobile_robotics' with type 'ros.ament_python' and name 'mobile_robotics'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ignore'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ignore_ament_install'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['colcon_pkg']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'colcon_pkg'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['colcon_meta']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'colcon_meta'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['ros']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ros'
+[1.863s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros2' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ignore'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ignore_ament_install'
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['colcon_pkg']
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'colcon_pkg'
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['colcon_meta']
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'colcon_meta'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['ros']
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ros'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['cmake', 'python']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'cmake'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'python'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['python_setup_py']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'python_setup_py'
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'ignore'
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'ignore_ament_install'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extensions ['colcon_pkg']
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'colcon_pkg'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extensions ['colcon_meta']
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'colcon_meta'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extensions ['ros']
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'ros'
+[1.874s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_gmapping/openslam_gmapping' with type 'ros.ament_cmake' and name 'openslam_gmapping'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'ignore'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'ignore_ament_install'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extensions ['colcon_pkg']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'colcon_pkg'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extensions ['colcon_meta']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'colcon_meta'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extensions ['ros']
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'ros'
+[1.883s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_gmapping/slam_gmapping' with type 'ros.ament_cmake' and name 'slam_gmapping'
+[1.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.000s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mobile_robotics' in 'src/mobile_robotics'
+[2.000s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'openslam_gmapping' in 'src/slam_gmapping/openslam_gmapping'
+[2.000s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rplidar_ros' in 'src/rplidar_ros2'
+[2.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.018s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/genozen/Desktop/ros2_ws/install
+[2.031s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[2.038s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.333s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_args' from command line to 'None'
+[2.333s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_target' from command line to 'None'
+[2.333s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.333s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_clean_cache' from command line to 'False'
+[2.334s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_clean_first' from command line to 'False'
+[2.334s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_force_configure' from command line to 'False'
+[2.334s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'ament_cmake_args' from command line to 'None'
+[2.334s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'catkin_cmake_args' from command line to 'None'
+[2.334s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.334s] DEBUG:colcon.colcon_core.verb:Building package 'slam_gmapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/genozen/Desktop/ros2_ws/build/slam_gmapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/genozen/Desktop/ros2_ws/install/slam_gmapping', 'merge_install': False, 'path': '/home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping', 'symlink_install': False, 'test_result_base': None}
+[2.337s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.351s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.352s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping' with build type 'ament_cmake'
+[2.353s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping'
+[2.374s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genozen/Desktop/ros2_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/home/genozen/Desktop/ros2_ws/install/sllidar_ros2:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble LD_LIBRARY_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping -DCMAKE_INSTALL_PREFIX=/home/genozen/Desktop/ros2_ws/install/slam_gmapping
+[15.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genozen/Desktop/ros2_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/home/genozen/Desktop/ros2_ws/install/sllidar_ros2:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble LD_LIBRARY_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping -DCMAKE_INSTALL_PREFIX=/home/genozen/Desktop/ros2_ws/install/slam_gmapping
+[15.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genozen/Desktop/ros2_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/home/genozen/Desktop/ros2_ws/install/sllidar_ros2:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble LD_LIBRARY_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/genozen/Desktop/ros2_ws/build/slam_gmapping -- -j4 -l4
+[71.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genozen/Desktop/ros2_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/home/genozen/Desktop/ros2_ws/install/sllidar_ros2:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble LD_LIBRARY_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/genozen/Desktop/ros2_ws/build/slam_gmapping -- -j4 -l4
+[71.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genozen/Desktop/ros2_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/home/genozen/Desktop/ros2_ws/install/sllidar_ros2:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble LD_LIBRARY_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/genozen/Desktop/ros2_ws/build/slam_gmapping
+[71.437s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_gmapping)
+[71.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genozen/Desktop/ros2_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/home/genozen/Desktop/ros2_ws/install/sllidar_ros2:/home/genozen/Desktop/ros2_ws/install/rplidar_ros:/home/genozen/Desktop/ros2_ws/install/mobile_robotics:/opt/ros/humble LD_LIBRARY_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/genozen/Desktop/ros2_ws/build/slam_gmapping
+[71.462s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/slam_gmapping' for CMake module files
+[71.465s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/slam_gmapping' for CMake config files
+[71.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'cmake_prefix_path')
+[71.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.ps1'
+[71.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.dsv'
+[71.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.sh'
+[71.484s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/lib'
+[71.485s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/bin'
+[71.485s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/lib/pkgconfig/slam_gmapping.pc'
+[71.487s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/lib/python3.10/site-packages'
+[71.488s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/bin'
+[71.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/package.ps1'
+[71.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/package.dsv'
+[71.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/package.sh'
+[71.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/package.bash'
+[71.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/package.zsh'
+[71.512s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/colcon-core/packages/slam_gmapping)
+[71.662s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_gmapping)
+[71.673s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/slam_gmapping' for CMake module files
+[71.677s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/slam_gmapping' for CMake config files
+[71.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'cmake_prefix_path')
+[71.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.ps1'
+[71.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.dsv'
+[71.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.sh'
+[71.695s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/lib'
+[71.696s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/bin'
+[71.696s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/lib/pkgconfig/slam_gmapping.pc'
+[71.697s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/lib/python3.10/site-packages'
+[71.698s] Level 1:colcon.colcon_core.environment:checking '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/bin'
+[71.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/package.ps1'
+[71.708s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/package.dsv'
+[71.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/package.sh'
+[71.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/package.bash'
+[71.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/package.zsh'
+[71.719s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/colcon-core/packages/slam_gmapping)
+[71.720s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[71.721s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[71.722s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[71.722s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[71.753s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[71.754s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[71.754s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[71.761s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[71.761s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[71.769s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genozen/Desktop/ros2_ws/install/local_setup.ps1'
+[71.774s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/genozen/Desktop/ros2_ws/install/_local_setup_util_ps1.py'
+[71.781s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genozen/Desktop/ros2_ws/install/setup.ps1'
+[71.790s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genozen/Desktop/ros2_ws/install/local_setup.sh'
+[71.794s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/genozen/Desktop/ros2_ws/install/_local_setup_util_sh.py'
+[71.797s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genozen/Desktop/ros2_ws/install/setup.sh'
+[71.806s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genozen/Desktop/ros2_ws/install/local_setup.bash'
+[71.809s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genozen/Desktop/ros2_ws/install/setup.bash'
+[71.817s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genozen/Desktop/ros2_ws/install/local_setup.zsh'
+[71.821s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genozen/Desktop/ros2_ws/install/setup.zsh'

@@ -1,0 +1,24 @@
+[0.197s] Invoking command in '/home/genozen/Desktop/ros2_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/genozen/Desktop/ros2_ws/build/slam_gmapping -- -j4 -l4
+[1.639s] [100%] Built target slam_gmapping
+[1.743s] Invoked command in '/home/genozen/Desktop/ros2_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/genozen/Desktop/ros2_ws/build/slam_gmapping -- -j4 -l4
+[1.924s] Invoking command in '/home/genozen/Desktop/ros2_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/genozen/Desktop/ros2_ws/build/slam_gmapping
+[1.971s] -- Install configuration: ""
+[2.019s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[2.025s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/launch
+[2.026s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[2.026s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[2.052s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[2.054s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[2.055s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[2.056s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[2.074s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[2.075s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[2.076s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[2.076s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[2.078s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[2.078s] -- Installing: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+[2.079s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[2.080s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[2.081s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[2.081s] -- Up-to-date: /home/genozen/Desktop/ros2_ws/install/slam_gmapping/share/slam_gmapping/package.xml
+[2.139s] Invoked command in '/home/genozen/Desktop/ros2_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/genozen/Desktop/ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/genozen/Desktop/ros2_ws/build/slam_gmapping

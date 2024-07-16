@@ -1,0 +1,9 @@
+/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher/CMakeFiles/uninstall.dir
+/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher/CMakeFiles/my_webcam_publisher_uninstall.dir
+/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher/CMakeFiles/test.dir
+/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher/CMakeFiles/edit_cache.dir
+/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher/CMakeFiles/rebuild_cache.dir
+/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher/CMakeFiles/list_install_components.dir
+/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher/CMakeFiles/install.dir
+/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher/CMakeFiles/install/local.dir
+/home/genozen/Desktop/ros2_ws/build/my_webcam_publisher/CMakeFiles/install/strip.dir

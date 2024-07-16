@@ -1,0 +1,49 @@
+[8.121s] Invoking command in '/home/genozen/Desktop/ros2_ws/src/mobile_robotics': PYTHONPATH=/home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/prefix_override:/home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mobile_robotics build --build-base /home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/build install --record /home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/install.log --single-version-externally-managed
+[12.172s] running egg_info
+[12.190s] creating ../build/mobile_robotics/mobile_robotics.egg-info
+[12.190s] writing ../build/mobile_robotics/mobile_robotics.egg-info/PKG-INFO
+[12.202s] writing dependency_links to ../build/mobile_robotics/mobile_robotics.egg-info/dependency_links.txt
+[12.203s] writing entry points to ../build/mobile_robotics/mobile_robotics.egg-info/entry_points.txt
+[12.211s] writing requirements to ../build/mobile_robotics/mobile_robotics.egg-info/requires.txt
+[12.212s] writing top-level names to ../build/mobile_robotics/mobile_robotics.egg-info/top_level.txt
+[12.215s] writing manifest file '../build/mobile_robotics/mobile_robotics.egg-info/SOURCES.txt'
+[12.221s] reading manifest file '../build/mobile_robotics/mobile_robotics.egg-info/SOURCES.txt'
+[12.252s] writing manifest file '../build/mobile_robotics/mobile_robotics.egg-info/SOURCES.txt'
+[12.270s] running build
+[12.271s] running build_py
+[12.271s] creating /home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/build
+[12.272s] creating /home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/build/lib
+[12.273s] creating /home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/build/lib/mobile_robotics
+[12.274s] copying mobile_robotics/img_sub.py -> /home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/build/lib/mobile_robotics
+[12.274s] copying mobile_robotics/img_threading.py -> /home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/build/lib/mobile_robotics
+[12.276s] copying mobile_robotics/__init__.py -> /home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/build/lib/mobile_robotics
+[12.277s] copying mobile_robotics/img_pub2.py -> /home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/build/lib/mobile_robotics
+[12.277s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[12.278s]   warnings.warn(
+[12.279s] copying mobile_robotics/img_pub.py -> /home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/build/lib/mobile_robotics
+[12.280s] running install
+[12.280s] running install_lib
+[12.281s] creating /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics
+[12.282s] copying /home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/build/lib/mobile_robotics/img_sub.py -> /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics
+[12.283s] copying /home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/build/lib/mobile_robotics/img_threading.py -> /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics
+[12.284s] copying /home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/build/lib/mobile_robotics/__init__.py -> /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics
+[12.284s] copying /home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/build/lib/mobile_robotics/img_pub2.py -> /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics
+[12.285s] copying /home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/build/lib/mobile_robotics/img_pub.py -> /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics
+[12.290s] byte-compiling /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics/img_sub.py to img_sub.cpython-310.pyc
+[12.291s] byte-compiling /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics/img_threading.py to img_threading.cpython-310.pyc
+[12.295s] byte-compiling /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics/__init__.py to __init__.cpython-310.pyc
+[12.296s] byte-compiling /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics/img_pub2.py to img_pub2.cpython-310.pyc
+[12.297s] byte-compiling /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics/img_pub.py to img_pub.cpython-310.pyc
+[12.306s] running install_data
+[12.307s] creating /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/share/ament_index
+[12.308s] creating /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/share/ament_index/resource_index
+[12.309s] creating /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/share/ament_index/resource_index/packages
+[12.310s] copying resource/mobile_robotics -> /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/share/ament_index/resource_index/packages
+[12.311s] copying package.xml -> /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/share/mobile_robotics
+[12.312s] running install_egg_info
+[12.312s] Copying ../build/mobile_robotics/mobile_robotics.egg-info to /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics-0.0.0-py3.10.egg-info
+[12.313s] running install_scripts
+[12.494s] Installing cod_ex2 script to /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/lib/mobile_robotics
+[12.497s] Installing part1 script to /home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/lib/mobile_robotics
+[12.511s] writing list of installed files to '/home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/install.log'
+[12.828s] Invoked command in '/home/genozen/Desktop/ros2_ws/src/mobile_robotics' returned '0': PYTHONPATH=/home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/prefix_override:/home/genozen/Desktop/ros2_ws/src/install/mobile_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mobile_robotics build --build-base /home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/build install --record /home/genozen/Desktop/ros2_ws/src/build/mobile_robotics/install.log --single-version-externally-managed

@@ -1,0 +1,33 @@
+[1.500s] Invoking command in '/home/genozen/Desktop/ros2_ws/build/sllidar_ros2': /usr/bin/cmake /home/genozen/Desktop/ros2_ws/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/genozen/Desktop/ros2_ws/install/sllidar_ros2
+[3.533s] -- The C compiler identification is GNU 11.3.0
+[5.993s] -- The CXX compiler identification is GNU 11.3.0
+[6.157s] -- Detecting C compiler ABI info
+[7.094s] -- Detecting C compiler ABI info - done
+[7.158s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.161s] -- Detecting C compile features
+[7.167s] -- Detecting C compile features - done
+[7.196s] -- Detecting CXX compiler ABI info
+[7.852s] -- Detecting CXX compiler ABI info - done
+[7.890s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.892s] -- Detecting CXX compile features
+[7.901s] -- Detecting CXX compile features - done
+[8.132s] [31mCMake Error at CMakeLists.txt:32 (find_package):
+[8.135s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[8.136s]   has asked CMake to find a package configuration file provided by
+[8.140s]   "ament_cmake", but CMake did not find one.
+[8.141s] 
+[8.147s]   Could not find a package configuration file provided by "ament_cmake" with
+[8.148s]   any of the following names:
+[8.149s] 
+[8.150s]     ament_cmakeConfig.cmake
+[8.151s]     ament_cmake-config.cmake
+[8.152s] 
+[8.153s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[8.154s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[8.155s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[8.155s]   has been installed.
+[8.156s] 
+[8.157s] [0m
+[8.158s] -- Configuring incomplete, errors occurred!
+[8.159s] See also "/home/genozen/Desktop/ros2_ws/build/sllidar_ros2/CMakeFiles/CMakeOutput.log".
+[8.170s] Invoked command in '/home/genozen/Desktop/ros2_ws/build/sllidar_ros2' returned '1': /usr/bin/cmake /home/genozen/Desktop/ros2_ws/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/genozen/Desktop/ros2_ws/install/sllidar_ros2

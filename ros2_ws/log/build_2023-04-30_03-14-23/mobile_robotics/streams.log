@@ -1,0 +1,26 @@
+[3.664s] Invoking command in '/home/genozen/Desktop/ros2_ws/build/mobile_robotics': PYTHONPATH=/home/genozen/Desktop/ros2_ws/build/mobile_robotics/prefix_override:/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build --no-deps install_data
+[4.995s] running develop
+[5.010s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.011s]   warnings.warn(
+[5.018s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.018s]   warnings.warn(
+[5.332s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[5.333s]   warnings.warn(
+[5.333s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[5.334s]   warnings.warn(
+[5.907s] running egg_info
+[5.908s] writing mobile_robotics.egg-info/PKG-INFO
+[5.909s] writing dependency_links to mobile_robotics.egg-info/dependency_links.txt
+[5.911s] writing entry points to mobile_robotics.egg-info/entry_points.txt
+[5.912s] writing requirements to mobile_robotics.egg-info/requires.txt
+[5.913s] writing top-level names to mobile_robotics.egg-info/top_level.txt
+[5.922s] reading manifest file 'mobile_robotics.egg-info/SOURCES.txt'
+[5.928s] writing manifest file 'mobile_robotics.egg-info/SOURCES.txt'
+[5.940s] running build_ext
+[5.940s] Creating /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile-robotics.egg-link (link to .)
+[5.961s] Installing cod_ex2 script to /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/mobile_robotics
+[5.963s] Installing part1 script to /home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/mobile_robotics
+[5.965s] 
+[5.966s] Installed /home/genozen/Desktop/ros2_ws/build/mobile_robotics
+[5.967s] running install_data
+[6.127s] Invoked command in '/home/genozen/Desktop/ros2_ws/build/mobile_robotics' returned '0': PYTHONPATH=/home/genozen/Desktop/ros2_ws/build/mobile_robotics/prefix_override:/home/genozen/Desktop/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/genozen/Desktop/ros2_ws/build/mobile_robotics/build --no-deps install_data

@@ -1,0 +1,108 @@
+[0.051s] Invoking command in '/home/genozen/Desktop/ros2_ws/src/build/slam_gmapping': AMENT_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping -DCMAKE_INSTALL_PREFIX=/home/genozen/Desktop/ros2_ws/src/install/slam_gmapping
+[0.581s] -- The C compiler identification is GNU 11.4.0
+[0.937s] -- The CXX compiler identification is GNU 11.4.0
+[0.990s] -- Detecting C compiler ABI info
+[1.492s] -- Detecting C compiler ABI info - done
+[1.524s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.525s] -- Detecting C compile features
+[1.527s] -- Detecting C compile features - done
+[1.544s] -- Detecting CXX compiler ABI info
+[2.075s] -- Detecting CXX compiler ABI info - done
+[2.114s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.116s] -- Detecting CXX compile features
+[2.119s] -- Detecting CXX compile features - done
+[2.124s] [0m -fuse-ld=lld -Wl,--disable-new-dtags[0m
+[2.159s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.303s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.024s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[4.408s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.464s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.536s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.676s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.774s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.115s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.221s] -- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+[6.439s] -- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)
+[7.282s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.311s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.043s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.359s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.858s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.961s] -- Looking for pthread.h
+[9.406s] -- Looking for pthread.h - found
+[9.406s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.882s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.884s] -- Found Threads: TRUE  
+[13.620s] -- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[13.980s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[14.028s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[14.029s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[14.109s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[14.937s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[15.797s] -- Found openslam_gmapping: 0.1.2 (/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/share/openslam_gmapping/cmake)
+[15.851s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[17.097s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[17.098s] -- Configured cppcheck include dirs: /home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping/include
+[17.099s] -- Configured cppcheck exclude dirs and/or files: 
+[17.109s] -- Added test 'flake8' to check Python code syntax and style conventions
+[17.119s] -- Added test 'lint_cmake' to check CMake code style
+[17.135s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[17.152s] -- Added test 'uncrustify' to check C / C++ code style
+[17.154s] -- Configured uncrustify additional arguments: 
+[17.162s] -- Added test 'xmllint' to check XML markup files
+[17.173s] -- Configuring done
+[17.396s] -- Generating done
+[17.410s] -- Build files have been written to: /home/genozen/Desktop/ros2_ws/src/build/slam_gmapping
+[17.509s] Invoked command in '/home/genozen/Desktop/ros2_ws/src/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping -DCMAKE_INSTALL_PREFIX=/home/genozen/Desktop/ros2_ws/src/install/slam_gmapping
+[17.512s] Invoking command in '/home/genozen/Desktop/ros2_ws/src/build/slam_gmapping': AMENT_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/genozen/Desktop/ros2_ws/src/build/slam_gmapping -- -j4 -l4
+[17.821s] [ 50%] [32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o[0m
+[21.111s] In file included from [01m[K/home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:38[m[K,
+[21.113s]                  from [01m[K/home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[21.115s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[21.116s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[21.118s]       |  [01;35m[K^~~~~~~[m[K
+[36.496s] In file included from [01m[K/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9[m[K,
+[36.498s]                  from [01m[K/home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[36.499s]                  from [01m[K/home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[36.500s] [01m[K/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:[m[K In function ‘[01m[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)[m[K’:
+[36.501s] [01m[K/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[36.502s]   140 |         [01;35m[Kif[m[K (count>0)
+[36.503s]       |         [01;35m[K^~[m[K
+[36.504s] [01m[K/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:17:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[36.505s]   142 |                 [01;36m[Kout[m[K++;
+[36.506s]       |                 [01;36m[K^~~[m[K
+[38.258s] In file included from [01m[K/usr/include/c++/11/utility:70[m[K,
+[38.259s]                  from [01m[K/usr/include/c++/11/tuple:38[m[K,
+[38.259s]                  from [01m[K/usr/include/c++/11/mutex:38[m[K,
+[38.261s]                  from [01m[K/home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:26[m[K,
+[38.262s]                  from [01m[K/home/genozen/Desktop/ros2_ws/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[38.263s] /usr/include/c++/11/bits/stl_pair.h: In instantiation of ‘[01m[Kconstexpr std::pair<typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type, typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type> std::make_pair(_T1&&, _T2&&) [with _T1 = GMapping::point<double>&; _T2 = GMapping::point<double>&; typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type = GMapping::point<double>; typename std::decay<_Tp2>::type = std::decay<GMapping::point<double>&>::type; typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type = GMapping::point<double>; typename std::decay<_Tp>::type = std::decay<GMapping::point<double>&>::type][m[K’:
+[38.264s] [01m[K/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:127:34:[m[K   required from here
+[38.266s] [01m[K/usr/include/c++/11/bits/stl_pair.h:567:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<GMapping::point<double>, GMapping::point<double> >[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[38.266s]   567 |     [01;36m[Kmake_pair[m[K(_T1&& __x, _T2&& __y)
+[38.268s]       |     [01;36m[K^~~~~~~~~[m[K
+[84.885s] [100%] [32m[1mLinking CXX executable slam_gmapping[0m
+[88.546s] [100%] Built target slam_gmapping
+[88.616s] Invoked command in '/home/genozen/Desktop/ros2_ws/src/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/genozen/Desktop/ros2_ws/src/build/slam_gmapping -- -j4 -l4
+[88.798s] Invoking command in '/home/genozen/Desktop/ros2_ws/src/build/slam_gmapping': AMENT_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/genozen/Desktop/ros2_ws/src/build/slam_gmapping
+[88.828s] -- Install configuration: ""
+[88.846s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[88.906s] -- Set runtime path of "/home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/lib/slam_gmapping/slam_gmapping" to ""
+[88.907s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/share/slam_gmapping/launch
+[88.908s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[88.920s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[88.922s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[88.924s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[88.927s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[88.928s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[88.930s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[88.932s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[88.935s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[88.937s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[88.941s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[88.943s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/share/slam_gmapping/package.dsv
+[88.946s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[88.949s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[88.950s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[88.955s] -- Installing: /home/genozen/Desktop/ros2_ws/src/install/slam_gmapping/share/slam_gmapping/package.xml
+[88.967s] Invoked command in '/home/genozen/Desktop/ros2_ws/src/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/genozen/Desktop/ros2_ws/src/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/genozen/Desktop/ros2_ws/src/build/slam_gmapping
