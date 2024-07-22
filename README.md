@@ -10,3 +10,20 @@
 
 
 ![ALBRT-1_schem](https://github.com/user-attachments/assets/e1755fbc-0149-4724-8a98-0188c127f223)
+
+
+
+## Getting the LiDAR Running:
+(cloned from: https://github.com/babakhani/rplidar_ros2)
+```
+cd ~/Desktop/ros2_ws # change directory to where your ros 2 work space is
+
+sudo chmod a+rw /dev/ttyUSB0 # modifies the permission of the device file, in this case to be able to read/write to the serial port our lidar is connected to
+# sudo chmod 666 /dev/ttyUSB0 # equivalent command to above
+
+source install/setup.bash # configure your current shell/terminal to ROS 2 
+
+#ros2 launch rplidar_ros view_rplidar.launch.py
+
+ros2 launch rplidar_ros rplidar.launch.py # launches without Rviz
+```
