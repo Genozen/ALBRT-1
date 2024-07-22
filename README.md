@@ -6,10 +6,6 @@
 
 ![ALBRT-v1Explodedviewanimation-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/40d6e79d-3c68-4362-91ed-5f30f59f54f4)
 
-![ALBRT-1_bb](https://github.com/user-attachments/assets/b09f2987-7b09-4a13-bd09-3a4f2dc0f90e)
-
-
-![ALBRT-1_schem](https://github.com/user-attachments/assets/e1755fbc-0149-4724-8a98-0188c127f223)
 
 
 
@@ -27,3 +23,9 @@ source install/setup.bash # configure your current shell/terminal to ROS 2
 
 ros2 launch rplidar_ros rplidar.launch.py # launches without Rviz
 ```
+
+
+![ALBRT-1_bb](https://github.com/user-attachments/assets/b09f2987-7b09-4a13-bd09-3a4f2dc0f90e)
+
+
+![ALBRT-1_schem](https://github.com/user-attachments/assets/e1755fbc-0149-4724-8a98-0188c127f223)
