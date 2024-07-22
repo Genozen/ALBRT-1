@@ -1,8 +1,6 @@
-/*
+"""
         Auth: Made Autonomous 02/12/2024
-
-
-*/
+"""
 
 
 from gpiozero import Motor
